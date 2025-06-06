@@ -1,0 +1,9 @@
+CRON_LOG_FILE = '/server/cron_log.txt'
+
+NEWS_CRON_LOG_FILE = '/server/news_scraping_log.txt'
+NEWS_POSTED_LOG_FILE = '/server/news_posted_log.txt'
+
+
+GEMTEN_NEWS_PAGE_ID = '571480596045760'
+GEMTEN_NEWS_PAGE_ACCESS_TOKEN = 'EAA7ctFADgFIBOxfbuDy4Hju1YfqZAr9aHWhIlnsdbhaCnkCJmeIDjWq52OPZBVO7awCb0lWmcPJ5WXRWuWir4MrACSJQAcxN6dASsuFPXjMsczkPygYeqno6sznUdA3AQjjMNPtELp9ZALWWdP0jaKOPfvgZAsc8j2dnptv1yFWRdJh6LEReukNFRGx0LF8q05INZBkCoMZALLXxi74wjp'
+

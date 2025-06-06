@@ -1,0 +1,25 @@
+name: Auto Push Example
+
+on:
+  push: 
+    # branches: [ "main" ]
+  workflow_dispatch:  # You can also add `schedule` here for auto-run
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v4
+        # with:
+        #   persist-credentials: false  # Required for custom token-based push
+
+      - name: Make scripts executable
+        run: chmod +x scripts/*.sh
+
+      - name: Run auto_push.sh
+        env:
+          REPO: ${{ github.repository }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./scripts/auto_push.sh

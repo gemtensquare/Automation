@@ -1,0 +1,20 @@
+name: CI Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  print-massage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print current date/time and message
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Set timezone to Asia/Dhaka (UTC+6)
+          export TZ="Asia/Dhaka"
+          NOW=$(date +"%d %B %Y - %I:%M %p")
+          
+          echo "🎉 CI Workflow triggered successfully! 🎉"
+          echo "📅 Current time (UTC+6): $NOW"
+          echo "🚀 Ready to rock!"

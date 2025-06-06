@@ -1,0 +1,2 @@
+from .news_serializer import NewsSerializer
+from .template_serializer import TemplateSerializer
