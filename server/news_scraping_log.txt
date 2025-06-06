@@ -620,3 +620,252 @@
 2025-06-06 08:50:10.368619+00:00 — 🐥 Beep beep! [Scraping News] visited [Jugantor] and colleced fresh 1 news! 📡
 2025-06-06 08:50:10.368619+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2076]
 
+2025-06-06 12:11:11.319314+00:00 — 🐥 Beep beep! [Scraping News] visited [BBC Bangla] and colleced fresh 1 news! 📡
+2025-06-06 12:11:11.319314+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2077]
+
+2025-06-06 12:11:16.590519+00:00 — 🐥 Beep beep! [Scraping News] visited [BD Pratidin] and colleced fresh 15 news! 📡
+2025-06-06 12:11:16.590519+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2078, 2079, 2080, 2081, 2082, 2083, 2084, 2085, 2086, 2087, 2088, 2089, 2090, 2091, 2092]
+
+2025-06-06 12:11:36.237185+00:00 — 🐥 Beep beep! [Scraping News] visited [Daily Star] and colleced fresh 14 news! 📡
+2025-06-06 12:11:36.237185+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2093, 2094, 2095, 2096, 2097, 2098, 2099, 2100, 2101, 2102, 2103, 2104, 2105, 2106]
+
+2025-06-06 12:11:57.293930+00:00 — 🐥 Beep beep! [Scraping News] visited [Jugantor] and colleced fresh 10 news! 📡
+2025-06-06 12:11:57.293930+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2107, 2108, 2109, 2110, 2111, 2112, 2113, 2114, 2115, 2116]
+
+2025-06-06 12:15:04.282092+00:00 — 😴 No new news for [BD Pratidin] this time. The news birds are resting! 🐦💤
+
+2025-06-06 12:15:04.411053+00:00 — 🐥 Beep beep! [Scraping News] visited [BBC Bangla] and colleced fresh 1 news! 📡
+2025-06-06 12:15:04.411053+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2117]
+
+2025-06-06 12:20:10.243935+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 12:20:10.563721+00:00 — 😴 No new news for [Daily Star] this time. The news birds are resting! 🐦💤
+
+2025-06-06 12:30:03.220133+00:00 — 😴 No new news for [BBC Bangla] this time. The news birds are resting! 🐦💤
+
+2025-06-06 12:30:04.149438+00:00 — 😴 No new news for [BD Pratidin] this time. The news birds are resting! 🐦💤
+
+2025-06-06 12:30:09.855205+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 12:40:08.638361+00:00 — 🐥 Beep beep! [Scraping News] visited [Daily Star] and colleced fresh 1 news! 📡
+2025-06-06 12:40:08.638361+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2118]
+
+2025-06-06 12:40:11.346493+00:00 — 🐥 Beep beep! [Scraping News] visited [Jugantor] and colleced fresh 1 news! 📡
+2025-06-06 12:40:11.346493+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2119]
+
+2025-06-06 12:45:02.972320+00:00 — 😴 No new news for [BBC Bangla] this time. The news birds are resting! 🐦💤
+
+2025-06-06 12:45:04.115154+00:00 — 😴 No new news for [BD Pratidin] this time. The news birds are resting! 🐦💤
+
+2025-06-06 12:50:09.946556+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 13:00:03.579159+00:00 — 😴 No new news for [BBC Bangla] this time. The news birds are resting! 🐦💤
+
+2025-06-06 13:00:04.366551+00:00 — 😴 No new news for [BD Pratidin] this time. The news birds are resting! 🐦💤
+
+2025-06-06 13:00:09.533329+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 13:00:13.079563+00:00 — 🐥 Beep beep! [Scraping News] visited [Daily Star] and colleced fresh 3 news! 📡
+2025-06-06 13:00:13.079563+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2120, 2121, 2122]
+
+2025-06-06 13:10:09.395335+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 13:15:02.857555+00:00 — 😴 No new news for [BBC Bangla] this time. The news birds are resting! 🐦💤
+
+2025-06-06 13:15:04.157250+00:00 — 🐥 Beep beep! [Scraping News] visited [BD Pratidin] and colleced fresh 2 news! 📡
+2025-06-06 13:15:04.157250+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2123, 2124]
+
+2025-06-06 13:20:09.231664+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 13:20:16.268517+00:00 — 🐥 Beep beep! [Scraping News] visited [Daily Star] and colleced fresh 3 news! 📡
+2025-06-06 13:20:16.268517+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2125, 2126, 2127]
+
+2025-06-06 13:30:03.384270+00:00 — 😴 No new news for [BBC Bangla] this time. The news birds are resting! 🐦💤
+
+2025-06-06 13:30:04.986347+00:00 — 🐥 Beep beep! [Scraping News] visited [BD Pratidin] and colleced fresh 2 news! 📡
+2025-06-06 13:30:04.986347+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2128, 2129]
+
+2025-06-06 13:30:11.468408+00:00 — 🐥 Beep beep! [Scraping News] visited [Jugantor] and colleced fresh 1 news! 📡
+2025-06-06 13:30:11.468408+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2130]
+
+2025-06-06 13:40:09.683680+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 13:40:10.123744+00:00 — 🐥 Beep beep! [Scraping News] visited [Daily Star] and colleced fresh 1 news! 📡
+2025-06-06 13:40:10.123744+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2131]
+
+2025-06-06 13:45:02.829756+00:00 — 😴 No new news for [BBC Bangla] this time. The news birds are resting! 🐦💤
+
+2025-06-06 13:45:03.884045+00:00 — 🐥 Beep beep! [Scraping News] visited [BD Pratidin] and colleced fresh 3 news! 📡
+2025-06-06 13:45:03.884045+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2132, 2133, 2134]
+
+2025-06-06 13:50:09.471963+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 14:00:03.383582+00:00 — 😴 No new news for [BBC Bangla] this time. The news birds are resting! 🐦💤
+
+2025-06-06 14:00:04.427080+00:00 — 🐥 Beep beep! [Scraping News] visited [BD Pratidin] and colleced fresh 2 news! 📡
+2025-06-06 14:00:04.427080+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2135, 2136]
+
+2025-06-06 14:00:10.370714+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 14:00:15.825054+00:00 — 🐥 Beep beep! [Scraping News] visited [Daily Star] and colleced fresh 2 news! 📡
+2025-06-06 14:00:15.825054+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2137, 2138]
+
+2025-06-06 14:10:09.382941+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 14:15:03.350879+00:00 — 🐥 Beep beep! [Scraping News] visited [BBC Bangla] and colleced fresh 1 news! 📡
+2025-06-06 14:15:03.350879+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2139]
+
+2025-06-06 14:15:03.971256+00:00 — 😴 No new news for [BD Pratidin] this time. The news birds are resting! 🐦💤
+
+2025-06-06 14:20:09.764756+00:00 — 🐥 Beep beep! [Scraping News] visited [Daily Star] and colleced fresh 2 news! 📡
+2025-06-06 14:20:09.764756+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2140, 2141]
+
+2025-06-06 14:20:11.056806+00:00 — 🐥 Beep beep! [Scraping News] visited [Jugantor] and colleced fresh 1 news! 📡
+2025-06-06 14:20:11.056806+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2142]
+
+2025-06-06 14:30:02.842161+00:00 — 😴 No new news for [BBC Bangla] this time. The news birds are resting! 🐦💤
+
+2025-06-06 14:30:04.182744+00:00 — 🐥 Beep beep! [Scraping News] visited [BD Pratidin] and colleced fresh 3 news! 📡
+2025-06-06 14:30:04.182744+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2143, 2144, 2145]
+
+2025-06-06 14:30:09.745909+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 14:40:12.006793+00:00 — 🐥 Beep beep! [Scraping News] visited [Jugantor] and colleced fresh 1 news! 📡
+2025-06-06 14:40:12.006793+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2146]
+
+2025-06-06 14:40:14.157786+00:00 — 😴 No new news for [Daily Star] this time. The news birds are resting! 🐦💤
+
+2025-06-06 14:45:02.611832+00:00 — 😴 No new news for [BBC Bangla] this time. The news birds are resting! 🐦💤
+
+2025-06-06 14:45:03.721875+00:00 — 😴 No new news for [BD Pratidin] this time. The news birds are resting! 🐦💤
+
+2025-06-06 14:50:08.863782+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 15:00:03.488014+00:00 — 😴 No new news for [BBC Bangla] this time. The news birds are resting! 🐦💤
+
+2025-06-06 15:00:04.664211+00:00 — 🐥 Beep beep! [Scraping News] visited [BD Pratidin] and colleced fresh 2 news! 📡
+2025-06-06 15:00:04.664211+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2147, 2148]
+
+2025-06-06 15:00:10.392505+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 15:00:12.696308+00:00 — 🐥 Beep beep! [Scraping News] visited [Daily Star] and colleced fresh 1 news! 📡
+2025-06-06 15:00:12.696308+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2149]
+
+2025-06-06 15:10:09.521945+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 15:15:03.042647+00:00 — 😴 No new news for [BBC Bangla] this time. The news birds are resting! 🐦💤
+
+2025-06-06 15:15:03.924335+00:00 — 😴 No new news for [BD Pratidin] this time. The news birds are resting! 🐦💤
+
+2025-06-06 15:20:08.214766+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 15:20:20.973912+00:00 — 🐥 Beep beep! [Scraping News] visited [Daily Star] and colleced fresh 5 news! 📡
+2025-06-06 15:20:20.973912+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2150, 2151, 2152, 2153, 2154]
+
+2025-06-06 15:30:03.478202+00:00 — 🐥 Beep beep! [Scraping News] visited [BBC Bangla] and colleced fresh 1 news! 📡
+2025-06-06 15:30:03.478202+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2155]
+
+2025-06-06 15:30:04.292709+00:00 — 🐥 Beep beep! [Scraping News] visited [BD Pratidin] and colleced fresh 1 news! 📡
+2025-06-06 15:30:04.292709+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2156]
+
+2025-06-06 15:30:09.923566+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 15:40:10.003622+00:00 — 🐥 Beep beep! [Scraping News] visited [Daily Star] and colleced fresh 2 news! 📡
+2025-06-06 15:40:10.003622+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2157, 2159]
+
+2025-06-06 15:40:10.490576+00:00 — 🐥 Beep beep! [Scraping News] visited [Jugantor] and colleced fresh 1 news! 📡
+2025-06-06 15:40:10.490576+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2158]
+
+2025-06-06 15:45:02.903663+00:00 — 😴 No new news for [BBC Bangla] this time. The news birds are resting! 🐦💤
+
+2025-06-06 15:45:04.254675+00:00 — 🐥 Beep beep! [Scraping News] visited [BD Pratidin] and colleced fresh 1 news! 📡
+2025-06-06 15:45:04.254675+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2160]
+
+2025-06-06 15:50:09.996365+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 16:00:03.398551+00:00 — 😴 No new news for [BBC Bangla] this time. The news birds are resting! 🐦💤
+
+2025-06-06 16:00:05.412906+00:00 — 🐥 Beep beep! [Scraping News] visited [BD Pratidin] and colleced fresh 2 news! 📡
+2025-06-06 16:00:05.412906+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2161, 2162]
+
+2025-06-06 16:00:11.021508+00:00 — 🐥 Beep beep! [Scraping News] visited [Daily Star] and colleced fresh 3 news! 📡
+2025-06-06 16:00:11.021508+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2163, 2165, 2166]
+
+2025-06-06 16:00:11.717222+00:00 — 🐥 Beep beep! [Scraping News] visited [Jugantor] and colleced fresh 1 news! 📡
+2025-06-06 16:00:11.717222+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2164]
+
+2025-06-06 16:10:09.794026+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 16:15:03.163599+00:00 — 😴 No new news for [BBC Bangla] this time. The news birds are resting! 🐦💤
+
+2025-06-06 16:15:04.884121+00:00 — 🐥 Beep beep! [Scraping News] visited [BD Pratidin] and colleced fresh 1 news! 📡
+2025-06-06 16:15:04.884121+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2167]
+
+2025-06-06 16:20:11.080551+00:00 — 🐥 Beep beep! [Scraping News] visited [Jugantor] and colleced fresh 1 news! 📡
+2025-06-06 16:20:11.080551+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2169]
+
+2025-06-06 16:20:13.115029+00:00 — 🐥 Beep beep! [Scraping News] visited [Daily Star] and colleced fresh 4 news! 📡
+2025-06-06 16:20:13.115029+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2168, 2170, 2171, 2172]
+
+2025-06-06 16:30:02.855385+00:00 — 😴 No new news for [BBC Bangla] this time. The news birds are resting! 🐦💤
+
+2025-06-06 16:30:04.182755+00:00 — 😴 No new news for [BD Pratidin] this time. The news birds are resting! 🐦💤
+
+2025-06-06 16:30:11.417604+00:00 — 🐥 Beep beep! [Scraping News] visited [Jugantor] and colleced fresh 1 news! 📡
+2025-06-06 16:30:11.417604+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2173]
+
+2025-06-06 16:40:08.813347+00:00 — 🐥 Beep beep! [Scraping News] visited [Daily Star] and colleced fresh 2 news! 📡
+2025-06-06 16:40:08.813347+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2174, 2176]
+
+2025-06-06 16:40:09.966594+00:00 — 🐥 Beep beep! [Scraping News] visited [Jugantor] and colleced fresh 1 news! 📡
+2025-06-06 16:40:09.966594+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2175]
+
+2025-06-06 16:45:02.281277+00:00 — 😴 No new news for [BBC Bangla] this time. The news birds are resting! 🐦💤
+
+2025-06-06 16:45:03.794709+00:00 — 🐥 Beep beep! [Scraping News] visited [BD Pratidin] and colleced fresh 1 news! 📡
+2025-06-06 16:45:03.794709+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2177]
+
+2025-06-06 16:50:11.936693+00:00 — 🐥 Beep beep! [Scraping News] visited [Jugantor] and colleced fresh 2 news! 📡
+2025-06-06 16:50:11.936693+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2178, 2179]
+
+2025-06-06 17:00:03.780033+00:00 — 😴 No new news for [BBC Bangla] this time. The news birds are resting! 🐦💤
+
+2025-06-06 17:00:04.061199+00:00 — 😴 No new news for [BD Pratidin] this time. The news birds are resting! 🐦💤
+
+2025-06-06 17:00:09.457351+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 17:00:16.240994+00:00 — 🐥 Beep beep! [Scraping News] visited [Daily Star] and colleced fresh 2 news! 📡
+2025-06-06 17:00:16.240994+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2180, 2181]
+
+2025-06-06 17:10:08.942877+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 17:15:02.680787+00:00 — 😴 No new news for [BBC Bangla] this time. The news birds are resting! 🐦💤
+
+2025-06-06 17:15:04.497005+00:00 — 🐥 Beep beep! [Scraping News] visited [BD Pratidin] and colleced fresh 2 news! 📡
+2025-06-06 17:15:04.497005+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2182, 2183]
+
+2025-06-06 17:20:09.446405+00:00 — 🐥 Beep beep! [Scraping News] visited [Daily Star] and colleced fresh 2 news! 📡
+2025-06-06 17:20:09.446405+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2184, 2185]
+
+2025-06-06 17:20:09.709716+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 17:30:02.645227+00:00 — 😴 No new news for [BBC Bangla] this time. The news birds are resting! 🐦💤
+
+2025-06-06 17:30:03.933538+00:00 — 🐥 Beep beep! [Scraping News] visited [BD Pratidin] and colleced fresh 1 news! 📡
+2025-06-06 17:30:03.933538+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2186]
+
+2025-06-06 17:30:10.622179+00:00 — 🐥 Beep beep! [Scraping News] visited [Jugantor] and colleced fresh 1 news! 📡
+2025-06-06 17:30:10.622179+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2187]
+
+2025-06-06 17:40:09.037934+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
+2025-06-06 17:40:12.257715+00:00 — 🐥 Beep beep! [Scraping News] visited [Daily Star] and colleced fresh 1 news! 📡
+2025-06-06 17:40:12.257715+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2188]
+
+2025-06-06 17:45:02.745110+00:00 — 😴 No new news for [BBC Bangla] this time. The news birds are resting! 🐦💤
+
+2025-06-06 17:45:04.037552+00:00 — 🐥 Beep beep! [Scraping News] visited [BD Pratidin] and colleced fresh 1 news! 📡
+2025-06-06 17:45:04.037552+00:00 — 🧺 IDs safely stored in the treasure chest: 🧾 [2189]
+
+2025-06-06 17:50:09.615194+00:00 — 😴 No new news for [Jugantor] this time. The news birds are resting! 🐦💤
+
