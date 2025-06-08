@@ -175,9 +175,12 @@ class Scraping:
         news_ids += Scraping.scrape_jugantor('economics', 'Economy')
         news_ids += Scraping.scrape_jugantor('politics', 'Politics')
         news_ids += Scraping.scrape_jugantor('business', 'Business')
-        news_ids += Scraping.scrape_jugantor('technology', 'Technology')
         news_ids += Scraping.scrape_jugantor('entertainment', 'Entertainment')
+        Technology_news_ids = Scraping.scrape_jugantor('technology', 'Technology')
 
+        news_ids += Technology_news_ids
+
+        Helper.set_queue_news_to_page(constants.GEMTEN_TERABYTE_PAGE_ID, Technology_news_ids)
         Helper.log_scraping_news('Jugantor', news_ids=news_ids)
 
         return news_ids
@@ -205,8 +208,11 @@ class Scraping:
         news_ids += Scraping.scrape_bbc_bangla('cdr56g57y01t', 'Sports')
         news_ids += Scraping.scrape_bbc_bangla('cjgn7233zk5t', 'Economy')
         news_ids += Scraping.scrape_bbc_bangla('cqywj91rkg6t', 'Politics')
-        news_ids += Scraping.scrape_bbc_bangla('c8y94k95v52t', 'Technology')
+        Technology_news_ids = Scraping.scrape_bbc_bangla('c8y94k95v52t', 'Technology')
 
+        Helper.set_queue_news_to_page(constants.GEMTEN_TERABYTE_PAGE_ID, Technology_news_ids)
+
+        news_ids += Technology_news_ids
         Helper.log_scraping_news('BBC Bangla', news_ids=news_ids)
 
         return news_ids

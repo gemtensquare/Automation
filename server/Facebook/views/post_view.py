@@ -39,10 +39,10 @@ class PostToFacebookPage(APIView):
         image_path = os.path.join(settings.MEDIA_ROOT, news.all_edited_image.get(template_code))
         for page in stored_pages:
             categories = page['categories']
-            if news.category not in categories:
-                print('This page does not have', news.category, 'category')
-                print('Skipping this page')
-                continue
+            # if news.category not in categories:
+            #     print('This page does not have', news.category, 'category')
+            #     print('Skipping this page')
+            #     continue
 
             page_id, access_token = page['pageId'], page['accessToken']
             

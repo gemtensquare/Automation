@@ -22,7 +22,8 @@ class NewsAPIView(APIView):
         # news_ids += [1,3,4,5,2]
         # cache.set('571480596045760', news_ids)
         # cache.delete('571480596045760')
-        print("Stored News Ids:", cache.get('571480596045760', []))
+        print("GEMTEN_NEWS Stored News Ids:", cache.get(constants.GEMTEN_NEWS_PAGE_ID, []))
+        print("GEMTEN_TERABYTE Stored News Ids:", cache.get(constants.GEMTEN_TERABYTE_PAGE_ID, []))
 
         start_time = datetime.now()
         
@@ -112,7 +113,8 @@ class GetRedisCache(APIView):
             'status': True,
             'message': "Got latest news queue from Redis!",
             'data': {
-                f'{constants.GEMTEN_NEWS_PAGE_ID}': cache.get(constants.GEMTEN_NEWS_PAGE_ID, []),
+                f'Gemten News': cache.get(constants.GEMTEN_NEWS_PAGE_ID, []),
+                f'Gemten Terabyte': cache.get(constants.GEMTEN_TERABYTE_PAGE_ID, []),
             }
         }
         return Response(response, status=status.HTTP_200_OK)

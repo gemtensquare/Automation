@@ -12,6 +12,12 @@ class Helper:
     def helper():
         pass
 
+    def set_queue_news_to_page(page_id, news_ids):
+        old_news_ids = cache.get(page_id, [])
+        news_ids = list(set(old_news_ids + news_ids))
+        cache.set(page_id, news_ids, timeout=None)
+
+
     def process_jugantor_image_url(image_url):
         url = None
         if image_url:
@@ -281,6 +287,18 @@ class Helper:
             response = Facebook.post_to_Gemten_News_page(id)
             post_count += response['success_post_count']
         Helper.log_posting_news("Gemten News", post_count)
+
+    def post_Gemten_Terabyte_page():
+        page_id = constants.GEMTEN_TERABYTE_PAGE_ID
+
+        news_ids = cache.get(page_id, [])
+        cache.set(page_id, [], timeout=None)
+
+        post_count = 0
+        for id in news_ids:
+            response = Facebook.post_to_Gemten_Terabyte_page(id)
+            post_count += response['success_post_count']
+        Helper.log_posting_news("Gemten Terabyte", post_count)
         
     
     def log_scraping_news(news_from, news_ids=[], page_id='571480596045760'):
@@ -294,6 +312,8 @@ class Helper:
         if not news_ids or not len(news_ids):
             message = f"{timestamp} — 😴 No new news for [{news_from}] this time. The news birds are resting! 🐦💤\n\n"
 
+        log_dir = os.path.dirname(constants.NEWS_CRON_LOG_FILE)
+        os.makedirs(log_dir, exist_ok=True)  # ✅ Ensure directory exists
         with open(constants.NEWS_CRON_LOG_FILE, 'a', encoding='utf-8') as f:
             f.write(message)
 
@@ -303,6 +323,9 @@ class Helper:
         message = f"{timestamp} — 🐣 Chirp chirp! Just dropped {post_count} shiny new news posts on [{page_name}]! 🎉✨\n"
         if not post_count:
             message = f"{timestamp} — 😴 No new posts for [{page_name}] this time. The news birds are resting! 🐦💤\n"
+
+        log_dir = os.path.dirname(constants.NEWS_POSTED_LOG_FILE)
+        os.makedirs(log_dir, exist_ok=True)  # ✅ Ensure directory exists
 
         with open(constants.NEWS_POSTED_LOG_FILE, 'a', encoding='utf-8') as f:
             f.write(message)

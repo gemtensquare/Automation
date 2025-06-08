@@ -9,6 +9,7 @@
       ports:
         - "8000:8000"
       volumes:
+        - ./logs:/logs
         - ./server:/server
       working_dir: /server
       command: sh entrypoint.sh

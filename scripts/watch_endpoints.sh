@@ -12,7 +12,7 @@ CYAN='\033[1;36m'
 MAGENTA='\033[1;35m'
 RESET='\033[0m'
 
-INTERVAL_SECONDS=300
+INTERVAL_SECONDS=3
 
 echo -e "${CYAN}🌐 Whiling Runner: Checking if the /api/news/ and /api/redis/ endpoints are alive...${RESET}"
 
@@ -20,7 +20,7 @@ i=0
 while true; do
   ((i++))
   echo -e "\n${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
-  echo -e "${YELLOW}\t\t 🔁 \t Attempt $i \t 🔁 ${RESET}"
+  echo -e "${YELLOW}\t\t\t\t\t 🔁 \t Attempt $i \t 🔁 ${RESET}"
   echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
   
   # Hit /api/news/
@@ -31,14 +31,14 @@ while true; do
     duration=$(echo "$news_response" | grep -o '"response_duration":[^,]*' | cut -d':' -f2 | tr -d ' ')
     message=$(echo "$news_response" | grep -o '"message":"[^"]*"' | cut -d':' -f2- | tr -d '"')
 
-    current_time=$(date +"%Y-%m-%d %H:%M:%S")
-    echo -e "\n${CYAN}📦 News Response:${RESET}"
+    current_time=$(TZ=Asia/Dhaka date +"%d-%m-%Y %I:%M:%S %p (UTC+6)")
+    echo -e "\n${CYAN}📦 News /api/news/ Response:${RESET}"
     echo -e "${MAGENTA}┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓${RESET}"
-    echo -e "${MAGENTA}┃${RESET} 🟢 Status            : ${status} ${MAGENTA}                              ┃${RESET}"
-    # echo -e "${MAGENTA}┃${RESET} 🔢 Count             : ${count} ${MAGENTA}                              ┃${RESET}"    
-    echo -e "${MAGENTA}┃${RESET} ⏱️  Response Duration : ${duration}s ${MAGENTA}                          ┃${RESET}"
-    echo -e "${MAGENTA}┃${RESET} 🕒 Current Time      : ${current_time}       ${MAGENTA}          ┃${RESET}"
-    echo -e "${MAGENTA}┃${RESET} 💬 Message           : ${message} ${MAGENTA}     ┃${RESET}"
+    echo -e "${MAGENTA}${RESET}  🟢 Status             : ${status} ${MAGENTA}                                              ${RESET}"
+    # echo -e "${MAGENTA}${RESET}  🔢 Count             : ${count} ${MAGENTA}                              ${RESET}"    
+    echo -e "${MAGENTA}${RESET}  ⏱️ Response Duration  : ${duration}s ${MAGENTA}                                          ${RESET}"
+    echo -e "${MAGENTA}${RESET}  🕒 Current Time       : ${current_time}       ${MAGENTA}                                ${RESET}"
+    echo -e "${MAGENTA}${RESET}  💬 Message            : ${message} ${MAGENTA}                                   ${RESET}"
     echo -e "${MAGENTA}┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛${RESET}"
   else
     echo -e "${RED}⚠️  Attempt $i: Failed to get news API response.${RESET}"
@@ -57,12 +57,12 @@ while true; do
   if (( i % 4 == 0 )); then
     echo -e "\n${CYAN}📂 Latest update from ${MAGENTA}news_scraping_log.txt:${RESET}"
     echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
-    tail -n 10 server/news_scraping_log.txt 2>/dev/null || echo -e "${RED}⚠️  File not found or inaccessible.${RESET}"
+    tail -n 10 logs/news_scraping_log.txt 2>/dev/null || echo -e "${RED}⚠️  File not found or inaccessible.${RESET}"
     # echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
 
     echo -e "\n${CYAN}📂 Latest update from ${MAGENTA}news_posted_log.txt:${RESET}"
     echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
-    tail -n 5 server/news_posted_log.txt 2>/dev/null || echo -e "${RED}⚠️  File not found or inaccessible.${RESET}"
+    tail -n 5 logs/news_posted_log.txt 2>/dev/null || echo -e "${RED}⚠️  File not found or inaccessible.${RESET}"
     # echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
   fi
 
@@ -87,7 +87,7 @@ while true; do
 
     # Make change
     echo -e "\033[1;36m📝 Appending timestamp to pushed.txt...\033[0m"
-    echo "Backup database and Push update at $NOW" >> auto_backup_and_push_log.txt
+    echo "Backup database and Push update at $NOW" >> logs/auto_backup_and_push_log.txt
 
     # Commit changes
     echo -e "\033[1;33m💾 Creating commit...\033[0m"
@@ -115,7 +115,7 @@ while true; do
       curl -X POST \
         -H "Accept: application/vnd.github+json" \
         -H "Authorization: Bearer $TOKEN" \
-        https://api.github.com/repos/${REPO}/actions/workflows/start_project.yml/dispatches \
+        https://api.github.com/repos/${REPO}/actions/workflows/run_docker_news_app.yml/dispatches \
         -d '{"ref":"main"}'
       
       echo "✅ Trigger $i sent."

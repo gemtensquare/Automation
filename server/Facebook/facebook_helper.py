@@ -111,7 +111,25 @@ class Facebook:
         res = requests.post(url, json=data)
 
         data = res.json()
+        return data
+    
+    
+    def post_to_Gemten_Terabyte_page(news_id):
+        template_id = random.randint(1, 5)
+        data = {
+            'id': news_id, # News Id
+            'template_id': template_id, # Template Id
+            'storedPages': '['
+                '{"pageId": "644657182073016",'
+                '"accessToken": "EAA7ctFADgFIBO4WlpmXFJxI2UeY4SZC1fs1oZAZA9oE8U4i1cnOebWavHXvmYZBVvezZAqNnjvOWm73viZAPaKZCHYzEEB3lit2APbZBU4UHmDqfZBvBkaTCWcF1bq5TEZAarLhdON5MbmQPZCmoZCsZBkFuFi6OmQfR3HzZAjfxDqMRuHnhWdSz9MwhJp1DpVPDdqMK0CyeOLOEJs4VikxdQ5C0i6",'
+                '"categories": ["Sports", "Entertainment", "Technology", "World", "Bangladesh", "Science", "Economy", "City News", "TechStartup", "Islam", "National", "Politics", "Business", "Health"]''}'
+            ']'
+        }
 
+        url = 'http://127.0.0.1:8000/api/post/to/facebook/'
+        res = requests.post(url, json=data)
+
+        data = res.json()
         return data
 
 # https://developers.facebook.com/tools/explorer/?method=GET&path=me%2Faccounts%3Faccess_token%3DLONG_LIVED_USER_TOKEN&version=v22.0

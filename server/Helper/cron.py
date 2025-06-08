@@ -49,8 +49,9 @@ def cron_scrape_all_bbc_bangla_news():
 def cron_scrape_all_daily_star_news():
     Scraping.scrape_all_daily_star_news()
 
-def cron_post_Gemten_News_page():
+def cron_post_to_facebook_page():
     Helper.post_Gemten_News_page()
+    Helper.post_Gemten_Terabyte_page()
 
 
 if __name__ == '__main__':
