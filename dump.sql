@@ -1090,8 +1090,9 @@ COPY public."News_news" (id, intro, title, url, image_url, source, image, type, 
 9091		যৌথ বাহিনীর অভিযানে ৮ দিনে গ্রেফতার ২৭১	https://www.bd-pratidin.com/national/2025/06/12/1125703	https://cdn.bd-pratidin.com/public/news_images/2025/06/12/1749749738-fc2347a23c26e3a3a9fc5c865d63c58d.jpg	bd-pratidin.com	news_images/1749753803_23869.jpg	bn	National	f	{}	2025-06-12 18:43:23.483433+00	2025-06-12 18:43:23.484809+00
 9090	ওয়ানডে দলের নতুন অধিনায়ক মেহেদী হাসান মিরাজ	ওয়ানডে দলের নতুন অধিনায়ক মেহেদী হাসান মিরাজ	https://www.jagonews24.com/sports/cricket/1028523	https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/miraj-20250612194807.jpg	jagonews24.com	news_images/1749753789_54380.jpg	bn	Cricket	t	{"template4": "edited_images/1749753789_54380_template4.jpg"}	2025-06-12 18:43:09.787847+00	2025-06-12 18:45:03.313195+00
 9092		হাজার কোটি টাকায় ম্যানইউতে ব্রাজিলিয়ান স্ট্রাইকার	https://www.bd-pratidin.com/sports/2025/06/13/1125791	https://cdn.bd-pratidin.com/public/news_images/2025/06/13/1749751384-9cddafe43ac6ce3c76d70381317e975f.jpg	bd-pratidin.com	news_images/1749753804_93732.jpg	bn	Sports	t	{"template5": "edited_images/1749753804_93732_template5.jpg"}	2025-06-12 18:43:24.825657+00	2025-06-12 18:45:06.675092+00
+9095	ভারতের আহমেদাবাদে বিমান দুর্ঘটনায় ক্রুসহ ২৪২ জন যাত্রী নিহত হওয়ার ঘটনায় গভীর শোক প্রকাশ করেছে বাংলাদেশ জামায়াতে ইসলামী। ...	ভারতে বিমান দুর্ঘটনায় জামায়াতের শোক	https://www.jugantor.com/politics/964512	https://cdn.jugantor.com/assets/news_photos/2025/06/12/JAMAT-684ae808735ac.jpg	jugantor.com	news_images/1749759906_12521.jpg	bn	Politics	t	{"template2": "edited_images/1749759906_12521_template2.jpg"}	2025-06-12 20:25:06.060983+00	2025-06-12 20:30:02.235232+00
 9093		টিউলিপের সাথে দেখা করবেন না ইউনূস, জানালেন বিবিসির সাক্ষাৎকারে 	https://www.bbc.com/bengali/articles/c89pz207npdo	https://ichef.bbci.co.uk/ace/ws/999/cpsprodpb/1a86/live/edfe8f50-47ae-11f0-9471-e380f647874e.jpg	bbc.com	news_images/1749753915_44197.jpg	bn	World	t	{"template2": "edited_images/1749753915_44197_template2.jpg"}	2025-06-12 18:45:15.042944+00	2025-06-12 18:50:02.256959+00
-9094	অন্তর্বর্তী সরকারের প্রধান উপদেষ্টা অধ্যাপক ড. মুহাম্মদ ইউনূস এবং বিএনপির ভারপ্রাপ্ত চেয়ারম্যান তারেক রহমানের মধ্যে শুক্রবার (১৩ জুন) গুরুত্বপূর্ণ বৈঠক ...	রাজনৈতিক গতিপথ নির্ধারণ করতে পারে ড. ইউনূস-তারেক রহমানের বৈঠক	https://www.jugantor.com/politics/964507	https://cdn.jugantor.com/assets/news_photos/2025/06/12/jalaluddin-684ae4060c7df.jpg	jugantor.com	news_images/1749756907_66102.jpg	bn	Politics	f	{}	2025-06-12 19:35:07.495058+00	2025-06-12 19:35:07.496865+00
+9094	অন্তর্বর্তী সরকারের প্রধান উপদেষ্টা অধ্যাপক ড. মুহাম্মদ ইউনূস এবং বিএনপির ভারপ্রাপ্ত চেয়ারম্যান তারেক রহমানের মধ্যে শুক্রবার (১৩ জুন) গুরুত্বপূর্ণ বৈঠক ...	রাজনৈতিক গতিপথ নির্ধারণ করতে পারে ড. ইউনূস-তারেক রহমানের বৈঠক	https://www.jugantor.com/politics/964507	https://cdn.jugantor.com/assets/news_photos/2025/06/12/jalaluddin-684ae4060c7df.jpg	jugantor.com	news_images/1749756907_66102.jpg	bn	Politics	t	{"template2": "edited_images/1749756907_66102_template2.jpg"}	2025-06-12 19:35:07.495058+00	2025-06-12 19:40:02.621026+00
 \.
 
 
@@ -1284,7 +1285,7 @@ rxtsmikgvyg7crkfphizdx9yntw4lqvv	.eJxVjDsOwjAQBe_iGln-ZR1T0nMGy7v24gBypDipEHeHSC
 -- Name: News_news_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."News_news_id_seq"', 9094, true);
+SELECT pg_catalog.setval('public."News_news_id_seq"', 9095, true);
 
 
 --
