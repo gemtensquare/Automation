@@ -1,6 +1,7 @@
 import os
 from datetime import datetime
 from rest_framework import status
+from django.utils import timezone
 from django.core.cache import cache
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -23,21 +24,24 @@ class NewsAPIView(APIView):
         # cache.set('571480596045760', news_ids)
         # cache.delete('571480596045760')
         print("GEMTEN_NEWS Stored News Ids:", cache.get(constants.GEMTEN_NEWS_PAGE_ID, []))
+        print("GEMTEN_CRICKET Stored News Ids:", cache.get(constants.GEMTEN_CRICKET_PAGE_ID, []))
+        print("GEMTEN_FOOTBALL Stored News Ids:", cache.get(constants.GEMTEN_FOOTBALL_PAGE_ID, []))
+        print("GEMTEN_ShowBiz Stored News Ids:", cache.get(constants.GEMTEN_ShowBiz_PAGE_ID, []))
         print("GEMTEN_TERABYTE Stored News Ids:", cache.get(constants.GEMTEN_TERABYTE_PAGE_ID, []))
 
-        start_time = datetime.now()
+        start_time = timezone.localtime()
         
         news = News.objects.all()
 
         response = ResponseHelper.get_news_response(NewsSerializer(news, many=True))
         
-        end_time = datetime.now()
+        end_time = timezone.localtime()
         duration = end_time - start_time
         response['response_duration'] = duration.total_seconds()
         return Response(response, status=status.HTTP_200_OK)
     
     def post(self, request):
-        start_time = datetime.now()
+        start_time = timezone.localtime()
         print('$$$$'*20)
         print(request.data)
         categories = request.data.get('categories', None)
@@ -51,14 +55,12 @@ class NewsAPIView(APIView):
         news = News.objects.filter(category__in=categories)
         response = ResponseHelper.get_news_response(NewsSerializer(news, many=True))
         
-        end_time = datetime.now()
+        end_time = timezone.localtime()
         duration = end_time - start_time
         response['response_duration'] = duration.total_seconds()
         return Response(response, status=status.HTTP_200_OK)
 
     def redis_test_view(self):
-
-        from django.utils import timezone
         cache.set('test', 'test')
         cache.set('arr', [1, 2, 4, 4, 5, 5])
         # cache.delete('571480596045760') 
@@ -114,6 +116,7 @@ class GetRedisCache(APIView):
             'message': "Got latest news queue from Redis!",
             'data': {
                 f'Gemten News': cache.get(constants.GEMTEN_NEWS_PAGE_ID, []),
+                f'Gemten ShowBiz': cache.get(constants.GEMTEN_ShowBiz_PAGE_ID, []),
                 f'Gemten Terabyte': cache.get(constants.GEMTEN_TERABYTE_PAGE_ID, []),
             }
         }

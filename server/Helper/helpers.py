@@ -2,10 +2,10 @@ from datetime import datetime
 from django.utils import timezone
 from django.core.cache import cache
 import os, textwrap, random, time, requests
-from PIL import ImageFilter, Image, ImageDraw, ImageEnhance, ImageFont
-from time import sleep
+from PIL import Image, ImageDraw, ImageEnhance, ImageFont
 
 from . import constants
+from News.models import News, Template
 from Facebook.facebook_helper import Facebook
 
 class Helper:
@@ -40,6 +40,14 @@ class Helper:
         url = url.replace('big_202', 'very_big_1')
         url = url.replace('medium_201', 'very_big_1')
         url = url.replace('medium_202', 'very_big_1')
+        url = url.replace(' 1x', '')
+        return url
+    
+    def process_jagonews24_news_image_url(image_url):
+        url = None
+        if image_url:
+            url = image_url.replace('media/imgAllNew/XS/', 'media/imgAllNew/BG/')
+            url = url.replace('media/imgAllNew/SM/', 'media/imgAllNew/BG/')
         return url
 
     def get_a_unique_image_name():
@@ -276,6 +284,11 @@ class Helper:
         print('_^_*'*30)
         return combined
     
+    def get_page_template_id(page_id):
+        templates = Template.objects.filter(name=page_id)
+        if not templates:
+            templates = Template.objects.filter(name=constants.GEMTEN_NEWS_PAGE_ID)
+        return random.choice(templates).id
 
     def post_Gemten_News_page():
         page_id = constants.GEMTEN_NEWS_PAGE_ID
@@ -299,18 +312,53 @@ class Helper:
             response = Facebook.post_to_Gemten_Terabyte_page(id)
             post_count += response['success_post_count']
         Helper.log_posting_news("Gemten Terabyte", post_count)
+
+    def post_Gemten_Cricket_page():
+        page_id = constants.GEMTEN_CRICKET_PAGE_ID
+
+        news_ids = cache.get(page_id, [])
+        cache.set(page_id, [], timeout=None)
+
+        post_count = 0
+        for id in news_ids:
+            response = Facebook.post_to_Gemten_Cricket_page(id)
+            post_count += response['success_post_count']
+        Helper.log_posting_news("Gemten Cricket", post_count)
+
+    def post_Gemten_Football_page():
+        page_id = constants.GEMTEN_FOOTBALL_PAGE_ID
+
+        news_ids = cache.get(page_id, [])
+        cache.set(page_id, [], timeout=None)
+
+        post_count = 0
+        for id in news_ids:
+            response = Facebook.post_to_Gemten_Football_page(id)
+            post_count += response['success_post_count']
+        Helper.log_posting_news("Gemten Football", post_count)
+
+    def post_Gemten_ShowBiz_page():
+        page_id = constants.GEMTEN_ShowBiz_PAGE_ID
+
+        news_ids = cache.get(page_id, [])
+        cache.set(page_id, [], timeout=None)
+
+        post_count = 0
+        for id in news_ids:
+            response = Facebook.post_to_Gemten_ShowBiz_page(id)
+            post_count += response['success_post_count']
+        Helper.log_posting_news("Gemten ShowBiz", post_count)
         
     
-    def log_scraping_news(news_from, news_ids=[], page_id='571480596045760'):
-        timestamp = timezone.now()
-        ids = cache.get(page_id, [])
-        cache.set(page_id, ids + news_ids, timeout=None)
+    def log_scraping_news(news_from, news_ids=[]):
+        timestamp = timezone.localtime().strftime("%d %B, %Y - %I:%M:%S %p")
         message = (
-            f"{timestamp} — 🐥 Beep beep! [Scraping News] visited [{news_from}] and colleced fresh {len(news_ids)} news! 📡\n"
-            f"{timestamp} — 🧺 IDs safely stored in the treasure chest: 🧾 [{', '.join(map(str, news_ids))}]\n\n"
+            f"{timestamp} — 🐥 Beep beep! Visited [{news_from}] and colleced fresh {len(news_ids)} news! 📡\n"
+            # f"{timestamp} — 🧺 IDs safely stored in the treasure chest: 🧾 [{', '.join(map(str, news_ids))}]\n\n"
         )
         if not news_ids or not len(news_ids):
             message = f"{timestamp} — 😴 No new news for [{news_from}] this time. The news birds are resting! 🐦💤\n\n"
+            return
 
         log_dir = os.path.dirname(constants.NEWS_CRON_LOG_FILE)
         os.makedirs(log_dir, exist_ok=True)  # ✅ Ensure directory exists
@@ -319,10 +367,11 @@ class Helper:
 
 
     def log_posting_news(page_name, post_count):
-        timestamp = timezone.now()
+        timestamp = timezone.localtime().strftime("%d %B, %Y - %I:%M:%S %p")
         message = f"{timestamp} — 🐣 Chirp chirp! Just dropped {post_count} shiny new news posts on [{page_name}]! 🎉✨\n"
         if not post_count:
             message = f"{timestamp} — 😴 No new posts for [{page_name}] this time. The news birds are resting! 🐦💤\n"
+            return
 
         log_dir = os.path.dirname(constants.NEWS_POSTED_LOG_FILE)
         os.makedirs(log_dir, exist_ok=True)  # ✅ Ensure directory exists

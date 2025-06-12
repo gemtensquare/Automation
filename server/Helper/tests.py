@@ -46,7 +46,8 @@ PROJECT_DIR = os.path.dirname(BASE_DIR)  # root of project where manage.py is
 LOG_FILE_PATH = os.path.join(PROJECT_DIR, 'cron_logs.txt')
 
 def log_cron_message(message: str):
-    cute_message = f"{timezone.now()} - {message}\n"
+    timestamp = timezone.localtime().strftime("%d %B, %Y - %I:%M:%S %p")
+    cute_message = f"{timestamp} - {message}\n"
     with open(LOG_FILE_PATH, 'a', encoding='utf-8') as log_file:
         log_file.write(cute_message)
 

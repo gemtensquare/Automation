@@ -15,8 +15,8 @@ echo -e "\n${CYAN}╔═══════════════════�
 echo -e "║ 📦 Final Check: Fetching Templates and Verifying Images ✨     ║"
 echo -e "╚════════════════════════════════════════════════════════════════╝${RESET}"
 
-echo -e "${YELLOW}⏳ Please wait... giving the server 5 seconds to get ready...${RESET}"
-# sleep 5
+# echo -e "${YELLOW}⏳ Please wait... giving the server 5 seconds to get ready...${RESET}"
+sleep 1
 
 # Fetch template JSON
 RESPONSE=$(curl -s "$BASE_URL/api/template/")

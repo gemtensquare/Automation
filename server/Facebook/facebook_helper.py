@@ -1,5 +1,6 @@
 import requests, random
-
+from Helper import constants
+from News.models import News, Template
 
 class Facebook:
     def __init__(self, user_access_token=None, page_id=None, page_access_token=None):
@@ -94,9 +95,17 @@ class Facebook:
         response = requests.post(self.url, files=files, data=payload)
         self.print_response(response, type="Local Image")
         return response
+    
+    def request_to_post_gemten(data):
+        url = 'http://127.0.0.1:8000/api/post/to/facebook/'
+        res = requests.post(url, json=data)
 
+        response = res.json()
+        return response
+    
     def post_to_Gemten_News_page(news_id):
-        template_id = random.randint(1, 5)
+        from Helper.helpers import Helper
+        template_id = Helper.get_page_template_id(constants.GEMTEN_NEWS_PAGE_ID)
         data = {
             'id': news_id, # News Id
             'template_id': template_id, # Template Id
@@ -107,15 +116,12 @@ class Facebook:
             ']'
         }
 
-        url = 'http://127.0.0.1:8000/api/post/to/facebook/'
-        res = requests.post(url, json=data)
-
-        data = res.json()
-        return data
-    
+        response = Facebook.request_to_post_gemten(data)
+        return response
     
     def post_to_Gemten_Terabyte_page(news_id):
-        template_id = random.randint(1, 5)
+        from Helper.helpers import Helper
+        template_id = Helper.get_page_template_id(constants.GEMTEN_TERABYTE_PAGE_ID)
         data = {
             'id': news_id, # News Id
             'template_id': template_id, # Template Id
@@ -126,10 +132,58 @@ class Facebook:
             ']'
         }
 
-        url = 'http://127.0.0.1:8000/api/post/to/facebook/'
-        res = requests.post(url, json=data)
+        response = Facebook.request_to_post_gemten(data)
+        return response
+    
+    def post_to_Gemten_Cricket_page(news_id):
+        from Helper.helpers import Helper
+        template_id = Helper.get_page_template_id(constants.GEMTEN_CRICKET_PAGE_ID)
+        data = {
+            'id': news_id, # News Id
+            'template_id': template_id, # Template Id
+            'storedPages': '['
+                '{"pageId": "463298220210795",'
+                '"accessToken": "EAA7ctFADgFIBO4UFgxrWAAfYUND2I0T0gbU4zZAvfwonwDyY1RXv1QEiO0LS6vHU9y07zjKJW6aNg8debrG74ErYNLIys95ZCyryGqCktZAxZCxSa0R48K2DJNDdFE3ZAdQGbiVAZCMUvcq1HK5c1hDKRGZByAaZBX6ejvpmv4PfvIq5MNd2YZCjOuNZAYZAokjZAyXTd7OpYJt1UB5XVIiYDxVG",'
+                '"categories": ["Sports", "Entertainment", "Technology", "World", "Bangladesh", "Science", "Economy", "City News", "TechStartup", "Islam", "National", "Politics", "Business", "Health"]''}'
+            ']'
+        }
 
-        data = res.json()
-        return data
+        response = Facebook.request_to_post_gemten(data)
+        return response
+    
+    def post_to_Gemten_Football_page(news_id):
+        from Helper.helpers import Helper
+        template_id = Helper.get_page_template_id(constants.GEMTEN_FOOTBALL_PAGE_ID)
+        data = {
+            'id': news_id, # News Id
+            'template_id': template_id, # Template Id
+            'storedPages': '['
+                '{"pageId": "684520311406135",'
+                '"accessToken": "EAATSp6m0zA8BOZCaQXZCN6QcMtZBwfZCSnw2Xmum17aCOCpVuAE7KqdZAGPu1RBTG6TCZC4LbL9MkytF4oluGF67xJY99pieSnKWt19cbz1vnfDQGZAdqlh4QzTzRfP7uzxUmkxdhfTg4GlZCZBEzZBaT9sJej4dJZCnhtN53BmlCtfabgu7eU3Sapqxtmj2KZC01kkb9cpf",'
+                '"categories": ["Sports", "Entertainment", "Technology", "World", "Bangladesh", "Science", "Economy", "City News", "TechStartup", "Islam", "National", "Politics", "Business", "Health"]''}'
+            ']'
+        }
+
+        response = Facebook.request_to_post_gemten(data)
+        return response
+    
+    def post_to_Gemten_ShowBiz_page(news_id):
+        from Helper.helpers import Helper
+        template_id = Helper.get_page_template_id(constants.GEMTEN_ShowBiz_PAGE_ID)
+        data = {
+            'id': news_id, # News Id
+            'template_id': template_id, # Template Id
+            'storedPages': '['
+                '{"pageId": "680263785168283",'
+                '"accessToken": "EAA7ctFADgFIBO1fvbeYTnYZAVVJ480xLQESj5tf0XPbCZCoZA4BrCNifZB9ORsM4ZCw3EZBUZB8WViTZBZCtFoO4cAQM0w1HHqXKP4lEDI9J7BQNTsxFUmyfVf9xCc84PI7rnxYppMGZCmWb2dvj4NCSZA0NkZCGssZBG26PrGKhMZA4DhHxPutuHk1pZCD8ZCEIMxtUORNZBsUek4eeNStx0FFe6uCH9",'
+                '"categories": ["Sports", "Entertainment", "Technology", "World", "Bangladesh", "Science", "Economy", "City News", "TechStartup", "Islam", "National", "Politics", "Business", "Health"]''}'
+            ']'
+        }
+
+        response = Facebook.request_to_post_gemten(data)
+        return response
+    
+    
 
 # https://developers.facebook.com/tools/explorer/?method=GET&path=me%2Faccounts%3Faccess_token%3DLONG_LIVED_USER_TOKEN&version=v22.0
+

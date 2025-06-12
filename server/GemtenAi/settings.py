@@ -143,3 +143,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'Media')
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+TIME_ZONE = 'Asia/Dhaka'
+USE_TZ = True

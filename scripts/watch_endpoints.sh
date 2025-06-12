@@ -4,6 +4,9 @@
 echo -e "\033[1;36m⚙️ Running watch_endpoints.sh...\033[0m"
 echo "Repo: $REPO"
 
+echo -e "\033[1;34m🔐 Making all scripts in ./scripts executable...\033[0m"
+chmod +x ./scripts/*.sh
+
 # 🎨 Colors
 YELLOW='\033[1;33m'
 GREEN='\033[0;32m'
@@ -12,7 +15,7 @@ CYAN='\033[1;36m'
 MAGENTA='\033[1;35m'
 RESET='\033[0m'
 
-INTERVAL_SECONDS=3
+INTERVAL_SECONDS=300
 
 echo -e "${CYAN}🌐 Whiling Runner: Checking if the /api/news/ and /api/redis/ endpoints are alive...${RESET}"
 
@@ -45,19 +48,19 @@ while true; do
   fi
 
   # Hit /api/redis/
-  redis_response=$(curl -sSf http://127.0.0.1:8000/api/redis/)
-  if [[ $? -eq 0 ]]; then
-    # Show full raw response
-    echo -e "\n${CYAN}📤 Redis /api/redis/ Cache Full Response:${RESET}"
-    echo -e "${GREEN}$redis_response${RESET}"
-  else
-    echo -e "${RED}⚠️  Redis API request failed. Skipping Redis block.${RESET}"
-  fi
+  # redis_response=$(curl -sSf http://127.0.0.1:8000/api/redis/)
+  # if [[ $? -eq 0 ]]; then
+  #   # Show full raw response
+  #   echo -e "\n${CYAN}📤 Redis /api/redis/ Cache Full Response:${RESET}"
+  #   echo -e "${GREEN}$redis_response${RESET}"
+  # else
+  #   echo -e "${RED}⚠️  Redis API request failed. Skipping Redis block.${RESET}"
+  # fi
 
   if (( i % 4 == 0 )); then
     echo -e "\n${CYAN}📂 Latest update from ${MAGENTA}news_scraping_log.txt:${RESET}"
     echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
-    tail -n 10 logs/news_scraping_log.txt 2>/dev/null || echo -e "${RED}⚠️  File not found or inaccessible.${RESET}"
+    tail -n 5 logs/news_scraping_log.txt 2>/dev/null || echo -e "${RED}⚠️  File not found or inaccessible.${RESET}"
     # echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
 
     echo -e "\n${CYAN}📂 Latest update from ${MAGENTA}news_posted_log.txt:${RESET}"
@@ -66,10 +69,7 @@ while true; do
     # echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
   fi
 
-  if (( i == 70 )); then
-    echo -e "\033[1;34m🔐 Making all scripts in ./scripts executable...\033[0m"
-    chmod +x ./scripts/*.sh
-
+  if (( i % 12 == 0 )); then
     echo -e "\033[1;36m⚙️ Running database backup script: backup_GemtenAi_db.sh...\033[0m"
     sh ./scripts/backup_GemtenAi_db.sh
 
@@ -99,8 +99,38 @@ while true; do
     git push https://x-access-token:${TOKEN}@github.com/${REPO}.git HEAD:main && \
     echo -e "\033[1;32m✅ Push completed successfully!\033[0m" || \
     echo -e "\033[1;31m❌ Push failed! Please check your token and permissions.\033[0m"
+  fi
 
+  if (( i == 70 )); then
+    echo -e "\033[1;36m⚙️ Running database backup script: backup_GemtenAi_db.sh...\033[0m"
+    sh ./scripts/backup_GemtenAi_db.sh
 
+    # Set timezone to UTC+6 (Dhaka)
+    export TZ="Asia/Dhaka"
+    NOW=$(date +"%d %B %Y - %I:%M %p")
+
+    echo -e "\033[1;34m🌏 Timezone set to Asia/Dhaka (UTC+6)\033[0m"
+    echo -e "\033[1;32m📅 Current date & time: $NOW\033[0m"
+
+    # Configure git user
+    echo -e "\033[1;33m🔧 Configuring Git user...\033[0m"
+    git config user.name "github-actions[bot]"
+    git config user.email "github-actions[bot]@users.noreply.github.com"
+
+    # Make change
+    echo -e "\033[1;36m📝 Appending timestamp to pushed.txt...\033[0m"
+    echo "Backup database and Push update at $NOW" >> logs/auto_backup_and_push_log.txt
+
+    # Commit changes
+    echo -e "\033[1;33m💾 Creating commit...\033[0m"
+    git add .
+    git commit -m "Backup database at $NOW" || echo -e "\033[1;90m⚠️ No changes to commit\033[0m"
+
+    # Push changes using PAT token
+    echo -e "\033[1;35m🚀 Pushing changes to GitHub...\033[0m"
+    git push https://x-access-token:${TOKEN}@github.com/${REPO}.git HEAD:main && \
+    echo -e "\033[1;32m✅ Push completed successfully!\033[0m" || \
+    echo -e "\033[1;31m❌ Push failed! Please check your token and permissions.\033[0m"
     # Number of times to trigger the workflow
     TIMES=1
 
