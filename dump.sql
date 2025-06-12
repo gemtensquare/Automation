@@ -1093,6 +1093,8 @@ COPY public."News_news" (id, intro, title, url, image_url, source, image, type, 
 9095	ভারতের আহমেদাবাদে বিমান দুর্ঘটনায় ক্রুসহ ২৪২ জন যাত্রী নিহত হওয়ার ঘটনায় গভীর শোক প্রকাশ করেছে বাংলাদেশ জামায়াতে ইসলামী। ...	ভারতে বিমান দুর্ঘটনায় জামায়াতের শোক	https://www.jugantor.com/politics/964512	https://cdn.jugantor.com/assets/news_photos/2025/06/12/JAMAT-684ae808735ac.jpg	jugantor.com	news_images/1749759906_12521.jpg	bn	Politics	t	{"template2": "edited_images/1749759906_12521_template2.jpg"}	2025-06-12 20:25:06.060983+00	2025-06-12 20:30:02.235232+00
 9093		টিউলিপের সাথে দেখা করবেন না ইউনূস, জানালেন বিবিসির সাক্ষাৎকারে 	https://www.bbc.com/bengali/articles/c89pz207npdo	https://ichef.bbci.co.uk/ace/ws/999/cpsprodpb/1a86/live/edfe8f50-47ae-11f0-9471-e380f647874e.jpg	bbc.com	news_images/1749753915_44197.jpg	bn	World	t	{"template2": "edited_images/1749753915_44197_template2.jpg"}	2025-06-12 18:45:15.042944+00	2025-06-12 18:50:02.256959+00
 9094	অন্তর্বর্তী সরকারের প্রধান উপদেষ্টা অধ্যাপক ড. মুহাম্মদ ইউনূস এবং বিএনপির ভারপ্রাপ্ত চেয়ারম্যান তারেক রহমানের মধ্যে শুক্রবার (১৩ জুন) গুরুত্বপূর্ণ বৈঠক ...	রাজনৈতিক গতিপথ নির্ধারণ করতে পারে ড. ইউনূস-তারেক রহমানের বৈঠক	https://www.jugantor.com/politics/964507	https://cdn.jugantor.com/assets/news_photos/2025/06/12/jalaluddin-684ae4060c7df.jpg	jugantor.com	news_images/1749756907_66102.jpg	bn	Politics	t	{"template2": "edited_images/1749756907_66102_template2.jpg"}	2025-06-12 19:35:07.495058+00	2025-06-12 19:40:02.621026+00
+9096	অন্তর্বর্তী সরকারের প্রধান উপদেষ্টা অধ্যাপক ড. মুহাম্মদ ইউনূসের সঙ্গে বিএনপির ভারপ্রাপ্ত চেয়ারম্যান তারেক রহমানের বহুল প্রত্যাশিত ও আলোচিত বৈঠকটি কাল ...	ড. ইউনূস-তারেক রহমান বৈঠক: সুড়ঙ্গের শেষে আলোর দেখা মিলবে কি?	https://www.jugantor.com/politics/964514	https://cdn.jugantor.com/assets/news_photos/2025/06/12/Untitled-2--684ae90a6fe35.jpg	jugantor.com	news_images/1749768307_41270.jpg	bn	Politics	t	{"template2": "edited_images/1749768307_41270_template2.jpg"}	2025-06-12 22:45:07.014745+00	2025-06-12 22:50:02.457543+00
+9097		হজ শেষে দেশে ফিরেছেন ৮৬০৬ জন, মৃত্যু ২৩	https://www.bd-pratidin.com/islam/2025/06/12/1125570	https://cdn.bd-pratidin.com/public/news_images/2025/06/12/1749729466-6fb35d1f2f417620ce617ec96d261344.jpg	bd-pratidin.com	news_images/1749769234_2003.jpg	bn	Islam	t	{"template5": "edited_images/1749769234_2003_template5.jpg"}	2025-06-12 23:00:34.92219+00	2025-06-12 23:05:02.678325+00
 \.
 
 
@@ -1285,7 +1287,7 @@ rxtsmikgvyg7crkfphizdx9yntw4lqvv	.eJxVjDsOwjAQBe_iGln-ZR1T0nMGy7v24gBypDipEHeHSC
 -- Name: News_news_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."News_news_id_seq"', 9095, true);
+SELECT pg_catalog.setval('public."News_news_id_seq"', 9097, true);
 
 
 --
