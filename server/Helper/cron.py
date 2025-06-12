@@ -17,6 +17,7 @@ def cron_scrape_all_news():
 def cron_post_to_facebook_page():
     Helper.post_Gemten_News_page()
     Helper.post_Gemten_ShowBiz_page()
+    Helper.post_Gemten_Sports_page()
     Helper.post_Gemten_Cricket_page()
     Helper.post_Gemten_Football_page()
     Helper.post_Gemten_Terabyte_page()

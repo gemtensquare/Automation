@@ -24,9 +24,10 @@ class NewsAPIView(APIView):
         # cache.set('571480596045760', news_ids)
         # cache.delete('571480596045760')
         print("GEMTEN_NEWS Stored News Ids:", cache.get(constants.GEMTEN_NEWS_PAGE_ID, []))
+        print("GEMTEN_SPORTS Stored News Ids:", cache.get(constants.GEMTEN_SPORTS_PAGE_ID, []))
+        print("GEMTEN_ShowBiz Stored News Ids:", cache.get(constants.GEMTEN_ShowBiz_PAGE_ID, []))
         print("GEMTEN_CRICKET Stored News Ids:", cache.get(constants.GEMTEN_CRICKET_PAGE_ID, []))
         print("GEMTEN_FOOTBALL Stored News Ids:", cache.get(constants.GEMTEN_FOOTBALL_PAGE_ID, []))
-        print("GEMTEN_ShowBiz Stored News Ids:", cache.get(constants.GEMTEN_ShowBiz_PAGE_ID, []))
         print("GEMTEN_TERABYTE Stored News Ids:", cache.get(constants.GEMTEN_TERABYTE_PAGE_ID, []))
 
         start_time = timezone.localtime()
@@ -92,15 +93,23 @@ class RemoveAllNews(APIView):
     
 class ScrapeAllNews(APIView):
     def get(self, request):
+        print('\n', ')(' * 30)
+        print('Scraping all news...')
+        start_time = datetime.now()
         data = Scraping.scrape_all_news()
         response = ResponseHelper.get_new_news_added_response(data)
+        end_time = datetime.now()
+        duration = end_time - start_time
+        response['response_duration'] = duration.total_seconds()
         return Response(response, status=status.HTTP_200_OK)
     
     
 class ClearRedisCache(APIView):
     def get(self, request):
         from django.core.cache import cache
+        Gemten_Sports = cache.get(constants.GEMTEN_SPORTS_PAGE_ID, [])
         cache.clear()
+        cache.set(constants.GEMTEN_SPORTS_PAGE_ID, Gemten_Sports)
         response = {
             'status': True,
             'message': 'Redis cache cleared successfully!'

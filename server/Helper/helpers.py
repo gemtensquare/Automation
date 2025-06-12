@@ -325,6 +325,18 @@ class Helper:
             post_count += response['success_post_count']
         Helper.log_posting_news("Gemten Cricket", post_count)
 
+    def post_Gemten_Sports_page():
+        page_id = constants.GEMTEN_SPORTS_PAGE_ID
+
+        news_ids = cache.get(page_id, [])
+        cache.set(page_id, [], timeout=None)
+
+        post_count = 0
+        for id in news_ids:
+            response = Facebook.post_to_Gemten_Sports_page(id)
+            post_count += response['success_post_count']
+        Helper.log_posting_news("Gemten Sports", post_count)
+
     def post_Gemten_Football_page():
         page_id = constants.GEMTEN_FOOTBALL_PAGE_ID
 

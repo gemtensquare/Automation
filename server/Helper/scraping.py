@@ -268,6 +268,7 @@ class Scraping:
         news_ids = Cricket_news_ids + Football_news_ids
         Helper.log_scraping_news('Khela', news_ids=news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_NEWS_PAGE_ID, news_ids)
+        Helper.set_queue_news_to_page(constants.GEMTEN_SPORTS_PAGE_ID, news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_CRICKET_PAGE_ID, Cricket_news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_FOOTBALL_PAGE_ID, Football_news_ids)
         return news_ids
@@ -287,23 +288,25 @@ class Scraping:
         Helper.set_queue_news_to_page(constants.GEMTEN_CRICKET_PAGE_ID, Cricket_news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_FOOTBALL_PAGE_ID, Football_news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_ShowBiz_PAGE_ID, Entertainment_news_ids)
+        Helper.set_queue_news_to_page(constants.GEMTEN_SPORTS_PAGE_ID, Cricket_news_ids + Football_news_ids)
         return news_ids
 
     def scrape_all_jugantor_news():
         news_ids = []
-        news_ids += Scraping.scrape_jugantor('sports', 'Sports')
         news_ids += Scraping.scrape_jugantor('health', 'Health')
         news_ids += Scraping.scrape_jugantor('economics', 'Economy')
         news_ids += Scraping.scrape_jugantor('politics', 'Politics')
         news_ids += Scraping.scrape_jugantor('business', 'Business')
 
+        Sports_news_ids = Scraping.scrape_jugantor('sports', 'Sports')
         Technology_news_ids = Scraping.scrape_jugantor('technology', 'Technology')
         Entertainment_news_ids = Scraping.scrape_jugantor('entertainment', 'Entertainment')
 
-        news_ids += Technology_news_ids + Entertainment_news_ids
+        news_ids += Technology_news_ids + Entertainment_news_ids + Sports_news_ids
 
         Helper.log_scraping_news('Jugantor', news_ids=news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_NEWS_PAGE_ID, news_ids)
+        Helper.set_queue_news_to_page(constants.GEMTEN_SPORTS_PAGE_ID, Sports_news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_TERABYTE_PAGE_ID, Technology_news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_ShowBiz_PAGE_ID, Entertainment_news_ids)
         return news_ids
@@ -311,7 +314,6 @@ class Scraping:
     def scrape_all_bd_pratidin_news():
         news_ids = []
         news_ids += Scraping.scrape_bd_pratidin('islam', 'Islam')
-        news_ids += Scraping.scrape_bd_pratidin('sports', 'Sports')
         news_ids += Scraping.scrape_bd_pratidin('science', 'Science')
         news_ids += Scraping.scrape_bd_pratidin('economy', 'Economy')
         news_ids += Scraping.scrape_bd_pratidin('national', 'National')
@@ -319,11 +321,13 @@ class Scraping:
         news_ids += Scraping.scrape_bd_pratidin('city-news', 'City News')
         news_ids += Scraping.scrape_bd_pratidin('minister-spake', 'Politics')
 
+        Sports_news_ids = Scraping.scrape_bd_pratidin('sports', 'Sports')
         Entertainment_news_ids = Scraping.scrape_bd_pratidin('entertainment', 'Entertainment')
 
-        news_ids += Entertainment_news_ids
+        news_ids += Entertainment_news_ids + Sports_news_ids
         Helper.log_scraping_news('BD Pratidin', news_ids=news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_NEWS_PAGE_ID, news_ids)
+        Helper.set_queue_news_to_page(constants.GEMTEN_SPORTS_PAGE_ID, Sports_news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_ShowBiz_PAGE_ID, Entertainment_news_ids)
         return news_ids
     
@@ -331,32 +335,35 @@ class Scraping:
         news_ids = []
         news_ids += Scraping.scrape_bbc_bangla('c907347rezkt', 'World')
         news_ids += Scraping.scrape_bbc_bangla('cg7265yyxn1t', 'Health')
-        news_ids += Scraping.scrape_bbc_bangla('cdr56g57y01t', 'Sports')
         news_ids += Scraping.scrape_bbc_bangla('cjgn7233zk5t', 'Economy')
         news_ids += Scraping.scrape_bbc_bangla('cqywj91rkg6t', 'Politics')
         
+        Sports_news_ids = Scraping.scrape_bbc_bangla('cdr56g57y01t', 'Sports')
         Technology_news_ids = Scraping.scrape_bbc_bangla('c8y94k95v52t', 'Technology')
 
-        news_ids += Technology_news_ids
+        news_ids += Technology_news_ids + Sports_news_ids
         Helper.log_scraping_news('BBC Bangla', news_ids=news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_NEWS_PAGE_ID, news_ids)
+        Helper.set_queue_news_to_page(constants.GEMTEN_SPORTS_PAGE_ID, Sports_news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_TERABYTE_PAGE_ID, Technology_news_ids)
         return news_ids
     
     def scrape_all_daily_star_news():
         news_ids = []
-        news_ids += Scraping.scrape_daily_star('sports', 'Sports')
         news_ids += Scraping.scrape_daily_star('health', 'Health')
         news_ids += Scraping.scrape_daily_star('abroad', 'Abroad')
         news_ids += Scraping.scrape_daily_star('business', 'Business')
 
+        Sports_news_ids = Scraping.scrape_daily_star('sports', 'Sports')
         Technology_news_ids = Scraping.scrape_daily_star('tech-startup', 'Technology')
         Education_news_ids = Scraping.scrape_daily_star('youth/education', 'Education')
         Entertainment_news_ids = Scraping.scrape_daily_star('entertainment', 'Entertainment')
 
-        news_ids += Entertainment_news_ids + Education_news_ids + Technology_news_ids
+        news_ids += Entertainment_news_ids + Education_news_ids + Technology_news_ids + Sports_news_ids
+        
         Helper.log_scraping_news('Daily Star', news_ids=news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_NEWS_PAGE_ID, news_ids)
+        Helper.set_queue_news_to_page(constants.GEMTEN_SPORTS_PAGE_ID, Sports_news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_TERABYTE_PAGE_ID, Technology_news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_ShowBiz_PAGE_ID, Entertainment_news_ids)
         return news_ids
