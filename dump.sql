@@ -1250,27 +1250,27 @@ COPY public.django_content_type (id, app_label, model) FROM stdin;
 --
 
 COPY public.django_migrations (id, app, name, applied) FROM stdin;
-1	News	0001_initial	2025-06-12 18:42:42.703353+00
-2	News	0002_remove_news_edited_image	2025-06-12 18:42:42.706618+00
-3	TestApp	0001_initial	2025-06-12 18:42:42.711438+00
-4	contenttypes	0001_initial	2025-06-12 18:42:42.717355+00
-5	auth	0001_initial	2025-06-12 18:42:42.763116+00
-6	admin	0001_initial	2025-06-12 18:42:42.777408+00
-7	admin	0002_logentry_remove_auto_add	2025-06-12 18:42:42.78286+00
-8	admin	0003_logentry_add_action_flag_choices	2025-06-12 18:42:42.787337+00
-9	contenttypes	0002_remove_content_type_name	2025-06-12 18:42:42.797984+00
-10	auth	0002_alter_permission_name_max_length	2025-06-12 18:42:42.802838+00
-11	auth	0003_alter_user_email_max_length	2025-06-12 18:42:42.807717+00
-12	auth	0004_alter_user_username_opts	2025-06-12 18:42:42.811998+00
-13	auth	0005_alter_user_last_login_null	2025-06-12 18:42:42.816885+00
-14	auth	0006_require_contenttypes_0002	2025-06-12 18:42:42.817606+00
-15	auth	0007_alter_validators_add_error_messages	2025-06-12 18:42:42.822934+00
-16	auth	0008_alter_user_username_max_length	2025-06-12 18:42:42.848812+00
-17	auth	0009_alter_user_last_name_max_length	2025-06-12 18:42:42.853977+00
-18	auth	0010_alter_group_name_max_length	2025-06-12 18:42:42.86284+00
-19	auth	0011_update_proxy_permissions	2025-06-12 18:42:42.871776+00
-20	auth	0012_alter_user_first_name_max_length	2025-06-12 18:42:42.879003+00
-21	sessions	0001_initial	2025-06-12 18:42:42.88774+00
+1	News	0001_initial	2025-06-13 00:29:54.477025+00
+2	News	0002_remove_news_edited_image	2025-06-13 00:29:54.480788+00
+3	TestApp	0001_initial	2025-06-13 00:29:54.487671+00
+4	contenttypes	0001_initial	2025-06-13 00:29:54.495365+00
+5	auth	0001_initial	2025-06-13 00:29:54.559747+00
+6	admin	0001_initial	2025-06-13 00:29:54.589239+00
+7	admin	0002_logentry_remove_auto_add	2025-06-13 00:29:54.610533+00
+8	admin	0003_logentry_add_action_flag_choices	2025-06-13 00:29:54.626729+00
+9	contenttypes	0002_remove_content_type_name	2025-06-13 00:29:54.6576+00
+10	auth	0002_alter_permission_name_max_length	2025-06-13 00:29:54.668191+00
+11	auth	0003_alter_user_email_max_length	2025-06-13 00:29:54.675934+00
+12	auth	0004_alter_user_username_opts	2025-06-13 00:29:54.682728+00
+13	auth	0005_alter_user_last_login_null	2025-06-13 00:29:54.68999+00
+14	auth	0006_require_contenttypes_0002	2025-06-13 00:29:54.691072+00
+15	auth	0007_alter_validators_add_error_messages	2025-06-13 00:29:54.700085+00
+16	auth	0008_alter_user_username_max_length	2025-06-13 00:29:54.745006+00
+17	auth	0009_alter_user_last_name_max_length	2025-06-13 00:29:54.753149+00
+18	auth	0010_alter_group_name_max_length	2025-06-13 00:29:54.762568+00
+19	auth	0011_update_proxy_permissions	2025-06-13 00:29:54.771804+00
+20	auth	0012_alter_user_first_name_max_length	2025-06-13 00:29:54.779761+00
+21	sessions	0001_initial	2025-06-13 00:29:54.788776+00
 \.
 
 
