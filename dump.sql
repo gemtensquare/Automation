@@ -1096,6 +1096,9 @@ COPY public."News_news" (id, intro, title, url, image_url, source, image, type, 
 9098	প্রধান উপদেষ্টা অধ্যাপক ড. মুহাম্মদ ইউনূস ও বিএনপির ভারপ্রাপ্ত চেয়ারম্যান তারেক রহমান বৈঠকে বসতে যাচ্ছেন শুক্রবার। লন্ডনের সেন্ট্রাল এলাকার ডরচেস্টার ...	বৈঠকে নির্বাচনের চেয়ে বিচার ও সংস্কার নিয়ে আলোচনা হওয়া জরুরি	https://www.jugantor.com/politics/964518	https://cdn.jugantor.com/assets/news_photos/2025/06/12/younus-hadi-684af04602065.jpg	jugantor.com	news_images/1749771608_29769.jpg	bn	Politics	t	{"template4": "edited_images/1749771608_29769_template4.jpg"}	2025-06-12 23:40:08.869799+00	2025-06-12 23:45:02.315215+00
 9096	অন্তর্বর্তী সরকারের প্রধান উপদেষ্টা অধ্যাপক ড. মুহাম্মদ ইউনূসের সঙ্গে বিএনপির ভারপ্রাপ্ত চেয়ারম্যান তারেক রহমানের বহুল প্রত্যাশিত ও আলোচিত বৈঠকটি কাল ...	ড. ইউনূস-তারেক রহমান বৈঠক: সুড়ঙ্গের শেষে আলোর দেখা মিলবে কি?	https://www.jugantor.com/politics/964514	https://cdn.jugantor.com/assets/news_photos/2025/06/12/Untitled-2--684ae90a6fe35.jpg	jugantor.com	news_images/1749768307_41270.jpg	bn	Politics	t	{"template2": "edited_images/1749768307_41270_template2.jpg"}	2025-06-12 22:45:07.014745+00	2025-06-12 22:50:02.457543+00
 9097		হজ শেষে দেশে ফিরেছেন ৮৬০৬ জন, মৃত্যু ২৩	https://www.bd-pratidin.com/islam/2025/06/12/1125570	https://cdn.bd-pratidin.com/public/news_images/2025/06/12/1749729466-6fb35d1f2f417620ce617ec96d261344.jpg	bd-pratidin.com	news_images/1749769234_2003.jpg	bn	Islam	t	{"template5": "edited_images/1749769234_2003_template5.jpg"}	2025-06-12 23:00:34.92219+00	2025-06-12 23:05:02.678325+00
+9099	দলের প্রয়োজনে আমি যেকোনো পজিশনে খেলার জন্য প্রস্তুত। টপ অর্ডারে আরও ব্যাটসম্যান আছে, দেখা যাক। ...	শ্রীলংকা সফরে টেস্টে ওপেনিংয়ে খেলতে পারেন শান্ত	https://www.jugantor.com/sports/964459	https://cdn.jugantor.com/assets/news_photos/2025/06/12/Najmul-Hossain-Shanto-684ab76faa224.gif	jugantor.com	news_images/1749780311_20121.jpg	bn	Sports	t	{"template2": "edited_images/1749780311_20121_template2.jpg"}	2025-06-13 02:05:11.77817+00	2025-06-13 02:10:02.22668+00
+9100	বিশ্ব ফুটবলের নিয়ন্ত্রণ সংস্থা ফিফার সবশেষ র‌্যাংকিংয়ে পাঁচ ধাপ এগোলো বাংলাদেশ নারী ফুটবল দল। জর্ডান সফরের দারুণ প্রাপ্তির প্রভাব পড়েছে ...	ফিফা র‌্যাংকিংয়ে পাঁচ ধাপ এগোল বাংলাদেশ	https://www.jugantor.com/sports/964467	https://cdn.jugantor.com/assets/news_photos/2025/06/12/1-684abd4cd20c8.gif	jugantor.com	news_images/1749780908_42805.jpg	bn	Sports	t	{"template1": "edited_images/1749780908_42805_template1.jpg", "template3": "edited_images/1749780908_42805_template3.jpg"}	2025-06-13 02:15:08.370197+00	2025-06-13 02:20:11.327255+00
+9101		লর্ডসে পেসারদের লড়াইয়ে রোমাঞ্চ ছড়াচ্ছে টেস্ট ফাইনাল	https://www.bd-pratidin.com/sports/2025/06/13/1125797	https://cdn.bd-pratidin.com/public/news_images/2025/06/13/1749753483-06958d39ece50edc94335b3609765f24.jpg	bd-pratidin.com	news_images/1749781246_1063.jpg	bn	Sports	t	{"template2": "edited_images/1749781246_1063_template2.jpg", "template6": "edited_images/1749781246_1063_template6.jpg"}	2025-06-13 02:20:46.81744+00	2025-06-13 02:25:12.277556+00
 \.
 
 
@@ -1288,7 +1291,7 @@ rxtsmikgvyg7crkfphizdx9yntw4lqvv	.eJxVjDsOwjAQBe_iGln-ZR1T0nMGy7v24gBypDipEHeHSC
 -- Name: News_news_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."News_news_id_seq"', 9098, true);
+SELECT pg_catalog.setval('public."News_news_id_seq"', 9101, true);
 
 
 --
