@@ -1265,6 +1265,7 @@ COPY public."News_news" (id, intro, title, url, image_url, source, image, type, 
 9264	বিসিবি চিকিৎসক দেবাশীষ চৌধুরী অবশ্য অন্য দুই পেসার শরিফুল ইসলাম ও মোস্তাফিজুর রহমানের সময়মতো সেরে ওঠার বিষয়ে আত্মবিশ্বাসী রয়েছেন।	শ্রীলঙ্কা সফরে সাদা বলেও তাসকিনকে না পাওয়ার শঙ্কা	https://bangla.thedailystar.net//sports/cricket/news-679416	https://tds-images-bn.thedailystar.net/sites/default/files/styles/very_big_1/public/images/2025/06/13/taskin_1.jpg	bangla.thedailystar.net	news_images/1749835824_1238.jpg	bn	Sports	t	{"template2": "edited_images/1749835824_1238_template2.jpg", "template3": "edited_images/1749835824_1238_template3.jpg"}	2025-06-13 17:30:24.340131+00	2025-06-13 17:35:14.42519+00
 9267	হামজা চৌধুরী, শমিত সোম এবং ফাহামিদুল ইসলাম তিন প্রবাসীর রসায়নও এএফসি এশিয়ান কাপ বাছাইয়ে সিঙ্গাপুরের বিপক্ষে হার এড়ানোর জন্য যথেষ্ট ...	এবার ক্ষমা চাইলেন আল আমিন	https://www.jugantor.com/sports/964928	https://cdn.jugantor.com/assets/news_photos/2025/06/13/1-684c47d68ee52.gif	jugantor.com	news_images/1749838215_56149.jpg	bn	Sports	t	{"template1": "edited_images/1749838215_56149_template1.jpg", "template5": "edited_images/1749838215_56149_template5.jpg"}	2025-06-13 18:10:15.240414+00	2025-06-13 18:15:10.700197+00
 9266	বাদ দিল পাকিস্তান, নিজেকে প্রমাণ করতে বিগব্যাশে বাবর আজম	বাদ দিল পাকিস্তান, নিজেকে প্রমাণ করতে বিগব্যাশে বাবর আজম	https://www.jagonews24.com/sports/cricket/1028728	https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/babar-20250613223212.jpg	jagonews24.com	news_images/1749837910_82192.jpg	bn	Cricket	t	{"template1": "edited_images/1749837910_82192_template1.jpg", "template4": "edited_images/1749837910_82192_template4.jpg"}	2025-06-13 18:05:10.459116+00	2025-06-13 18:10:20.49203+00
+9268		শনিবার দেশে ফিরছেন প্রধান উপদেষ্টা	https://www.bd-pratidin.com/national/2025/06/13/1125961	https://cdn.bd-pratidin.com/public/news_images/2025/06/13/1749828168-32c4ad0a62d5ea430b2ed1599aacb1eb.jpg	bd-pratidin.com	news_images/1749842432_69032.jpg	bn	National	t	{"template3": "edited_images/1749842432_69032_template3.jpg"}	2025-06-13 19:20:32.554338+00	2025-06-13 19:25:02.601344+00
 \.
 
 
@@ -1457,7 +1458,7 @@ rxtsmikgvyg7crkfphizdx9yntw4lqvv	.eJxVjDsOwjAQBe_iGln-ZR1T0nMGy7v24gBypDipEHeHSC
 -- Name: News_news_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."News_news_id_seq"', 9267, true);
+SELECT pg_catalog.setval('public."News_news_id_seq"', 9268, true);
 
 
 --
