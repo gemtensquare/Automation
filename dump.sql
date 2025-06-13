@@ -1136,6 +1136,14 @@ COPY public."News_news" (id, intro, title, url, image_url, source, image, type, 
 9135	শীর্ষে ঠাঁই পেয়েছেন বার্সেলোনার ১৭ বছর বয়সি স্প্যানিশ উইঙ্গার লামিনে ইয়ামাল। তার মূল্য বেড়ে দাঁড়িয়েছে ১৬৯ মিলিয়ন পাউন্ড। বার্সার সঙ্গে ...	ফুটবলের ১০ দামি খেলোয়াড়ের নাম জানাল ট্রান্সফারমার্কট	https://www.jugantor.com/sports/964771	https://cdn.jugantor.com/assets/news_photos/2025/06/13/Football-684b8c6c37951.jpg	jugantor.com	news_images/1749793518_87913.jpg	bn	Sports	t	{"template3": "edited_images/1749793518_87913_template3.jpg", "template6": "edited_images/1749793518_87913_template6.jpg"}	2025-06-13 05:45:18.59475+00	2025-06-13 05:50:23.130513+00
 9137	এক বছর পর জাতীয় ব্যাডমিন্টন চ্যাম্পিয়নশিপ ১৪-১৯ জুলাই শহীদ তাজউদ্দীন আহমদ ইনডোর স্টেডিয়ামে অনুষ্ঠিত হবে। টুর্নামেন্টে পাঁচটি ইভেন্টে ...	জাতীয় ব্যাডমিন্টনে প্রথমবার থাকছে প্রাইজমানি	https://www.jugantor.com/sports/964772	https://cdn.jugantor.com/assets/news_photos/2025/06/13/Badminton-684b8d79a8a25.jpg	jugantor.com	news_images/1749795308_44986.jpg	bn	Sports	f	{}	2025-06-13 06:15:08.118759+00	2025-06-13 06:15:08.120729+00
 9138		ফিন অ্যালেনের ছক্কার তাণ্ডব, গড়লেন বিশ্ব রেকর্ড	https://www.bd-pratidin.com/sports/2025/06/13/1125843	https://cdn.bd-pratidin.com/public/news_images/2025/06/13/1749791562-8d518104b7780af5ce4d3ae1ea823900.jpg	bd-pratidin.com	news_images/1749795337_22937.jpg	bn	Sports	f	{}	2025-06-13 06:15:37.927751+00	2025-06-13 06:15:37.929077+00
+9139		লাইভ, পাল্টা একশো ড্রোন হামলা চালিয়েছে ইরান - দাবি ইসরায়েলের	https://www.bbc.com/bengali/live/cd0l15j3jnzt	https://ichef.bbci.co.uk/ace/ws/999/cpsprodpb/5cef/live/3f3063c0-481e-11f0-84b6-6bf0f66205f1.jpg	bbc.com	news_images/1749795918_57081.jpg	bn	World	t	{"template1": "edited_images/1749795918_57081_template1.jpg"}	2025-06-13 06:25:18.674931+00	2025-06-13 06:30:02.258977+00
+9143	বাংলাদেশ দলে সফল হতে পারবেন মেহেদী হাসান মিরাজ?	মাশরাফি-সাকিবদের দীক্ষা কাজে লাগানোর প্রত্যয় মিরাজের	https://bangla.thedailystar.net//sports/cricket/news-679316	https://tds-images-bn.thedailystar.net/sites/default/files/styles/very_big_1/public/images/2023/12/06/miraz.jpg	bangla.thedailystar.net	news_images/1749796532_54233.jpg	bn	Sports	t	{"template2": "edited_images/1749796532_54233_template2.jpg", "template4": "edited_images/1749796532_54233_template4.jpg"}	2025-06-13 06:35:32.350742+00	2025-06-13 06:40:26.456714+00
+9144		নিখোঁজের পর মিলল ব্যবসায়ীর ৬ টুকরো লাশ	https://www.bd-pratidin.com/city-news/2025/06/13/1125834	https://cdn.bd-pratidin.com/public/news_images/2025/06/13/1749787104-6fd33470dea458ab90e18c964caa6eb9.jpg	bd-pratidin.com	news_images/1749797131_29919.jpg	bn	City News	t	{"template2": "edited_images/1749797131_29919_template2.jpg"}	2025-06-13 06:45:31.438778+00	2025-06-13 06:50:02.023522+00
+9140	বার্সা-রিয়াল হলে আমাকে বরখাস্ত করে দিতো: গার্দিওলা	বার্সা-রিয়াল হলে আমাকে বরখাস্ত করে দিতো: গার্দিওলা	https://www.jagonews24.com/sports/football/1028578	https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/dfh-20250613084632.jpg	jagonews24.com	news_images/1749796212_68994.jpg	bn	Football	t	{"template2": "edited_images/1749796212_68994_template2.jpg", "template5": "edited_images/1749796212_68994_template5.jpg"}	2025-06-13 06:30:12.488696+00	2025-06-13 06:35:21.312021+00
+9141	সাফ অনূর্ধ্ব-২০ নারী চ্যাম্পিয়নশিপ থেকে ভারতের নাম প্রত্যাহার	সাফ অনূর্ধ্ব-২০ নারী চ্যাম্পিয়নশিপ থেকে ভারতের নাম প্রত্যাহার	https://www.jagonews24.com/sports/football/1028511	https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/india-women-20250612183805.jpg	jagonews24.com	news_images/1749796213_4962.jpg	bn	Football	t	{"template1": "edited_images/1749796213_4962_template1.jpg", "template2": "edited_images/1749796213_4962_template2.jpg"}	2025-06-13 06:30:13.335893+00	2025-06-13 06:35:32.436382+00
+9142		লাইভ, পাল্টা একশো ড্রোন ছুঁড়েছে  ইরান - দাবি ইসরায়েলের	https://www.bbc.com/bengali/live/cd0l15j3jnzt	https://ichef.bbci.co.uk/ace/ws/999/cpsprodpb/5cef/live/3f3063c0-481e-11f0-84b6-6bf0f66205f1.jpg	bbc.com	news_images/1749796514_43480.jpg	bn	World	t	{"template2": "edited_images/1749796514_43480_template2.jpg"}	2025-06-13 06:35:14.535932+00	2025-06-13 06:40:01.923861+00
+9146	ওয়েস্ট ইন্ডিজের বিপক্ষে ঐতিহাসিক সিরিজ খেলবে নেপাল	ওয়েস্ট ইন্ডিজের বিপক্ষে ঐতিহাসিক সিরিজ খেলবে নেপাল	https://www.jagonews24.com/sports/cricket/1028607	https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/west-indies-20250613113557.jpg	jagonews24.com	news_images/1749798312_56063.jpg	bn	Cricket	t	{"template4": "edited_images/1749798312_56063_template4.jpg", "template5": "edited_images/1749798312_56063_template5.jpg", "template6": "edited_images/1749798312_56063_template6.jpg"}	2025-06-13 07:05:12.091859+00	2025-06-13 07:10:24.618058+00
+9145	আওয়ামী লীগের বর্তমান পরিণতি দেখে ‘খুব মন খারাপ’ সাবেক রাষ্ট্রপতি আবদুল হামিদের। তিনি কাছের মানুষদের প্রায়ই বলেন, গত ১৬ বছরে ...	‘আ.লীগের ভুল ছিল, আজকের অবস্থা ভুলেরই শাস্তি’	https://www.jugantor.com/politics/964583	https://cdn.jugantor.com/assets/news_photos/2025/06/13/Abdul-Hamid-684b35aa92a08.jpg	jugantor.com	news_images/1749798306_62683.jpg	bn	Politics	t	{"template4": "edited_images/1749798306_62683_template4.jpg"}	2025-06-13 07:05:06.822593+00	2025-06-13 07:10:02.210542+00
 \.
 
 
@@ -1290,27 +1298,27 @@ COPY public.django_content_type (id, app_label, model) FROM stdin;
 --
 
 COPY public.django_migrations (id, app, name, applied) FROM stdin;
-1	News	0001_initial	2025-06-13 00:29:54.477025+00
-2	News	0002_remove_news_edited_image	2025-06-13 00:29:54.480788+00
-3	TestApp	0001_initial	2025-06-13 00:29:54.487671+00
-4	contenttypes	0001_initial	2025-06-13 00:29:54.495365+00
-5	auth	0001_initial	2025-06-13 00:29:54.559747+00
-6	admin	0001_initial	2025-06-13 00:29:54.589239+00
-7	admin	0002_logentry_remove_auto_add	2025-06-13 00:29:54.610533+00
-8	admin	0003_logentry_add_action_flag_choices	2025-06-13 00:29:54.626729+00
-9	contenttypes	0002_remove_content_type_name	2025-06-13 00:29:54.6576+00
-10	auth	0002_alter_permission_name_max_length	2025-06-13 00:29:54.668191+00
-11	auth	0003_alter_user_email_max_length	2025-06-13 00:29:54.675934+00
-12	auth	0004_alter_user_username_opts	2025-06-13 00:29:54.682728+00
-13	auth	0005_alter_user_last_login_null	2025-06-13 00:29:54.68999+00
-14	auth	0006_require_contenttypes_0002	2025-06-13 00:29:54.691072+00
-15	auth	0007_alter_validators_add_error_messages	2025-06-13 00:29:54.700085+00
-16	auth	0008_alter_user_username_max_length	2025-06-13 00:29:54.745006+00
-17	auth	0009_alter_user_last_name_max_length	2025-06-13 00:29:54.753149+00
-18	auth	0010_alter_group_name_max_length	2025-06-13 00:29:54.762568+00
-19	auth	0011_update_proxy_permissions	2025-06-13 00:29:54.771804+00
-20	auth	0012_alter_user_first_name_max_length	2025-06-13 00:29:54.779761+00
-21	sessions	0001_initial	2025-06-13 00:29:54.788776+00
+1	News	0001_initial	2025-06-13 06:17:01.810614+00
+2	News	0002_remove_news_edited_image	2025-06-13 06:17:01.815887+00
+3	TestApp	0001_initial	2025-06-13 06:17:01.823029+00
+4	contenttypes	0001_initial	2025-06-13 06:17:01.844979+00
+5	auth	0001_initial	2025-06-13 06:17:01.917736+00
+6	admin	0001_initial	2025-06-13 06:17:01.933882+00
+7	admin	0002_logentry_remove_auto_add	2025-06-13 06:17:01.942034+00
+8	admin	0003_logentry_add_action_flag_choices	2025-06-13 06:17:01.948927+00
+9	contenttypes	0002_remove_content_type_name	2025-06-13 06:17:01.962831+00
+10	auth	0002_alter_permission_name_max_length	2025-06-13 06:17:01.970106+00
+11	auth	0003_alter_user_email_max_length	2025-06-13 06:17:01.977161+00
+12	auth	0004_alter_user_username_opts	2025-06-13 06:17:01.986919+00
+13	auth	0005_alter_user_last_login_null	2025-06-13 06:17:01.995854+00
+14	auth	0006_require_contenttypes_0002	2025-06-13 06:17:01.997038+00
+15	auth	0007_alter_validators_add_error_messages	2025-06-13 06:17:02.005337+00
+16	auth	0008_alter_user_username_max_length	2025-06-13 06:17:02.046177+00
+17	auth	0009_alter_user_last_name_max_length	2025-06-13 06:17:02.05425+00
+18	auth	0010_alter_group_name_max_length	2025-06-13 06:17:02.063436+00
+19	auth	0011_update_proxy_permissions	2025-06-13 06:17:02.072074+00
+20	auth	0012_alter_user_first_name_max_length	2025-06-13 06:17:02.082777+00
+21	sessions	0001_initial	2025-06-13 06:17:02.100429+00
 \.
 
 
@@ -1328,7 +1336,7 @@ rxtsmikgvyg7crkfphizdx9yntw4lqvv	.eJxVjDsOwjAQBe_iGln-ZR1T0nMGy7v24gBypDipEHeHSC
 -- Name: News_news_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."News_news_id_seq"', 9138, true);
+SELECT pg_catalog.setval('public."News_news_id_seq"', 9146, true);
 
 
 --
