@@ -1161,6 +1161,7 @@ COPY public."News_news" (id, intro, title, url, image_url, source, image, type, 
 9161	এই উচ্চপর্যায়ের সাক্ষাৎ ইতোমধ্যেই দেশের রাজনৈতিক অঙ্গনে ব্যাপক আগ্রহ সৃষ্টি করেছে। সবাই এখন লন্ডনের দিকে তাকিয়ে রয়েছেন। কারণ অনেকেই মনে ...	এজেন্ডা ও ফল বিএনপির জন্য কতটা ইতিবাচক হবে?	https://www.jugantor.com/politics/964818	https://cdn.jugantor.com/assets/news_photos/2025/06/13/Younus-tarek-684bcc6761f87.jpg	jugantor.com	news_images/1749806407_16878.jpg	bn	Politics	t	{"template1": "edited_images/1749806407_16878_template1.jpg"}	2025-06-13 09:20:07.047764+00	2025-06-13 09:25:02.772677+00
 9194		সংবাদ সম্মেলন ডেকেছে গণঅধিকার পরিষদ, বিকালে বিক্ষোভ	https://www.bd-pratidin.com/minister-spake/2025/06/13/1125861	https://cdn.bd-pratidin.com/public/news_images/2025/06/13/1749800146-0fe2139b6f9163c35648cb82bdd0a4d0.jpg	bd-pratidin.com	news_images/1749814838_23409.jpg	bn	Politics	t	{"template1": "edited_images/1749814838_23409_template1.jpg"}	2025-06-13 11:40:38.057464+00	2025-06-13 11:45:02.421545+00
 9176	পাঁচ টেস্টের ইংল্যান্ড সফরের আগে ভারতের দল তাদের একমাত্র প্রস্তুতি ম্যাচটিকে ‘গোপন’ রেখেছে ...	গোপনে টেস্টের প্রস্তুতি, ইংল্যান্ডকে চমকে দিতে যে ফন্দি আঁটছে ভারত	https://www.jugantor.com/sports/964800	https://cdn.jugantor.com/assets/news_photos/2025/06/13/India-Test-(1)-684bba2149982.jpg	jugantor.com	news_images/1749809111_54529.jpg	bn	Sports	t	{"template1": "edited_images/1749809111_54529_template1.jpg", "template4": "edited_images/1749809111_54529_template4.jpg"}	2025-06-13 10:05:11.067383+00	2025-06-13 10:10:02.519627+00
+9169	বেশি সময় ধরে অধিনায়ত্ব দেওয়ার পক্ষে মিরাজ	বেশি সময় ধরে অধিনায়ত্ব দেওয়ার পক্ষে মিরাজ	https://www.jagonews24.com/sports/cricket/1028635	https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/miraz-20250613143531.jpg	jagonews24.com	news_images/1749807910_2470.jpg	bn	Cricket	t	{"template2": "edited_images/1749807910_2470_template2.jpg", "template4": "edited_images/1749807910_2470_template4.jpg", "template5": "edited_images/1749807910_2470_template5.jpg"}	2025-06-13 09:45:10.432243+00	2025-06-13 09:50:26.596609+00
 9162	নিউজিল্যান্ডের তারকা ওপেনার ফিন অ্যালেন নতুন এক কীর্তি গড়ে বসলেন। মেজর লিগ ক্রিকেটের নতুন মৌসুমের প্রথম ম্যাচেই বাজিমাত করলেন ...	১৯ ছক্কায় ১৫১, বিশ্বরেকর্ড গড়লেন ফিন অ্যালেন	https://www.jugantor.com/sports/964787	https://cdn.jugantor.com/assets/news_photos/2025/06/13/Finn-Allen-684bab5b27524.jpg	jugantor.com	news_images/1749806410_21111.jpg	bn	Sports	t	{"template1": "edited_images/1749806410_21111_template1.jpg", "template5": "edited_images/1749806410_21111_template5.jpg"}	2025-06-13 09:20:10.159651+00	2025-06-13 09:25:24.279096+00
 9163	আমি এখন যে কথাটি বলবো তা খুব একটা সমর্থন পাবেনা জানি। কারণ ফেসবুক এখন ডান ও বামপন্থি একটিভিস্টদের প্রচারণায় দ্বিখণ্ডিত। ...	মধ্যপন্থা থেকে সরাবার চেষ্টা কখনোই বিএনপির স্বার্থানুকূল নয়: মারুফ কামাল খান	https://www.jugantor.com/politics/964827	https://cdn.jugantor.com/assets/news_photos/2025/06/13/maruf-kamal-khan-684bd73240b97.jpg	jugantor.com	news_images/1749806707_62483.jpg	bn	Politics	t	{"template4": "edited_images/1749806707_62483_template4.jpg"}	2025-06-13 09:25:07.549223+00	2025-06-13 09:30:02.374725+00
 9164		লাইভ, ইসরায়েলি হামলায় অন্তত ছয় জন পরমাণু বিজ্ঞানী নিহত, জানিয়েছে ইরান	https://www.bbc.com/bengali/live/cd0l15j3jnzt	https://ichef.bbci.co.uk/ace/ws/999/cpsprodpb/02b6/live/c9753160-4836-11f0-9471-e380f647874e.jpg	bbc.com	news_images/1749806714_75289.jpg	bn	World	t	{"template2": "edited_images/1749806714_75289_template2.jpg"}	2025-06-13 09:25:14.624567+00	2025-06-13 09:30:10.075886+00
@@ -1172,7 +1173,6 @@ COPY public."News_news" (id, intro, title, url, image_url, source, image, type, 
 9168	আসছে মাসে বাংলাদেশ সফরে আসবে পাকিস্তান। তবে সে সফরে বাবর আজম, মোহাম্মদ রিজওয়ান ও শাহীন আফ্রিদিদের আসার সম্ভাবনা কম বলেই ...	বাবর, রিজওয়ানদের ছাড়াই বাংলাদেশে আসতে চাইছে পাকিস্তান	https://www.jugantor.com/sports/964794	https://cdn.jugantor.com/assets/news_photos/2025/06/13/Babar-and-Rizwan-684bb54cb0d48.jpg	jugantor.com	news_images/1749807320_45583.jpg	bn	Sports	t	{"template3": "edited_images/1749807320_45583_template3.jpg"}	2025-06-13 09:35:20.148599+00	2025-06-13 09:40:02.446222+00
 9167	অন্তর্বর্তী সরকারের প্রধান উপদেষ্টা ড. মুহাম্মদ ইউনূসের সঙ্গে তারেক রহমানের ‘ওয়ান টু ওয়ান’ গুরুত্বপূর্ণ বৈঠক শুরু হয়েছে। এর আগে যুক্তরাজ্যের ...	ড. ইউনূসের সঙ্গে তারেক রহমানের ‘ওয়ান টু ওয়ান’ বৈঠক চলছে	https://www.jugantor.com/politics/964835	https://cdn.jugantor.com/assets/news_photos/2025/06/13/tarek-684bdc03801f8.jpg	jugantor.com	news_images/1749807316_73414.jpg	bn	Politics	t	{"template6": "edited_images/1749807316_73414_template6.jpg"}	2025-06-13 09:35:16.541882+00	2025-06-13 09:40:12.06095+00
 9170		আম্মা সালাম জানিয়েছেন আপনাকে, প্রধান উপদেষ্টাকে তারেক রহমান	https://www.bd-pratidin.com/national/2025/06/13/1125875	https://cdn.bd-pratidin.com/public/news_images/2025/06/13/1749807239-de73bee0f6c6226b420c9cb02b324452.jpg	bd-pratidin.com	news_images/1749807937_85495.jpg	bn	National	t	{"template6": "edited_images/1749807937_85495_template6.jpg"}	2025-06-13 09:45:37.84768+00	2025-06-13 09:50:11.579507+00
-9169	বেশি সময় ধরে অধিনায়ত্ব দেওয়ার পক্ষে মিরাজ	বেশি সময় ধরে অধিনায়ত্ব দেওয়ার পক্ষে মিরাজ	https://www.jagonews24.com/sports/cricket/1028635	https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/miraz-20250613143531.jpg	jagonews24.com	news_images/1749807910_2470.jpg	bn	Cricket	t	{"template2": "edited_images/1749807910_2470_template2.jpg", "template4": "edited_images/1749807910_2470_template4.jpg", "template5": "edited_images/1749807910_2470_template5.jpg"}	2025-06-13 09:45:10.432243+00	2025-06-13 09:50:26.596609+00
 9175	অন্তর্বর্তীকালীন সরকারের জাতীয় নিরাপত্তা উপদেষ্টা ড. খলিলুর রহমান ও বিএনপির স্থায়ী কমিটির সদস্য আমীর খসরু মাহমুদ চৌধুরীর মধ্যে লন্ডনে সাক্ষাৎ ...	লন্ডনে খলিলুর রহমান ও আমীর খসরুর সাক্ষাৎ	https://www.jugantor.com/politics/964838	https://cdn.jugantor.com/assets/news_photos/2025/06/13/Amir-khosru-684be7fb2ae9d.jpg	jugantor.com	news_images/1749809107_45285.jpg	bn	Politics	t	{"template3": "edited_images/1749809107_45285_template3.jpg"}	2025-06-13 10:05:07.46345+00	2025-06-13 10:10:10.00101+00
 9172	বাংলাদেশ সফরেও বাবর-রিজওয়ান-শাহিনকে প্রয়োজন নেই পাকিস্তানের	বাংলাদেশ সফরেও বাবর-রিজওয়ান-শাহিনকে প্রয়োজন নেই পাকিস্তানের	https://www.jagonews24.com/sports/cricket/1028650	https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/babar-rizwan-and-shaheen-20250613154504.jpg	jagonews24.com	news_images/1749808511_80988.jpg	bn	Cricket	t	{"template1": "edited_images/1749808511_80988_template1.jpg", "template4": "edited_images/1749808511_80988_template4.jpg", "template6": "edited_images/1749808511_80988_template6.jpg"}	2025-06-13 09:55:11.24227+00	2025-06-13 10:00:21.950548+00
 9173		দর্শনার্থীদের জন্য খুলে দেওয়া হলো রবীন্দ্র কাছারিবাড়ি, ঘটনার বর্ণনা দিল মন্ত্রণালয়	https://www.bd-pratidin.com/national/2025/06/13/1125877	https://cdn.bd-pratidin.com/public/news_images/2025/06/13/1749808526-872ef25c44a99236d5b7e5d437468094.jpg	bd-pratidin.com	news_images/1749808841_28118.jpg	bn	National	t	{"template2": "edited_images/1749808841_28118_template2.jpg"}	2025-06-13 10:00:41.565816+00	2025-06-13 10:05:02.650879+00
@@ -1197,6 +1197,12 @@ COPY public."News_news" (id, intro, title, url, image_url, source, image, type, 
 9188		বাংলাদেশের বিরুদ্ধে ভয়ঙ্কর প্রোপাগান্ডা মিথ্যা প্রমাণ করেছে স্বাধীন ফ্যাক্ট-চেকার : উপদেষ্টা আসিফ	https://www.bd-pratidin.com/national/2025/06/13/1125892	https://cdn.bd-pratidin.com/public/news_images/2025/06/13/1749812401-93df0a2d20598f3ccd1e7266b12d818b.jpg	bd-pratidin.com	news_images/1749812729_97402.jpg	bn	National	t	{"template3": "edited_images/1749812729_97402_template3.jpg"}	2025-06-13 11:05:29.534725+00	2025-06-13 11:10:02.540281+00
 9190	অন্তর্বর্তী সরকারের প্রধান উপদেষ্টা অধ্যাপক মুহাম্মদ ইউনূসের সঙ্গে বৈঠকে রোজার আগে ভোটের প্রস্তাব দিয়েছেন বিএনপির ভারপ্রাপ্ত চেয়ারম্যান তারেক রহমান। ...	রোজার আগে ভোটের প্রস্তাব তারেক রহমানের	https://www.jugantor.com/politics/964861	https://cdn.jugantor.com/assets/news_photos/2025/06/13/tarek-684bf6a72c9c0-684bfa5102118.jpg	jugantor.com	news_images/1749813306_17785.jpg	bn	Politics	t	{"template1": "edited_images/1749813306_17785_template1.jpg"}	2025-06-13 11:15:06.223123+00	2025-06-13 11:20:02.532957+00
 9189	সাকিব আল হাসান বহু দিন ধরে বাংলাদেশের ক্রিকেট থেকে ব্রাত্য ...	সাকিবের সঙ্গে বাংলাদেশ ক্রিকেট নিয়ে যে কথা হলো মিরাজের	https://www.jugantor.com/sports/964834	https://cdn.jugantor.com/assets/news_photos/2025/06/13/Shakib-Miraz-(1)-684bdb91ceb4b.jpg	jugantor.com	news_images/1749813067_28650.jpg	bn	Sports	t	{"template2": "edited_images/1749813067_28650_template2.jpg", "template4": "edited_images/1749813067_28650_template4.jpg"}	2025-06-13 11:11:07.836834+00	2025-06-13 11:15:12.633129+00
+9200		লাইভ, ইরানকে পারমাণবিক চুক্তির আহ্বান ট্রাম্পের, নইলে আরও 'ভয়াবহ হামলার' হুঁশিয়ারি	https://www.bbc.com/bengali/live/cd0l15j3jnzt	https://ichef.bbci.co.uk/ace/ws/999/cpsprodpb/fc3a/live/39b091c0-484d-11f0-bbaa-4bc03e0665b7.jpg	bbc.com	news_images/1749816281_91491.jpg	bn	World	f	{}	2025-06-13 12:04:41.80742+00	2025-06-13 12:04:41.809264+00
+9202	আন্তর্জাতিক আইন ও সার্বভৌমত্ব লঙ্ঘন করে ইসরাইল ইরানে চালানো বর্বরোচিত আগ্রাসনের তীব্র নিন্দা ও প্রতিবাদ জানিয়েছে জাতীয় বিপ্লবী পরিষদ। ...	ইরানে ইসরাইলি আগ্রাসনের নিন্দা জাতীয় বিপ্লবী পরিষদের	https://www.jugantor.com/politics/964866	https://cdn.jugantor.com/assets/news_photos/2025/06/13/Untitled-1-684bfff28a790.jpg	jugantor.com	news_images/1749817822_97634.jpg	bn	Politics	t	{"template1": "edited_images/1749817822_97634_template1.jpg"}	2025-06-13 12:30:22.04069+00	2025-06-13 12:35:02.507605+00
+9203		দেশে ২৪ ঘণ্টায় ১৫ জনের করোনা শনাক্ত	https://www.bd-pratidin.com/health-tips/2025/06/12/1125621	https://cdn.bd-pratidin.com/public/news_images/2025/06/12/1749739689-cafb798561e675cce1e55a0f1a1ed611.jpg	bd-pratidin.com	news_images/1749817847_16768.jpg	bn	Health	t	{"template1": "edited_images/1749817847_16768_template1.jpg"}	2025-06-13 12:30:47.49435+00	2025-06-13 12:35:12.204363+00
+9201	ইংল্যান্ডের বিপক্ষে টেস্ট সিরিজ খেলতে এখন দেশটিতে অবস্থান করছে ভারতীয় দল। সেখানে শুক্রবার শেষ প্রস্তুতি ম্যাচ খেলার ...	ইংল্যান্ড সিরিজ রেখে হঠাৎ ভারতে ফিরছেন কোচ গম্ভীর	https://www.jugantor.com/sports/964862	https://cdn.jugantor.com/assets/news_photos/2025/06/13/gambhir-684bfb8fde6ab.jpg	jugantor.com	news_images/1749817508_10107.jpg	bn	Sports	t	{"template5": "edited_images/1749817508_10107_template5.jpg", "template6": "edited_images/1749817508_10107_template6.jpg"}	2025-06-13 12:25:08.639826+00	2025-06-13 12:30:13.415931+00
+9205	সহযোগী দেশগুলোর মধ্যে বরাবরই আগ্রাসী ব্যাটিংয়ের দিক দিয়ে এগিয়ে নেদারল্যান্ডস। এবার তো রানের ফোয়ারা ছুটিয়ে ...	ওয়ানডেতে রান তাড়ার বিশ্বরেকর্ড নেদারল্যান্ডসের	https://www.jugantor.com/sports/964871	https://cdn.jugantor.com/assets/news_photos/2025/06/13/netherlands-vs-scotland-684c06049e291.jpg	jugantor.com	news_images/1749818710_85395.jpg	bn	Sports	t	{"template6": "edited_images/1749818710_85395_template6.jpg"}	2025-06-13 12:45:10.476055+00	2025-06-13 12:50:02.467905+00
+9204		ড. ইউনূস ও তারেক রহমানের বৈঠকে অনিশ্চয়তা কেটে গেছে: মির্জা ফখরুল	https://www.bd-pratidin.com/minister-spake/2025/06/13/1125900	https://cdn.bd-pratidin.com/public/news_images/2025/06/13/1749814332-7e7ed206ba7a5cfc02b67f918e2c1b8d.jpg	bd-pratidin.com	news_images/1749818133_76137.jpg	bn	Politics	t	{"template6": "edited_images/1749818133_76137_template6.jpg"}	2025-06-13 12:35:33.391121+00	2025-06-13 12:40:01.984544+00
 \.
 
 
@@ -1351,27 +1357,27 @@ COPY public.django_content_type (id, app_label, model) FROM stdin;
 --
 
 COPY public.django_migrations (id, app, name, applied) FROM stdin;
-1	News	0001_initial	2025-06-13 06:17:01.810614+00
-2	News	0002_remove_news_edited_image	2025-06-13 06:17:01.815887+00
-3	TestApp	0001_initial	2025-06-13 06:17:01.823029+00
-4	contenttypes	0001_initial	2025-06-13 06:17:01.844979+00
-5	auth	0001_initial	2025-06-13 06:17:01.917736+00
-6	admin	0001_initial	2025-06-13 06:17:01.933882+00
-7	admin	0002_logentry_remove_auto_add	2025-06-13 06:17:01.942034+00
-8	admin	0003_logentry_add_action_flag_choices	2025-06-13 06:17:01.948927+00
-9	contenttypes	0002_remove_content_type_name	2025-06-13 06:17:01.962831+00
-10	auth	0002_alter_permission_name_max_length	2025-06-13 06:17:01.970106+00
-11	auth	0003_alter_user_email_max_length	2025-06-13 06:17:01.977161+00
-12	auth	0004_alter_user_username_opts	2025-06-13 06:17:01.986919+00
-13	auth	0005_alter_user_last_login_null	2025-06-13 06:17:01.995854+00
-14	auth	0006_require_contenttypes_0002	2025-06-13 06:17:01.997038+00
-15	auth	0007_alter_validators_add_error_messages	2025-06-13 06:17:02.005337+00
-16	auth	0008_alter_user_username_max_length	2025-06-13 06:17:02.046177+00
-17	auth	0009_alter_user_last_name_max_length	2025-06-13 06:17:02.05425+00
-18	auth	0010_alter_group_name_max_length	2025-06-13 06:17:02.063436+00
-19	auth	0011_update_proxy_permissions	2025-06-13 06:17:02.072074+00
-20	auth	0012_alter_user_first_name_max_length	2025-06-13 06:17:02.082777+00
-21	sessions	0001_initial	2025-06-13 06:17:02.100429+00
+1	News	0001_initial	2025-06-13 12:04:11.693805+00
+2	News	0002_remove_news_edited_image	2025-06-13 12:04:11.698041+00
+3	TestApp	0001_initial	2025-06-13 12:04:11.704333+00
+4	contenttypes	0001_initial	2025-06-13 12:04:11.712403+00
+5	auth	0001_initial	2025-06-13 12:04:11.768303+00
+6	admin	0001_initial	2025-06-13 12:04:11.790373+00
+7	admin	0002_logentry_remove_auto_add	2025-06-13 12:04:11.799012+00
+8	admin	0003_logentry_add_action_flag_choices	2025-06-13 12:04:11.805844+00
+9	contenttypes	0002_remove_content_type_name	2025-06-13 12:04:11.821713+00
+10	auth	0002_alter_permission_name_max_length	2025-06-13 12:04:11.828957+00
+11	auth	0003_alter_user_email_max_length	2025-06-13 12:04:11.836545+00
+12	auth	0004_alter_user_username_opts	2025-06-13 12:04:11.843016+00
+13	auth	0005_alter_user_last_login_null	2025-06-13 12:04:11.850199+00
+14	auth	0006_require_contenttypes_0002	2025-06-13 12:04:11.851203+00
+15	auth	0007_alter_validators_add_error_messages	2025-06-13 12:04:11.859904+00
+16	auth	0008_alter_user_username_max_length	2025-06-13 12:04:11.899902+00
+17	auth	0009_alter_user_last_name_max_length	2025-06-13 12:04:11.907172+00
+18	auth	0010_alter_group_name_max_length	2025-06-13 12:04:11.914673+00
+19	auth	0011_update_proxy_permissions	2025-06-13 12:04:11.922148+00
+20	auth	0012_alter_user_first_name_max_length	2025-06-13 12:04:11.928596+00
+21	sessions	0001_initial	2025-06-13 12:04:11.936828+00
 \.
 
 
@@ -1389,7 +1395,7 @@ rxtsmikgvyg7crkfphizdx9yntw4lqvv	.eJxVjDsOwjAQBe_iGln-ZR1T0nMGy7v24gBypDipEHeHSC
 -- Name: News_news_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."News_news_id_seq"', 9199, true);
+SELECT pg_catalog.setval('public."News_news_id_seq"', 9205, true);
 
 
 --
