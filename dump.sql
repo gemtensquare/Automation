@@ -1406,6 +1406,8 @@ COPY public."News_news" (id, intro, title, url, image_url, source, image, type, 
 9406	গত বৃহস্পতিবার লন্ডনে হৃদরোগে আক্রান্ত হয়ে মারা যান বলিউড অভিনেত্রী কারিশমা কাপুরের সাবেক স্বামী ভারতের অন্যতম প্রভাবশালী শিল্পপতি সঞ্জয় কাপুর। ...	কত টাকার সম্পদ রেখে গেছেন কারিশমার সাবেক স্বামী	https://www.jugantor.com/entertainment/965239	https://cdn.jugantor.com/assets/news_photos/2025/06/14/Karisma-684d3ac27ae91.jpg	jugantor.com	news_images/1749921012_6391.jpg	bn	Entertainment	t	{"template5": "edited_images/1749921012_6391_template5.jpg", "template7": "edited_images/1749921012_6391_template7.jpg"}	2025-06-14 17:10:12.276028+00	2025-06-14 17:15:21.412488+00
 9407	দীর্ঘদিনের জল্পনার অবসান ঘটিয়ে অবশেষে মুখ খুললেন জনপ্রিয় ব্রিটিশ গায়িকা ডুয়া লিপা। গুঞ্জন ছিল, তিনি ব্রিটিশ অভিনেতা ক্যালাম টার্নারের সঙ্গে ...	নীরবে বাগদান, মুখ খুললেন ডুয়া লিপা	https://www.jugantor.com/entertainment/965241	https://cdn.jugantor.com/assets/news_photos/2025/06/14/Dua-Lipi-684d43ad5d6b1.jpg	jugantor.com	news_images/1749921612_355.jpg	bn	Entertainment	t	{"template2": "edited_images/1749921612_355_template2.jpg", "template7": "edited_images/1749921612_355_template7.jpg"}	2025-06-14 17:20:12.681635+00	2025-06-14 17:25:10.455267+00
 9408		ইরান-ইসরায়েল পাল্টাপাল্টি হুমকি,  যুক্তরাষ্ট্রের সাথে পারমাণবিক আলোচনা বাতিল	https://www.bbc.com/bengali/live/cdr51e7zv52t	https://ichef.bbci.co.uk/ace/ws/999/cpsprodpb/856d/live/7ba95b10-4916-11f0-bbaa-4bc03e0665b7.jpg	bbc.com	news_images/1749922213_7098.jpg	bn	World	t	{"template5": "edited_images/1749922213_7098_template5.jpg"}	2025-06-14 17:30:13.125452+00	2025-06-14 17:35:02.28062+00
+9409		নির্বাচন নিয়ে ইতিবাচক সিদ্ধান্ত মানুষের জন্য স্বস্তির বার্তা : জাতীয়তাবাদী সমমনা জোট	https://www.bd-pratidin.com/minister-spake/2025/06/14/1126244	https://cdn.bd-pratidin.com/public/news_images/2025/06/14/1749899579-2be3b805eb9251568fbfc44a93cce4ef.jpg	bd-pratidin.com	news_images/1749924032_18011.jpg	bn	Politics	t	{"template3": "edited_images/1749924032_18011_template3.jpg"}	2025-06-14 18:00:32.159338+00	2025-06-14 18:05:02.69764+00
+9410	গলে আজ সারাদিন বৃষ্টি, হোটেলবন্দী শান্তরা	গলে আজ সারাদিন বৃষ্টি, হোটেলবন্দী শান্তরা	https://www.jagonews24.com/sports/cricket/1028917	https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/bd-team-practice-20250614220021.jpg	jagonews24.com	news_images/1749926411_62409.jpg	bn	Cricket	f	{}	2025-06-14 18:40:11.423611+00	2025-06-14 18:40:11.425397+00
 \.
 
 
@@ -1560,27 +1562,27 @@ COPY public.django_content_type (id, app_label, model) FROM stdin;
 --
 
 COPY public.django_migrations (id, app, name, applied) FROM stdin;
-1	News	0001_initial	2025-06-14 12:01:47.499043+00
-2	News	0002_remove_news_edited_image	2025-06-14 12:01:47.502372+00
-3	TestApp	0001_initial	2025-06-14 12:01:47.507635+00
-4	contenttypes	0001_initial	2025-06-14 12:01:47.514116+00
-5	auth	0001_initial	2025-06-14 12:01:47.567751+00
-6	admin	0001_initial	2025-06-14 12:01:47.582811+00
-7	admin	0002_logentry_remove_auto_add	2025-06-14 12:01:47.589896+00
-8	admin	0003_logentry_add_action_flag_choices	2025-06-14 12:01:47.595771+00
-9	contenttypes	0002_remove_content_type_name	2025-06-14 12:01:47.610606+00
-10	auth	0002_alter_permission_name_max_length	2025-06-14 12:01:47.617444+00
-11	auth	0003_alter_user_email_max_length	2025-06-14 12:01:47.623629+00
-12	auth	0004_alter_user_username_opts	2025-06-14 12:01:47.630819+00
-13	auth	0005_alter_user_last_login_null	2025-06-14 12:01:47.637511+00
-14	auth	0006_require_contenttypes_0002	2025-06-14 12:01:47.638367+00
-15	auth	0007_alter_validators_add_error_messages	2025-06-14 12:01:47.645906+00
-16	auth	0008_alter_user_username_max_length	2025-06-14 12:01:47.708304+00
-17	auth	0009_alter_user_last_name_max_length	2025-06-14 12:01:47.716019+00
-18	auth	0010_alter_group_name_max_length	2025-06-14 12:01:47.728179+00
-19	auth	0011_update_proxy_permissions	2025-06-14 12:01:47.739278+00
-20	auth	0012_alter_user_first_name_max_length	2025-06-14 12:01:47.751528+00
-21	sessions	0001_initial	2025-06-14 12:01:47.763557+00
+1	News	0001_initial	2025-06-14 17:49:01.90266+00
+2	News	0002_remove_news_edited_image	2025-06-14 17:49:01.906143+00
+3	TestApp	0001_initial	2025-06-14 17:49:01.913526+00
+4	contenttypes	0001_initial	2025-06-14 17:49:01.928167+00
+5	auth	0001_initial	2025-06-14 17:49:01.984187+00
+6	admin	0001_initial	2025-06-14 17:49:02.009789+00
+7	admin	0002_logentry_remove_auto_add	2025-06-14 17:49:02.019284+00
+8	admin	0003_logentry_add_action_flag_choices	2025-06-14 17:49:02.027932+00
+9	contenttypes	0002_remove_content_type_name	2025-06-14 17:49:02.047045+00
+10	auth	0002_alter_permission_name_max_length	2025-06-14 17:49:02.054863+00
+11	auth	0003_alter_user_email_max_length	2025-06-14 17:49:02.06267+00
+12	auth	0004_alter_user_username_opts	2025-06-14 17:49:02.069595+00
+13	auth	0005_alter_user_last_login_null	2025-06-14 17:49:02.077484+00
+14	auth	0006_require_contenttypes_0002	2025-06-14 17:49:02.079028+00
+15	auth	0007_alter_validators_add_error_messages	2025-06-14 17:49:02.087174+00
+16	auth	0008_alter_user_username_max_length	2025-06-14 17:49:02.131951+00
+17	auth	0009_alter_user_last_name_max_length	2025-06-14 17:49:02.143443+00
+18	auth	0010_alter_group_name_max_length	2025-06-14 17:49:02.160999+00
+19	auth	0011_update_proxy_permissions	2025-06-14 17:49:02.17739+00
+20	auth	0012_alter_user_first_name_max_length	2025-06-14 17:49:02.186336+00
+21	sessions	0001_initial	2025-06-14 17:49:02.204006+00
 \.
 
 
@@ -1598,7 +1600,7 @@ rxtsmikgvyg7crkfphizdx9yntw4lqvv	.eJxVjDsOwjAQBe_iGln-ZR1T0nMGy7v24gBypDipEHeHSC
 -- Name: News_news_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."News_news_id_seq"', 9408, true);
+SELECT pg_catalog.setval('public."News_news_id_seq"', 9410, true);
 
 
 --
