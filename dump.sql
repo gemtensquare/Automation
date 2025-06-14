@@ -1361,6 +1361,12 @@ COPY public."News_news" (id, intro, title, url, image_url, source, image, type, 
 9361		কামিন্সদের দাবি আমলে নিচ্ছে না আইসিসি, ২০৩১ পর্যন্ত টেস্ট ফাইনাল লন্ডনেই	https://www.bd-pratidin.com/sports/2025/06/14/1126233	https://cdn.bd-pratidin.com/public/news_images/2025/06/14/1749896988-0412c29576c708cf0155e8de242169b1.jpg	bd-pratidin.com	news_images/1749901834_79901.jpg	bn	Sports	t	{"template1": "edited_images/1749901834_79901_template1.jpg", "template5": "edited_images/1749901834_79901_template5.jpg"}	2025-06-14 11:50:34.164949+00	2025-06-14 11:55:09.042315+00
 9363	তামিম ইকবাল আর সাকিব আল হাসান, ক্যারিয়ারের শুরু থেকে একটা বড় সময় পর্যন্ত ছিলেন হরিহর আত্মা ...	সাকিবের সঙ্গে দ্বন্দ্ব মিটে যাবে, আশা তামিমের	https://www.jugantor.com/sports/965220	https://cdn.jugantor.com/assets/news_photos/2025/06/14/Shakib-Tamim-Embraces-each-other-after-beating-south-africa-684d1ef40c444.jpg	jugantor.com	news_images/1749902408_60913.jpg	bn	Sports	f	{}	2025-06-14 12:00:08.198963+00	2025-06-14 12:00:08.210072+00
 9362	টেস্ট চ্যাম্পিয়নশিপ ফাইনালের আয়োজক হতে চায় ভারত, আইসিসির ‘না’	টেস্ট চ্যাম্পিয়নশিপ ফাইনালের আয়োজক হতে চায় ভারত, আইসিসির ‘না’	https://www.jagonews24.com/sports/cricket/1028859	https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/australia-20250614163335.jpg	jagonews24.com	news_images/1749902110_61763.jpg	bn	Cricket	t	{"template2": "edited_images/1749902110_61763_template2.jpg", "template3": "edited_images/1749902110_61763_template3.jpg", "template4": "edited_images/1749902110_61763_template4.jpg"}	2025-06-14 11:55:10.395933+00	2025-06-14 12:00:08.216612+00
+9364		লাইভ, ইরানে একাধিক শহরে ফের ইসরায়েলি হামলা, যুক্তরাষ্ট্র, যুক্তরাজ্য ও ফ্রান্সকে সতর্ক করলো ইরান	https://www.bbc.com/bengali/live/cdr51e7zv52t	https://ichef.bbci.co.uk/ace/ws/999/cpsprodpb/856d/live/7ba95b10-4916-11f0-bbaa-4bc03e0665b7.jpg	bbc.com	news_images/1749903012_75673.jpg	bn	World	t	{"template3": "edited_images/1749903012_75673_template3.jpg"}	2025-06-14 12:10:12.534527+00	2025-06-14 12:15:02.511965+00
+9365	আইসিসি আয়োজিত টুর্নামেন্টে তাদের ২৭ বছরের লম্বা ট্রফিখরা কেটেছে।	‘চোকার্স’ অপবাদ ঘুচিয়ে টেস্ট চ্যাম্পিয়নশিপের শিরোপা দক্ষিণ আফ্রিকার	https://bangla.thedailystar.net//sports/cricket/news-679551	https://tds-images-bn.thedailystar.net/sites/default/files/styles/very_big_1/public/images/2025/06/14/afp_20250614_62cz7gq_v1_highres_776328111_0.jpg	bangla.thedailystar.net	news_images/1749903033_4391.jpg	bn	Sports	t	{"template1": "edited_images/1749903033_4391_template1.jpg", "template5": "edited_images/1749903033_4391_template5.jpg"}	2025-06-14 12:10:33.688127+00	2025-06-14 12:15:17.789418+00
+9368	অস্ট্রেলিয়ার সিডনিতে সফররত যমুনা ডেনিমস লিমিটেডের ব্যবস্থাপনা পরিচালক, যমুনা গ্রুপের গ্রুপ পরিচালক ও বিজিএমইএ’র পরিচালক সুমাইয়া ইসলাম রোজালিনের সঙ্গে সৌজন্য ...	সিডনিতে যমুনা গ্রুপ পরিচালকের সঙ্গে এবিবিএফ সভাপতির সৌজন্য সাক্ষাৎ	https://www.jugantor.com/economics/964043	https://cdn.jugantor.com/assets/news_photos/2025/06/11/sumaiya-islam-rozalin-68495ab87cae3.jpg	jugantor.com	news_images/1749905106_78624.jpg	bn	Economy	t	{"template3": "edited_images/1749905106_78624_template3.jpg"}	2025-06-14 12:45:06.010904+00	2025-06-14 12:50:02.814733+00
+9366		ইতিহাস গড়ে টেস্ট চ‍্যাম্পিয়নশিপের শিরোপা জিতলো দক্ষিণ আফ্রিকা	https://www.bd-pratidin.com/sports/2025/06/14/1126253	https://cdn.bd-pratidin.com/public/news_images/2025/06/14/1749901630-7a0acabe4a81b794668ec180ee3af888.jpg	bd-pratidin.com	news_images/1749903328_82339.jpg	bn	Sports	t	{"template1": "edited_images/1749903328_82339_template1.jpg", "template2": "edited_images/1749903328_82339_template2.jpg"}	2025-06-14 12:15:28.856242+00	2025-06-14 12:20:09.557313+00
+9367		ইরানে ইসরায়েলের 'নজিরবিহীন' হামলা, মোড় নিতে পারে যেদিকে	https://www.bbc.com/bengali/articles/c8xg0wvglrqo	https://ichef.bbci.co.uk/ace/ws/999/cpsprodpb/da51/live/01714630-48fa-11f0-84b6-6bf0f66205f1.jpg	bbc.com	news_images/1749904513_4893.jpg	bn	World	t	{"template6": "edited_images/1749904513_4893_template6.jpg"}	2025-06-14 12:35:13.609843+00	2025-06-14 12:40:02.204091+00
+9369	এবার ঈদে শীর্ষে অবস্থান করছে 'তাণ্ডব' সিনেমার 'লিচুর বাগানে' গানটি।	ঈদ সিনেমার যেসব গান পছন্দ করছেন দর্শক	https://bangla.thedailystar.net//entertainment/news-679556	https://tds-images-bn.thedailystar.net/sites/default/files/styles/very_big_1/public/images/2025/06/14/75438777-0aef-448f-8761-20b9eb9ae667.jpg	bangla.thedailystar.net	news_images/1749905135_51343.jpg	bn	Entertainment	t	{"template2": "edited_images/1749905135_51343_template2.jpg", "template7": "edited_images/1749905135_51343_template7.jpg"}	2025-06-14 12:45:35.35849+00	2025-06-14 12:50:19.415055+00
 \.
 
 
@@ -1515,27 +1521,27 @@ COPY public.django_content_type (id, app_label, model) FROM stdin;
 --
 
 COPY public.django_migrations (id, app, name, applied) FROM stdin;
-1	News	0001_initial	2025-06-14 06:14:29.225619+00
-2	News	0002_remove_news_edited_image	2025-06-14 06:14:29.228906+00
-3	TestApp	0001_initial	2025-06-14 06:14:29.236938+00
-4	contenttypes	0001_initial	2025-06-14 06:14:29.247864+00
-5	auth	0001_initial	2025-06-14 06:14:29.306342+00
-6	admin	0001_initial	2025-06-14 06:14:29.326197+00
-7	admin	0002_logentry_remove_auto_add	2025-06-14 06:14:29.336306+00
-8	admin	0003_logentry_add_action_flag_choices	2025-06-14 06:14:29.343146+00
-9	contenttypes	0002_remove_content_type_name	2025-06-14 06:14:29.359499+00
-10	auth	0002_alter_permission_name_max_length	2025-06-14 06:14:29.366841+00
-11	auth	0003_alter_user_email_max_length	2025-06-14 06:14:29.374406+00
-12	auth	0004_alter_user_username_opts	2025-06-14 06:14:29.38082+00
-13	auth	0005_alter_user_last_login_null	2025-06-14 06:14:29.388332+00
-14	auth	0006_require_contenttypes_0002	2025-06-14 06:14:29.389296+00
-15	auth	0007_alter_validators_add_error_messages	2025-06-14 06:14:29.39777+00
-16	auth	0008_alter_user_username_max_length	2025-06-14 06:14:29.43737+00
-17	auth	0009_alter_user_last_name_max_length	2025-06-14 06:14:29.445323+00
-18	auth	0010_alter_group_name_max_length	2025-06-14 06:14:29.454166+00
-19	auth	0011_update_proxy_permissions	2025-06-14 06:14:29.462801+00
-20	auth	0012_alter_user_first_name_max_length	2025-06-14 06:14:29.470736+00
-21	sessions	0001_initial	2025-06-14 06:14:29.48057+00
+1	News	0001_initial	2025-06-14 12:01:47.499043+00
+2	News	0002_remove_news_edited_image	2025-06-14 12:01:47.502372+00
+3	TestApp	0001_initial	2025-06-14 12:01:47.507635+00
+4	contenttypes	0001_initial	2025-06-14 12:01:47.514116+00
+5	auth	0001_initial	2025-06-14 12:01:47.567751+00
+6	admin	0001_initial	2025-06-14 12:01:47.582811+00
+7	admin	0002_logentry_remove_auto_add	2025-06-14 12:01:47.589896+00
+8	admin	0003_logentry_add_action_flag_choices	2025-06-14 12:01:47.595771+00
+9	contenttypes	0002_remove_content_type_name	2025-06-14 12:01:47.610606+00
+10	auth	0002_alter_permission_name_max_length	2025-06-14 12:01:47.617444+00
+11	auth	0003_alter_user_email_max_length	2025-06-14 12:01:47.623629+00
+12	auth	0004_alter_user_username_opts	2025-06-14 12:01:47.630819+00
+13	auth	0005_alter_user_last_login_null	2025-06-14 12:01:47.637511+00
+14	auth	0006_require_contenttypes_0002	2025-06-14 12:01:47.638367+00
+15	auth	0007_alter_validators_add_error_messages	2025-06-14 12:01:47.645906+00
+16	auth	0008_alter_user_username_max_length	2025-06-14 12:01:47.708304+00
+17	auth	0009_alter_user_last_name_max_length	2025-06-14 12:01:47.716019+00
+18	auth	0010_alter_group_name_max_length	2025-06-14 12:01:47.728179+00
+19	auth	0011_update_proxy_permissions	2025-06-14 12:01:47.739278+00
+20	auth	0012_alter_user_first_name_max_length	2025-06-14 12:01:47.751528+00
+21	sessions	0001_initial	2025-06-14 12:01:47.763557+00
 \.
 
 
@@ -1553,7 +1559,7 @@ rxtsmikgvyg7crkfphizdx9yntw4lqvv	.eJxVjDsOwjAQBe_iGln-ZR1T0nMGy7v24gBypDipEHeHSC
 -- Name: News_news_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."News_news_id_seq"', 9363, true);
+SELECT pg_catalog.setval('public."News_news_id_seq"', 9369, true);
 
 
 --
