@@ -1411,6 +1411,7 @@ COPY public."News_news" (id, intro, title, url, image_url, source, image, type, 
 9411		ক্রিকেটের আইনে বড়সড় পরিবর্তন আইসিসির	https://www.bd-pratidin.com/sports/2025/06/14/1126310	https://cdn.bd-pratidin.com/public/news_images/2025/06/14/1749915261-f58ae6f5394f4f43ba55420e6ca01a2e.jpg	bd-pratidin.com	news_images/1749927039_36872.jpg	bn	Sports	t	{"template1": "edited_images/1749927039_36872_template1.jpg", "template6": "edited_images/1749927039_36872_template6.jpg"}	2025-06-14 18:50:39.486455+00	2025-06-14 18:55:10.607701+00
 9412	চ্যাম্পিয়ন দক্ষিণ আফ্রিকা কত পেলো প্রাইজমানি, বাংলাদেশ পেলো কত?	চ্যাম্পিয়ন দক্ষিণ আফ্রিকা কত পেলো প্রাইজমানি, বাংলাদেশ পেলো কত?	https://www.jagonews24.com/sports/cricket/1028927	https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/cri-20250615003819.jpg	jagonews24.com	news_images/1749927610_28343.jpg	bn	Cricket	t	{"template1": "edited_images/1749927610_28343_template1.jpg", "template3": "edited_images/1749927610_28343_template3.jpg"}	2025-06-14 19:00:10.384451+00	2025-06-14 19:05:15.963031+00
 9413	জাতিসংঘের অস্তিত্ব এখন বিলুপ্ত করে দেওয়া উচিত বলে মন্তব্য করেছেন ইসলামী আন্দোলন বাংলাদেশের আমির মুফতি সৈয়দ মুহাম্মাদ রেজাউল করীম চরমোনাই ...	জাতিসংঘের অস্তিত্ব এখন বিলুপ্ত করে দেওয়া উচিত: চরমোনাই পির	https://www.jugantor.com/politics/965309	https://cdn.jugantor.com/assets/news_photos/2025/06/14/peer-684d94dc95033.jpg	jugantor.com	news_images/1749929406_15486.jpg	bn	Politics	t	{"template2": "edited_images/1749929406_15486_template2.jpg"}	2025-06-14 19:30:06.307161+00	2025-06-14 19:35:02.124917+00
+9414		সংসদ নির্বাচন অনুষ্ঠানে প্রস্তুত হচ্ছে ইসি	https://www.bd-pratidin.com/national/2025/06/15/1126458	https://cdn.bd-pratidin.com/public/news_images/2025/06/15/1749929338-6a78ea70616c432d9c3205429b28d661.jpg	bd-pratidin.com	news_images/1749933644_5788.jpg	bn	National	f	{}	2025-06-14 20:40:44.067507+00	2025-06-14 20:40:44.069535+00
 \.
 
 
@@ -1603,7 +1604,7 @@ rxtsmikgvyg7crkfphizdx9yntw4lqvv	.eJxVjDsOwjAQBe_iGln-ZR1T0nMGy7v24gBypDipEHeHSC
 -- Name: News_news_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."News_news_id_seq"', 9413, true);
+SELECT pg_catalog.setval('public."News_news_id_seq"', 9414, true);
 
 
 --
