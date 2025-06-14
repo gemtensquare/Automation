@@ -1300,6 +1300,7 @@ COPY public."News_news" (id, intro, title, url, image_url, source, image, type, 
 9301	টিভিতে আজকের খেলা, ১৪ জুন ২০২৫	টিভিতে আজকের খেলা, ১৪ জুন ২০২৫	https://www.jagonews24.com/sports/cricket/1028750	https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/bd-20250614085355.jpg	jagonews24.com	news_images/1749876923_46299.jpg	bn	Cricket	t	{"template4": "edited_images/1749876923_46299_template4.jpg", "template5": "edited_images/1749876923_46299_template5.jpg", "template6": "edited_images/1749876923_46299_template6.jpg"}	2025-06-14 04:55:23.047737+00	2025-06-14 05:01:18.864836+00
 9302		মার্করাম-বাভুমার ব্যাটিং দৃঢ়তায় শিরোপার অনেক কাছে প্রোটিয়ারা	https://www.bd-pratidin.com/sports/2025/06/14/1126155	https://cdn.bd-pratidin.com/public/news_images/2025/06/14/1749876084-c3e03d3c56153fd77965f136158f6fb4.jpg	bd-pratidin.com	news_images/1749877231_6336.jpg	bn	Sports	t	{"template2": "edited_images/1749877231_6336_template2.jpg", "template5": "edited_images/1749877231_6336_template5.jpg"}	2025-06-14 05:00:31.477748+00	2025-06-14 05:05:02.1809+00
 9307	বক্স অফিসে সুপার হিট ‘হাউজফুল ৫’, এক সপ্তাহে কত আয় করেছে সিনেমাটি	বক্স অফিসে সুপার হিট ‘হাউজফুল ৫’, এক সপ্তাহে কত আয় করেছে সিনেমাটি	https://www.jagonews24.com/entertainment/bollywood/1028763	https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/housefull-5-20250614101233.jpg	jagonews24.com	news_images/1749879912_60066.jpg	bn	Entertainment	t	{"template5": "edited_images/1749879912_60066_template5.jpg", "template7": "edited_images/1749879912_60066_template7.jpg"}	2025-06-14 05:45:12.052775+00	2025-06-14 05:50:10.949576+00
+9315		ড. ইউনূস খুব বেশি নিরাপদ নন : মঞ্জুরুল আলম পান্না	https://www.bd-pratidin.com/national/2025/06/14/1126170	https://cdn.bd-pratidin.com/public/news_images/2025/06/14/1749880201-ddbac6792a98673cf32000e4509a6361.jpg	bd-pratidin.com	news_images/1749881707_44218.jpg	bn	National	f	{}	2025-06-14 06:15:07.619161+00	2025-06-14 06:15:07.621066+00
 9304		লাইভ, ইরানের ক্ষেপণাস্ত্র হামলায় ইসরায়েলে অন্তত ৬৩ জন আহত, অনেক অঞ্চলে প্রতিরক্ষা ব্যবস্থা চালু	https://www.bbc.com/bengali/live/cdr51e7zv52t	https://ichef.bbci.co.uk/ace/ws/999/cpsprodpb/ea69/live/cdc8b420-48d2-11f0-84b6-6bf0f66205f1.jpg	bbc.com	news_images/1749878713_53583.jpg	bn	World	t	{"template1": "edited_images/1749878713_53583_template1.jpg"}	2025-06-14 05:25:13.799039+00	2025-06-14 05:30:02.169348+00
 9300	ঈদে প্রচারিত নাটক ‘আশিকি’ দিয়ে আলোচনায় এসেছেন ছোট পর্দার জনপ্রিয় অভিনেতা ফারহান আহমেদ জোভান। এ নাটকটি এক দিনে সর্বোচ্চ ভিউ ...	শাকিব খানের সঙ্গে ছবি ঘিরে জল্পনা, জোভান কি সিনেমায় আসছেন?	https://www.jugantor.com/entertainment/964881	https://cdn.jugantor.com/assets/news_photos/2025/06/13/Untitled-5-684c100103fbc.jpg	jugantor.com	news_images/1749876921_876.jpg	bn	Entertainment	t	{"template4": "edited_images/1749876921_876_template4.jpg", "template7": "edited_images/1749876921_876_template7.jpg"}	2025-06-14 04:55:21.470037+00	2025-06-14 05:00:36.967432+00
 9299	আর মাত্র ৬৯ রান। হলেই দীর্ঘ আইসিসি শিরোপার আক্ষেপটা যাবে ঘুচে। দক্ষিণ আফ্রিকা অবশেষে বুক চিতিয়ে বলতে পারবে, আমরা বিশ্বচ্যাম্পিয়ন। ...	মার্করামের সেঞ্চুরিতে ইতিহাস থেকে ৬৯ রানের দূরত্বে দ. আফ্রিকা	https://www.jugantor.com/sports/964963	https://cdn.jugantor.com/assets/news_photos/2025/06/14/Markram-100-684c68b809ca8.jpg	jugantor.com	news_images/1749876909_81721.jpg	bn	Sports	t	{"template3": "edited_images/1749876909_81721_template3.jpg", "template4": "edited_images/1749876909_81721_template4.jpg"}	2025-06-14 04:55:09.15021+00	2025-06-14 05:00:48.116901+00
@@ -1312,6 +1313,15 @@ COPY public."News_news" (id, intro, title, url, image_url, source, image, type, 
 9311		সন্ধ্যার মধ্যে যেসব অঞ্চলে ঝড়-বৃষ্টির আভাস	https://www.bd-pratidin.com/national/2025/06/14/1126162	https://cdn.bd-pratidin.com/public/news_images/2025/06/14/1749878251-0331f1beab22fb6d25616fda3a99b07b.jpg	bd-pratidin.com	news_images/1749880541_21519.jpg	bn	National	t	{"template5": "edited_images/1749880541_21519_template5.jpg"}	2025-06-14 05:55:41.567254+00	2025-06-14 06:00:19.318254+00
 9312	গত দুই সপ্তাহেরও বেশি সময় ধরে বন্ধ থাকার পর আজ শনিবার সকাল থেকে হাসপাতালটি পুনরায় সেবা কার্যক্রমে ফিরল।	পুরোপুরি চালু হলো জাতীয় চক্ষু বিজ্ঞান ইনস্টিটিউট ও হাসপাতাল	https://bangla.thedailystar.net//health/health-care/hospital/news-679476	https://tds-images-bn.thedailystar.net/sites/default/files/styles/very_big_1/public/images/2024/06/02/ckssu.jpg	bangla.thedailystar.net	news_images/1749881115_88268.jpg	bn	Health	t	{"template6": "edited_images/1749881115_88268_template6.jpg"}	2025-06-14 06:05:15.031669+00	2025-06-14 06:10:02.658374+00
 9313	হুট করে মিরাজকে কেন অধিনায়ক করা হলো, এ নিয়ে ক্রিকেটপাড়ায় আলোচনা-সমালোচনা চলছে ...	ওয়ানডের অধিনায়কত্ব রাখতে চেয়েছিলেন শান্ত, দেয়নি বিসিবি	https://www.jugantor.com/sports/965178	https://cdn.jugantor.com/assets/news_photos/2025/06/14/Shanto-(1)-684ce59dc6661.jpg	jugantor.com	news_images/1749881410_29245.jpg	bn	Sports	f	{}	2025-06-14 06:10:10.75699+00	2025-06-14 06:10:10.758676+00
+9322		ঈদের ১০ দিনের ছুটি শেষে কাল খুলছে অফিস-আদালত	https://www.bd-pratidin.com/national/2025/06/14/1126185	https://cdn.bd-pratidin.com/public/news_images/2025/06/14/1749883702-c9fd6fdf6a48d3cd44e325e95e7cf0b5.jpg	bd-pratidin.com	news_images/1749884730_85673.jpg	bn	National	t	{"template6": "edited_images/1749884730_85673_template6.jpg"}	2025-06-14 07:05:30.051973+00	2025-06-14 07:10:02.197409+00
+9320		এপিবিএন পাবে ভারি অস্ত্র, পুলিশের কাছে থাকবে না মারণাস্ত্র : স্বরাষ্ট্র উপদেষ্টা	https://www.bd-pratidin.com/national/2025/06/14/1126184	https://cdn.bd-pratidin.com/public/news_images/2025/06/14/1749883573-81411b48d333814f2f68fcad7a2b41e7.jpg	bd-pratidin.com	news_images/1749884139_83048.jpg	bn	National	t	{"template3": "edited_images/1749884139_83048_template3.jpg"}	2025-06-14 06:55:39.872621+00	2025-06-14 07:00:01.877512+00
+9317		লাইভ, ইরানের হামলায় ইসরায়েলে নিহত দুইজন, ইরানে হামলা চালিয়ে যাওয়ার ঘোষণা ইসরায়েলের	https://www.bbc.com/bengali/live/cdr51e7zv52t	https://ichef.bbci.co.uk/ace/ws/999/cpsprodpb/05dc/live/e1c7b6e0-48e8-11f0-bbaa-4bc03e0665b7.jpg	bbc.com	news_images/1749883213_45052.jpg	bn	World	t	{"template6": "edited_images/1749883213_45052_template6.jpg"}	2025-06-14 06:40:13.035942+00	2025-06-14 06:45:10.122557+00
+9316	রেকর্ড টান্সফার ফি-তে লিভারপুল যাচ্ছেন লেভারকুসেনের ‘প্লেমেকার’	রেকর্ড টান্সফার ফি-তে লিভারপুল যাচ্ছেন লেভারকুসেনের ‘প্লেমেকার’	https://www.jagonews24.com/sports/football/1028761	https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/foodbol-20250614094418.jpg	jagonews24.com	news_images/1749883211_71111.jpg	bn	Football	t	{"template3": "edited_images/1749883211_71111_template3.jpg", "template4": "edited_images/1749883211_71111_template4.jpg", "template6": "edited_images/1749883211_71111_template6.jpg"}	2025-06-14 06:40:11.33386+00	2025-06-14 06:45:23.381246+00
+9323	রাত পোহালেই শুরু বিশ্বকাপ। ফুটবলে নতুন যুগের সূচনা হতে যাচ্ছে এবারের ফিফা ক্লাব বিশ্বকাপ দিয়ে। ...	৩২ ক্লাবের বৈশ্বিক আসর ২০২৬ বিশ্বকাপেরও মহড়া	https://www.jugantor.com/sports/965180	https://cdn.jugantor.com/assets/news_photos/2025/06/14/Club-World-Cup-684ce95cd7250.jpg	jugantor.com	news_images/1749885012_50570.jpg	bn	Sports	f	{}	2025-06-14 07:10:12.959242+00	2025-06-14 07:10:12.961127+00
+9318		ইসরায়েলে পাল্টা ক্ষেপণাস্ত্র হামলা চালিয়েছে ইরান	https://www.bbc.com/bengali/articles/cvg921x4eddo	https://ichef.bbci.co.uk/ace/ws/999/cpsprodpb/d2fd/live/bf183860-48c8-11f0-bbaa-4bc03e0665b7.jpg	bbc.com	news_images/1749883812_28612.jpg	bn	World	t	{"template1": "edited_images/1749883812_28612_template1.jpg"}	2025-06-14 06:50:12.778856+00	2025-06-14 06:55:01.986922+00
+9319		নির্বাচনের পরেও সব দলের সঙ্গে কাজ করার প্রত্যয় বিএনপির	https://www.bd-pratidin.com/national/2025/06/14/1126172	https://cdn.bd-pratidin.com/public/news_images/2025/06/14/1749881338-0fe2139b6f9163c35648cb82bdd0a4d0.jpg	bd-pratidin.com	news_images/1749883839_94649.jpg	bn	National	t	{"template5": "edited_images/1749883839_94649_template5.jpg"}	2025-06-14 06:50:39.934268+00	2025-06-14 06:55:08.475859+00
+9321	ডিভোর্স না দিয়ে হেমাকে বিয়ে, প্রথম স্ত্রীর সঙ্গেও সরব ধর্মেন্দ্র	ডিভোর্স না দিয়ে হেমাকে বিয়ে, প্রথম স্ত্রীর সঙ্গেও সরব ধর্মেন্দ্র	https://www.jagonews24.com/entertainment/bollywood/1028785	https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/dormandrow-20250614114115.jpg	jagonews24.com	news_images/1749884412_53243.jpg	bn	Entertainment	t	{"template2": "edited_images/1749884412_53243_template2.jpg", "template7": "edited_images/1749884412_53243_template7.jpg"}	2025-06-14 07:00:12.762744+00	2025-06-14 07:05:08.806732+00
+9324	শাকিব খানের ‘তাণ্ডব’ দেখতে হুমড়ি খেয়ে পড়ছে দর্শক। এবারের ঈদে দেশের সিনেমাহলে মুক্তি পাওয়া ছয় সিনেমার মধ্যে ব্যবসা এবং আলোচনা–দুই ...	যুক্তরাষ্ট্র-কানাডার অর্ধশত হলে ‘তাণ্ডব’	https://www.jugantor.com/entertainment/964931	https://cdn.jugantor.com/assets/news_photos/2025/06/13/shakib-684c465cadced.jpg	jugantor.com	news_images/1749885016_35845.jpg	bn	Entertainment	f	{}	2025-06-14 07:10:16.194756+00	2025-06-14 07:10:16.196481+00
 \.
 
 
@@ -1466,27 +1476,27 @@ COPY public.django_content_type (id, app_label, model) FROM stdin;
 --
 
 COPY public.django_migrations (id, app, name, applied) FROM stdin;
-1	News	0001_initial	2025-06-14 00:27:10.419793+00
-2	News	0002_remove_news_edited_image	2025-06-14 00:27:10.425422+00
-3	TestApp	0001_initial	2025-06-14 00:27:10.43424+00
-4	contenttypes	0001_initial	2025-06-14 00:27:10.441278+00
-5	auth	0001_initial	2025-06-14 00:27:10.498999+00
-6	admin	0001_initial	2025-06-14 00:27:10.519595+00
-7	admin	0002_logentry_remove_auto_add	2025-06-14 00:27:10.527966+00
-8	admin	0003_logentry_add_action_flag_choices	2025-06-14 00:27:10.536915+00
-9	contenttypes	0002_remove_content_type_name	2025-06-14 00:27:10.553305+00
-10	auth	0002_alter_permission_name_max_length	2025-06-14 00:27:10.560853+00
-11	auth	0003_alter_user_email_max_length	2025-06-14 00:27:10.567978+00
-12	auth	0004_alter_user_username_opts	2025-06-14 00:27:10.574303+00
-13	auth	0005_alter_user_last_login_null	2025-06-14 00:27:10.581725+00
-14	auth	0006_require_contenttypes_0002	2025-06-14 00:27:10.582619+00
-15	auth	0007_alter_validators_add_error_messages	2025-06-14 00:27:10.591202+00
-16	auth	0008_alter_user_username_max_length	2025-06-14 00:27:10.633343+00
-17	auth	0009_alter_user_last_name_max_length	2025-06-14 00:27:10.64124+00
-18	auth	0010_alter_group_name_max_length	2025-06-14 00:27:10.64992+00
-19	auth	0011_update_proxy_permissions	2025-06-14 00:27:10.658611+00
-20	auth	0012_alter_user_first_name_max_length	2025-06-14 00:27:10.666457+00
-21	sessions	0001_initial	2025-06-14 00:27:10.674842+00
+1	News	0001_initial	2025-06-14 06:14:29.225619+00
+2	News	0002_remove_news_edited_image	2025-06-14 06:14:29.228906+00
+3	TestApp	0001_initial	2025-06-14 06:14:29.236938+00
+4	contenttypes	0001_initial	2025-06-14 06:14:29.247864+00
+5	auth	0001_initial	2025-06-14 06:14:29.306342+00
+6	admin	0001_initial	2025-06-14 06:14:29.326197+00
+7	admin	0002_logentry_remove_auto_add	2025-06-14 06:14:29.336306+00
+8	admin	0003_logentry_add_action_flag_choices	2025-06-14 06:14:29.343146+00
+9	contenttypes	0002_remove_content_type_name	2025-06-14 06:14:29.359499+00
+10	auth	0002_alter_permission_name_max_length	2025-06-14 06:14:29.366841+00
+11	auth	0003_alter_user_email_max_length	2025-06-14 06:14:29.374406+00
+12	auth	0004_alter_user_username_opts	2025-06-14 06:14:29.38082+00
+13	auth	0005_alter_user_last_login_null	2025-06-14 06:14:29.388332+00
+14	auth	0006_require_contenttypes_0002	2025-06-14 06:14:29.389296+00
+15	auth	0007_alter_validators_add_error_messages	2025-06-14 06:14:29.39777+00
+16	auth	0008_alter_user_username_max_length	2025-06-14 06:14:29.43737+00
+17	auth	0009_alter_user_last_name_max_length	2025-06-14 06:14:29.445323+00
+18	auth	0010_alter_group_name_max_length	2025-06-14 06:14:29.454166+00
+19	auth	0011_update_proxy_permissions	2025-06-14 06:14:29.462801+00
+20	auth	0012_alter_user_first_name_max_length	2025-06-14 06:14:29.470736+00
+21	sessions	0001_initial	2025-06-14 06:14:29.48057+00
 \.
 
 
@@ -1504,7 +1514,7 @@ rxtsmikgvyg7crkfphizdx9yntw4lqvv	.eJxVjDsOwjAQBe_iGln-ZR1T0nMGy7v24gBypDipEHeHSC
 -- Name: News_news_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."News_news_id_seq"', 9314, true);
+SELECT pg_catalog.setval('public."News_news_id_seq"', 9324, true);
 
 
 --
