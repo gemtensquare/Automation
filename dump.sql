@@ -1270,6 +1270,7 @@ COPY public."News_news" (id, intro, title, url, image_url, source, image, type, 
 9270	অন্তর্বর্তী সরকারের প্রধান উপদেষ্টা অধ্যাপক ড. মুহাম্মদ ইউনূস ও বিএনপির ভারপ্রাপ্ত চেয়ারম্যান তারেক রহমানের মধ্যে বৈঠক হয়েছে। ...	ড. ইউনূস-তারেক রহমানের বৈঠক নিয়ে সারজিসের প্রতিক্রিয়া	https://www.jugantor.com/politics/964943	https://cdn.jugantor.com/assets/news_photos/2025/06/13/Untitled-1-684c5472e5f02.jpg	jugantor.com	news_images/1749849606_61586.jpg	bn	Politics	t	{"template6": "edited_images/1749849606_61586_template6.jpg"}	2025-06-13 21:20:06.823846+00	2025-06-13 21:25:02.380883+00
 9272	লন্ডনে প্রধান উপদেষ্টা ড. মুহাম্মদ ইউনূস ও বিএনপির ভারপ্রাপ্ত চেয়ারম্যান তারেক রহমানের বৈঠকে ফেব্রুয়ারিত জাতীয় নির্বাচন আয়োজন নিয়ে আলোচনা হয়েছে। ...	নির্বাচনের সময়কে স্বাগত জানাল খেলাফত মজলিস	https://www.jugantor.com/politics/964947	https://cdn.jugantor.com/assets/news_photos/2025/06/13/Khelafot-Mozlish-678bb0ebddf97-67dad556dea90-684c57e3b6f62.jpg	jugantor.com	news_images/1749850212_42272.jpg	bn	Politics	t	{"template3": "edited_images/1749850212_42272_template3.jpg"}	2025-06-13 21:30:12.014391+00	2025-06-13 21:35:02.598805+00
 9271	প্রবাসী অ্যাক্টিভিস্ট ও রাজনৈতিক বিশ্লেষক ফাহাম আব্দুস সালাম বলেছেন, সোফার বৈঠকে রাজনৈতিক সংঘাত এড়ানো গেছে। ...	ড. ইউনূস ও তারেক রহমানের বৈঠক নিয়ে যা বললেন ফাহাম	https://www.jugantor.com/politics/964957	https://cdn.jugantor.com/assets/news_photos/2025/06/13/Faham-67b57a9485c7f-684c5935c1827.jpg	jugantor.com	news_images/1749850210_71341.jpg	bn	Politics	t	{"template4": "edited_images/1749850210_71341_template4.jpg"}	2025-06-13 21:30:10.658102+00	2025-06-13 21:35:11.196249+00
+9273	সিলেটে ঝটিকা সফর শেষে ঢাকায় ফিরেছেন বিএনপির স্থায়ী কমিটির সদস্য ও কেন্দ্রীয় নেতা ডা. এ জেড এম জাহিদ হোসেন। শুক্রবার ...	কোন্দল ভুলে দলের ঐক্য সর্বোচ্চ পর্যায়ে নেওয়ার তাগিদ ডা. জাহিদের	https://www.jugantor.com/politics/964959	https://cdn.jugantor.com/assets/news_photos/2025/06/13/Pic-(10)-684c5b8a5a148.jpg	jugantor.com	news_images/1749866407_84885.jpg	bn	Politics	t	{"template5": "edited_images/1749866407_84885_template5.jpg"}	2025-06-14 02:00:07.129963+00	2025-06-14 02:05:02.492976+00
 \.
 
 
@@ -1462,7 +1463,7 @@ rxtsmikgvyg7crkfphizdx9yntw4lqvv	.eJxVjDsOwjAQBe_iGln-ZR1T0nMGy7v24gBypDipEHeHSC
 -- Name: News_news_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."News_news_id_seq"', 9272, true);
+SELECT pg_catalog.setval('public."News_news_id_seq"', 9273, true);
 
 
 --
