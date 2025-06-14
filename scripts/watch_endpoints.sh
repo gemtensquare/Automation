@@ -85,8 +85,12 @@ while true; do
     git config user.name "github-actions[bot]"
     git config user.email "github-actions[bot]@users.noreply.github.com"
 
+    # pull changes
+    echo -e "\033[1;33m📡 Pulling changes from GitHub...\033[0m"
+    git pull
+
     # Make change
-    echo -e "\033[1;36m📝 Appending timestamp to pushed.txt...\033[0m"
+    echo -e "\033[1;36m📝 Appending timestamp to auto_backup_and_push_log.txt...\033[0m"
     echo "Backup database and Push update at $NOW" >> logs/auto_backup_and_push_log.txt
 
     # Commit changes
