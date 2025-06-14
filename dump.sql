@@ -1414,6 +1414,7 @@ COPY public."News_news" (id, intro, title, url, image_url, source, image, type, 
 9414		সংসদ নির্বাচন অনুষ্ঠানে প্রস্তুত হচ্ছে ইসি	https://www.bd-pratidin.com/national/2025/06/15/1126458	https://cdn.bd-pratidin.com/public/news_images/2025/06/15/1749929338-6a78ea70616c432d9c3205429b28d661.jpg	bd-pratidin.com	news_images/1749933644_5788.jpg	bn	National	t	{"template5": "edited_images/1749933644_5788_template5.jpg"}	2025-06-14 20:40:44.067507+00	2025-06-14 20:45:02.280439+00
 9415		প্রকাশিত সংবাদের ব্যাখ্যা দিল ধর্ম মন্ত্রণালয়	https://www.bd-pratidin.com/national/2025/06/15/1126466	https://cdn.bd-pratidin.com/public/news_images/2025/06/15/1749933503-1280dd174636daab67547aea6fd1a294.jpg	bd-pratidin.com	news_images/1749934521_53494.jpg	bn	National	t	{"template1": "edited_images/1749934521_53494_template1.jpg"}	2025-06-14 20:55:21.639018+00	2025-06-14 21:00:01.873203+00
 9416		অবশেষে বাগ্‌দানের খবর জানালেন ব্রিটিশ গায়িকা	https://www.bd-pratidin.com/entertainment/2025/06/13/1125992	https://cdn.bd-pratidin.com/public/news_images/2025/06/13/1749834798-36d13610eb3cce7af3ef623037067dcf.jpg	bd-pratidin.com	news_images/1749938131_94977.jpg	bn	Entertainment	t	{"template1": "edited_images/1749938131_94977_template1.jpg", "template7": "edited_images/1749938131_94977_template7.jpg"}	2025-06-14 21:55:31.892369+00	2025-06-14 22:00:15.964177+00
+9417		হজে গিয়ে চিকিৎসা নিলেন ২২৫ বাংলাদেশি, চিকিৎসাধীন ২৮	https://www.bd-pratidin.com/islam/2025/06/14/1126188	https://cdn.bd-pratidin.com/public/news_images/2025/06/14/1749885676-6f1fc84f44dbbfeb47006a3e7d97c072.jpg	bd-pratidin.com	news_images/1749943821_7631.jpg	bn	Islam	t	{"template1": "edited_images/1749943821_7631_template1.jpg"}	2025-06-14 23:30:21.874072+00	2025-06-14 23:35:02.030875+00
 \.
 
 
@@ -1606,7 +1607,7 @@ rxtsmikgvyg7crkfphizdx9yntw4lqvv	.eJxVjDsOwjAQBe_iGln-ZR1T0nMGy7v24gBypDipEHeHSC
 -- Name: News_news_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."News_news_id_seq"', 9416, true);
+SELECT pg_catalog.setval('public."News_news_id_seq"', 9417, true);
 
 
 --
