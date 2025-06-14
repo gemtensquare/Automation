@@ -1407,7 +1407,10 @@ COPY public."News_news" (id, intro, title, url, image_url, source, image, type, 
 9407	দীর্ঘদিনের জল্পনার অবসান ঘটিয়ে অবশেষে মুখ খুললেন জনপ্রিয় ব্রিটিশ গায়িকা ডুয়া লিপা। গুঞ্জন ছিল, তিনি ব্রিটিশ অভিনেতা ক্যালাম টার্নারের সঙ্গে ...	নীরবে বাগদান, মুখ খুললেন ডুয়া লিপা	https://www.jugantor.com/entertainment/965241	https://cdn.jugantor.com/assets/news_photos/2025/06/14/Dua-Lipi-684d43ad5d6b1.jpg	jugantor.com	news_images/1749921612_355.jpg	bn	Entertainment	t	{"template2": "edited_images/1749921612_355_template2.jpg", "template7": "edited_images/1749921612_355_template7.jpg"}	2025-06-14 17:20:12.681635+00	2025-06-14 17:25:10.455267+00
 9408		ইরান-ইসরায়েল পাল্টাপাল্টি হুমকি,  যুক্তরাষ্ট্রের সাথে পারমাণবিক আলোচনা বাতিল	https://www.bbc.com/bengali/live/cdr51e7zv52t	https://ichef.bbci.co.uk/ace/ws/999/cpsprodpb/856d/live/7ba95b10-4916-11f0-bbaa-4bc03e0665b7.jpg	bbc.com	news_images/1749922213_7098.jpg	bn	World	t	{"template5": "edited_images/1749922213_7098_template5.jpg"}	2025-06-14 17:30:13.125452+00	2025-06-14 17:35:02.28062+00
 9409		নির্বাচন নিয়ে ইতিবাচক সিদ্ধান্ত মানুষের জন্য স্বস্তির বার্তা : জাতীয়তাবাদী সমমনা জোট	https://www.bd-pratidin.com/minister-spake/2025/06/14/1126244	https://cdn.bd-pratidin.com/public/news_images/2025/06/14/1749899579-2be3b805eb9251568fbfc44a93cce4ef.jpg	bd-pratidin.com	news_images/1749924032_18011.jpg	bn	Politics	t	{"template3": "edited_images/1749924032_18011_template3.jpg"}	2025-06-14 18:00:32.159338+00	2025-06-14 18:05:02.69764+00
-9410	গলে আজ সারাদিন বৃষ্টি, হোটেলবন্দী শান্তরা	গলে আজ সারাদিন বৃষ্টি, হোটেলবন্দী শান্তরা	https://www.jagonews24.com/sports/cricket/1028917	https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/bd-team-practice-20250614220021.jpg	jagonews24.com	news_images/1749926411_62409.jpg	bn	Cricket	f	{}	2025-06-14 18:40:11.423611+00	2025-06-14 18:40:11.425397+00
+9410	গলে আজ সারাদিন বৃষ্টি, হোটেলবন্দী শান্তরা	গলে আজ সারাদিন বৃষ্টি, হোটেলবন্দী শান্তরা	https://www.jagonews24.com/sports/cricket/1028917	https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/bd-team-practice-20250614220021.jpg	jagonews24.com	news_images/1749926411_62409.jpg	bn	Cricket	t	{"template3": "edited_images/1749926411_62409_template3.jpg", "template4": "edited_images/1749926411_62409_template4.jpg"}	2025-06-14 18:40:11.423611+00	2025-06-14 18:45:15.24637+00
+9411		ক্রিকেটের আইনে বড়সড় পরিবর্তন আইসিসির	https://www.bd-pratidin.com/sports/2025/06/14/1126310	https://cdn.bd-pratidin.com/public/news_images/2025/06/14/1749915261-f58ae6f5394f4f43ba55420e6ca01a2e.jpg	bd-pratidin.com	news_images/1749927039_36872.jpg	bn	Sports	t	{"template1": "edited_images/1749927039_36872_template1.jpg", "template6": "edited_images/1749927039_36872_template6.jpg"}	2025-06-14 18:50:39.486455+00	2025-06-14 18:55:10.607701+00
+9412	চ্যাম্পিয়ন দক্ষিণ আফ্রিকা কত পেলো প্রাইজমানি, বাংলাদেশ পেলো কত?	চ্যাম্পিয়ন দক্ষিণ আফ্রিকা কত পেলো প্রাইজমানি, বাংলাদেশ পেলো কত?	https://www.jagonews24.com/sports/cricket/1028927	https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/cri-20250615003819.jpg	jagonews24.com	news_images/1749927610_28343.jpg	bn	Cricket	t	{"template1": "edited_images/1749927610_28343_template1.jpg", "template3": "edited_images/1749927610_28343_template3.jpg"}	2025-06-14 19:00:10.384451+00	2025-06-14 19:05:15.963031+00
+9413	জাতিসংঘের অস্তিত্ব এখন বিলুপ্ত করে দেওয়া উচিত বলে মন্তব্য করেছেন ইসলামী আন্দোলন বাংলাদেশের আমির মুফতি সৈয়দ মুহাম্মাদ রেজাউল করীম চরমোনাই ...	জাতিসংঘের অস্তিত্ব এখন বিলুপ্ত করে দেওয়া উচিত: চরমোনাই পির	https://www.jugantor.com/politics/965309	https://cdn.jugantor.com/assets/news_photos/2025/06/14/peer-684d94dc95033.jpg	jugantor.com	news_images/1749929406_15486.jpg	bn	Politics	t	{"template2": "edited_images/1749929406_15486_template2.jpg"}	2025-06-14 19:30:06.307161+00	2025-06-14 19:35:02.124917+00
 \.
 
 
@@ -1600,7 +1603,7 @@ rxtsmikgvyg7crkfphizdx9yntw4lqvv	.eJxVjDsOwjAQBe_iGln-ZR1T0nMGy7v24gBypDipEHeHSC
 -- Name: News_news_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."News_news_id_seq"', 9410, true);
+SELECT pg_catalog.setval('public."News_news_id_seq"', 9413, true);
 
 
 --
