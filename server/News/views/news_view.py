@@ -109,7 +109,7 @@ class ClearRedisCache(APIView):
         from django.core.cache import cache
         Gemten_Sports = cache.get(constants.GEMTEN_SPORTS_PAGE_ID, [])
         cache.clear()
-        cache.set(constants.GEMTEN_SPORTS_PAGE_ID, Gemten_Sports)
+        # cache.set(constants.GEMTEN_SPORTS_PAGE_ID, Gemten_Sports)
         response = {
             'status': True,
             'message': 'Redis cache cleared successfully!'

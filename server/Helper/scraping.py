@@ -22,6 +22,7 @@ class Scraping:
     def save_news(title, intro, category, news_url, image_url, source="", type="bn"):
         image_response = requests.get(image_url)
         if image_response.status_code != 200:
+            print('*** skipping for image')
             return
 
         filename = Helper.get_a_unique_image_name()
@@ -54,10 +55,12 @@ class Scraping:
             image_url = img_tag['src']
 
             if not title or not news_url or News.objects.filter(title=title, url=news_url):
+                print('*** skipping')
                 continue
 
             image_response = requests.get(image_url)
             if image_response.status_code != 200:
+                print('*** skipping for image')
                 continue
             
             filename = Helper.get_a_unique_image_name()
@@ -90,10 +93,12 @@ class Scraping:
             image_url =  Helper.process_jugantor_image_url(img_tag['data-src'])
 
             if not title or not news_url or News.objects.filter(title=title, url=news_url):
+                print('*** skipping')
                 continue
 
             image_response = requests.get(image_url)
             if image_response.status_code != 200:
+                print('*** skipping for image')
                 continue
             
             filename = Helper.get_a_unique_image_name()
@@ -124,10 +129,12 @@ class Scraping:
             image_url =  Helper.process_bd_protidin_image_url(img_tag['src'])
 
             if not title or not news_url or News.objects.filter(title=title, url=news_url):
+                print('*** skipping')
                 continue
 
             image_response = requests.get(image_url)
             if image_response.status_code != 200:
+                print('*** skipping for image')
                 continue
             
             filename = Helper.get_a_unique_image_name()
@@ -159,10 +166,12 @@ class Scraping:
             image_url = Helper.process_bbc_news_image_url(img['src'])
 
             if not title or not news_url or News.objects.filter(title=title, url=news_url):
+                print('*** skipping')
                 continue
 
             image_response = requests.get(image_url)
             if image_response.status_code != 200:
+                print('*** skipping for image')
                 continue
             
             filename = Helper.get_a_unique_image_name()
@@ -204,7 +213,7 @@ class Scraping:
                         intro = intro_tag.text.strip() if intro_tag else ''
 
                         if not image_url or not title or not news_url or News.objects.filter(title=title, url=news_url):
-                            print('skipping')
+                            print('*** skipping')
                             continue
 
                         news_obj = Scraping.save_news(title, intro, category, news_url, image_url, source="bangla.thedailystar.net")
@@ -216,7 +225,6 @@ class Scraping:
                 print(f"Request failed with status code {res.status_code}")
         except Exception as e:
             print(f"The Daily Star error: {e}")
-        print('%'*30, response)
         return response
     
 
@@ -245,7 +253,7 @@ class Scraping:
                         image_url = Helper.process_jagonews24_news_image_url(raw_image_url)
 
                         if not image_url or not title or not news_url or News.objects.filter(title=title, url=news_url):
-                            print('skipping')
+                            print('*** skipping')
                             continue
 
                         news_obj = Scraping.save_news(title, title, category, news_url, image_url, source="jagonews24.com")
@@ -257,7 +265,43 @@ class Scraping:
                 print(f"Request failed with status code {res.status_code}")
         except Exception as e:
             print(f"The Daily Star error: {e}")
-        print('%'*30, response)
+        return response
+    
+    def scrape_bdcrictime(topic, category=None):
+        response = []
+        base_url = 'https://bn.bdcrictime.com'
+        url = base_url + topic
+        try:
+            res = requests.get(url, headers=HEADERS, timeout=10)
+            if res.status_code == 200:
+                soup = BeautifulSoup(res.text, 'html.parser')
+
+                cards = soup.select(".post2")
+                for card in cards:
+                    try:
+                        # Title and link
+                        link_tag = card.select_one(".content a")
+                        title = link_tag.text.strip() if link_tag else "None"
+                        news_url = base_url + link_tag['href'] if link_tag and link_tag.has_attr('href') else "None"
+
+                        # Image
+                        img_tag = card.select_one("img")
+                        raw_image_url = img_tag.get('data-src') or img_tag.get('src') if img_tag else None
+                        image_url = raw_image_url
+
+                        if not image_url or not title or not news_url or News.objects.filter(title=title, url=news_url):
+                            print('*** skipping')
+                            continue
+
+                        news_obj = Scraping.save_news(title, title, category, news_url, image_url, source="bdcrictime.com")
+                        response.append(news_obj.id)
+                        
+                    except Exception as inner_e:
+                        print(f"Error parsing a card: {inner_e}")
+            else:
+                print(f"Request failed with status code {res.status_code}")
+        except Exception as e:
+            print(f"The Daily Star error: {e}")
         return response
     
 
@@ -368,10 +412,24 @@ class Scraping:
         Helper.set_queue_news_to_page(constants.GEMTEN_ShowBiz_PAGE_ID, Entertainment_news_ids)
         return news_ids
     
+    def scrape_all_bdcrictime_news():
+        news_ids = []
+
+        Sports_news_ids = Scraping.scrape_bdcrictime('/news', 'Cricket')
+
+        news_ids += Sports_news_ids
+        
+        Helper.log_scraping_news('BD CricTime', news_ids=news_ids)
+        Helper.set_queue_news_to_page(constants.GEMTEN_NEWS_PAGE_ID, news_ids)
+        Helper.set_queue_news_to_page(constants.GEMTEN_SPORTS_PAGE_ID, Sports_news_ids)
+        Helper.set_queue_news_to_page(constants.GEMTEN_CRICKET_PAGE_ID, Sports_news_ids)
+        return news_ids
+    
     def scrape_all_news():
         news_ids = []
         news_ids += Scraping.scrape_all_khela_news()
         news_ids += Scraping.scrape_all_jugantor_news()
+        news_ids += Scraping.scrape_all_bdcrictime_news()
         news_ids += Scraping.scrape_all_jagonews24_news()
         news_ids += Scraping.scrape_all_bbc_bangla_news()
         news_ids += Scraping.scrape_all_daily_star_news()

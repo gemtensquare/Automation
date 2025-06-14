@@ -34,8 +34,11 @@ GEMTEN_SCHOLAR_PAGE_ACCESS_TOKEN = 'EAA7ctFADgFIBO3ikuCn91NBZCzDmn6EdIUZAFT3ZCwJ
 
 
 
-POST_HASHTAGS = """
+POST_HASHTAGS_CURRENT = """
 
 #Gemten #GemtenNews #NewsUpdate #24x7News #DailyBulletin #TopHeadlines
+"""
+
+POST_HASHTAGS = """
 """
 
