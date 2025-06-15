@@ -1418,6 +1418,10 @@ COPY public."News_news" (id, intro, title, url, image_url, source, image, type, 
 9417		হজে গিয়ে চিকিৎসা নিলেন ২২৫ বাংলাদেশি, চিকিৎসাধীন ২৮	https://www.bd-pratidin.com/islam/2025/06/14/1126188	https://cdn.bd-pratidin.com/public/news_images/2025/06/14/1749885676-6f1fc84f44dbbfeb47006a3e7d97c072.jpg	bd-pratidin.com	news_images/1749943821_7631.jpg	bn	Islam	t	{"template1": "edited_images/1749943821_7631_template1.jpg"}	2025-06-14 23:30:21.874072+00	2025-06-14 23:35:02.030875+00
 9419		শয়তান মানুষের শত্রু কেন	https://www.bd-pratidin.com/islam/2025/06/15/1126479	https://cdn.bd-pratidin.com/public/news_images/2025/06/15/1749942031-22309f7165d4e74fde44e1cd8c5a3964.jpg	bd-pratidin.com	news_images/1749947147_98947.jpg	bn	Islam	t	{"template5": "edited_images/1749947147_98947_template5.jpg"}	2025-06-15 00:25:47.359565+00	2025-06-15 00:30:02.468082+00
 9420		অশালীন পোস্টারের ফাঁদে ঈমান ও জীবন	https://www.bd-pratidin.com/islam/2025/06/15/1126480	https://cdn.bd-pratidin.com/public/news_images/2025/06/15/1749942166-4f96a3a2a7341d7525998b1acf0213ec.jpg	bd-pratidin.com	news_images/1749948332_92640.jpg	bn	Islam	t	{"template2": "edited_images/1749948332_92640_template2.jpg"}	2025-06-15 00:45:32.672509+00	2025-06-15 00:50:01.994729+00
+9421		বিজিএমইএর নতুন সভাপতি মাহমুদ হাসান খান	https://www.bd-pratidin.com/economy/2025/06/14/1126251	https://cdn.bd-pratidin.com/public/news_images/2025/06/14/1749901266-d8d2041f2331ad433617e39bbc0f79a2.jpg	bd-pratidin.com	news_images/1749952232_67601.jpg	bn	Economy	t	{"template6": "edited_images/1749952232_67601_template6.jpg"}	2025-06-15 01:50:32.667593+00	2025-06-15 01:55:02.435381+00
+9422	দুই দলের গোলরক্ষকের দারুণ নৈপুণ্যেই গোল পাওয়া হয়নি কোনো দলের	আল-আহলির সঙ্গে ড্র করল মেসির মায়ামি	https://bangla.thedailystar.net//sports/football/news-679621	https://tds-images-bn.thedailystar.net/sites/default/files/styles/very_big_1/public/images/2025/06/15/messi.jpg	bangla.thedailystar.net	news_images/1749954024_99320.jpg	bn	Sports	t	{"template4": "edited_images/1749954024_99320_template4.jpg"}	2025-06-15 02:20:24.014683+00	2025-06-15 02:25:02.410499+00
+9423	সবচেয়ে বেশি দল ব্রাজিলের, কিভাবে বাছাই হলো ৩২টি দল!	সবচেয়ে বেশি দল ব্রাজিলের, কিভাবে বাছাই হলো ৩২টি দল!	https://www.jagonews24.com/sports/football/1028922	https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/club-world-cup-20250614223007.jpg	jagonews24.com	news_images/1749954310_78293.jpg	bn	Football	t	{"template2": "edited_images/1749954310_78293_template2.jpg", "template4": "edited_images/1749954310_78293_template4.jpg", "template6": "edited_images/1749954310_78293_template6.jpg"}	2025-06-15 02:25:10.245199+00	2025-06-15 02:30:09.512894+00
+9424		'আগামী নির্বাচনে সৎ নেতৃত্বের প্রতি মানুষের আকাঙ্খা ফুটে উঠবে'	https://www.bd-pratidin.com/city-news/2025/06/14/1126308	https://cdn.bd-pratidin.com/public/news_images/2025/06/14/1749914713-529e7ea2db3d3b5f8e225360b20f3c3a.jpg	bd-pratidin.com	news_images/1749954642_28313.jpg	bn	City News	f	{}	2025-06-15 02:30:42.57972+00	2025-06-15 02:30:42.58153+00
 \.
 
 
@@ -1610,7 +1614,7 @@ rxtsmikgvyg7crkfphizdx9yntw4lqvv	.eJxVjDsOwjAQBe_iGln-ZR1T0nMGy7v24gBypDipEHeHSC
 -- Name: News_news_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."News_news_id_seq"', 9420, true);
+SELECT pg_catalog.setval('public."News_news_id_seq"', 9424, true);
 
 
 --
