@@ -24,6 +24,8 @@ class Scraping:
         if image_response.status_code != 200:
             print('*** skipping for image')
             return
+        
+        print('*** saving news')
 
         filename = Helper.get_a_unique_image_name()
         news_obj = News.objects.create(
@@ -39,7 +41,7 @@ class Scraping:
     def scrape_khela(topic, category=None):
         added_news_ids = []
         url = 'https://khela.com/' + topic
-        res = requests.get(url=url, headers=HEADERS, timeout=10)
+        res = requests.get(url=url, headers=HEADERS, timeout=30)
         soup = BeautifulSoup(res.text, 'html.parser')
 
         cards = soup.select(".items-stretch")
@@ -62,6 +64,8 @@ class Scraping:
             if image_response.status_code != 200:
                 print('*** skipping for image')
                 continue
+                
+            print('*** saving news')
             
             filename = Helper.get_a_unique_image_name()
 
@@ -77,7 +81,7 @@ class Scraping:
     def scrape_jugantor(topic, category=None):
         response = []
         url = 'https://www.jugantor.com/' + topic
-        res = requests.get(url=url, headers=HEADERS, timeout=10)
+        res = requests.get(url=url, headers=HEADERS, timeout=30)
         soup = BeautifulSoup(res.text, 'html.parser')
 
         cards = soup.select(".media.positionRelative.marginB5")
@@ -100,6 +104,8 @@ class Scraping:
             if image_response.status_code != 200:
                 print('*** skipping for image')
                 continue
+
+            print('*** saving news')
             
             filename = Helper.get_a_unique_image_name()
 
@@ -115,7 +121,7 @@ class Scraping:
     def scrape_bd_pratidin(topic, category=None):
         response = []
         url = 'https://www.bd-pratidin.com/' + topic
-        res = requests.get(url=url, headers=HEADERS, timeout=10)
+        res = requests.get(url=url, headers=HEADERS, timeout=30)
         soup = BeautifulSoup(res.text, 'html.parser')
 
         cards = soup.select(".col-6.col-lg-4.col-xl-3.mb-3") + soup.select(".col-6.my-3")
@@ -136,6 +142,8 @@ class Scraping:
             if image_response.status_code != 200:
                 print('*** skipping for image')
                 continue
+
+            print('*** saving news')
             
             filename = Helper.get_a_unique_image_name()
 
@@ -151,7 +159,7 @@ class Scraping:
     def scrape_bbc_bangla(topic, category=None):
         response = []
         url = 'https://www.bbc.com/bengali/topics/' + topic
-        res = requests.get(url=url, headers=HEADERS, timeout=10)
+        res = requests.get(url=url, headers=HEADERS, timeout=30)
 
         soup = BeautifulSoup(res.text, 'html.parser')
         all_news = soup.select('.bbc-t44f9r')
@@ -173,6 +181,8 @@ class Scraping:
             if image_response.status_code != 200:
                 print('*** skipping for image')
                 continue
+
+            print('*** saving news')
             
             filename = Helper.get_a_unique_image_name()
 
@@ -191,7 +201,7 @@ class Scraping:
         base_url = 'https://bangla.thedailystar.net/'
         url = base_url + topic
         try:
-            res = requests.get(url, headers=HEADERS, timeout=10)
+            res = requests.get(url, headers=HEADERS, timeout=30)
             if res.status_code == 200:
                 soup = BeautifulSoup(res.text, 'html.parser')
 
@@ -233,7 +243,7 @@ class Scraping:
         base_url = 'https://www.jagonews24.com/'
         url = base_url + topic
         try:
-            res = requests.get(url, headers=HEADERS, timeout=10)
+            res = requests.get(url, headers=HEADERS, timeout=30)
             if res.status_code == 200:
                 soup = BeautifulSoup(res.text, 'html.parser')
 
@@ -272,7 +282,7 @@ class Scraping:
         base_url = 'https://bn.bdcrictime.com'
         url = base_url + topic
         try:
-            res = requests.get(url, headers=HEADERS, timeout=10)
+            res = requests.get(url, headers=HEADERS, timeout=30)
             if res.status_code == 200:
                 soup = BeautifulSoup(res.text, 'html.parser')
 
