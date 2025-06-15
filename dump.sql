@@ -1386,6 +1386,7 @@ COPY public."News_news" (id, intro, title, url, image_url, source, image, type, 
 9386	এ ব্রিফিংয়ে একটি দলের প্রতি বিশেষ অনুরাগ প্রকাশ পেয়েছে এবং তা প্রধান উপদেষ্টার নিরপেক্ষতা ক্ষুণ্ন করেছে বলে মনে করে জামায়াত। ...	যৌথ ব্রিফিংয়ে একটি দলের প্রতি বিশেষ অনুরাগ প্রকাশ পেয়েছে: জামায়াত	https://www.jugantor.com/politics/965240	https://cdn.jugantor.com/assets/news_photos/2025/06/14/5-(25)-684d42af9d48b.jpg	jugantor.com	news_images/1749913807_5146.jpg	bn	Politics	t	{"template1": "edited_images/1749913807_5146_template1.jpg"}	2025-06-14 15:10:07.935785+00	2025-06-14 15:15:02.076979+00
 9387		হাতিরঝিল এলাকা পরিদর্শন রাজউক চেয়ারম্যানের	https://www.bd-pratidin.com/city-news/2025/06/14/1126263	https://cdn.bd-pratidin.com/public/news_images/2025/06/14/1749906746-6a9162bae9f2a730371ea8b8241d54da.jpg	bd-pratidin.com	news_images/1749915038_16456.jpg	bn	City News	t	{"template6": "edited_images/1749915038_16456_template6.jpg"}	2025-06-14 15:30:38.034996+00	2025-06-14 15:35:02.747095+00
 9388	লন্ডনে অন্তর্বর্তী সরকারের প্রধান উপদেষ্টা ড. মুহাম্মদ ইউনূস এবং বিএনপির ভারপ্রাপ্ত চেয়ারম্যান তারেক রহমানের বৈঠকের মধ্য দিয়ে আগামী জাতীয় নির্বাচন ...	নির্বাচন নিয়ে ইতিবাচক সিদ্ধান্ত স্বস্তির বার্তা	https://www.jugantor.com/politics/965249	https://cdn.jugantor.com/assets/news_photos/2025/06/14/yunus-tareq-684bec14e564e-684d544c2ab7e.jpg	jugantor.com	news_images/1749915306_70980.jpg	bn	Politics	t	{"template4": "edited_images/1749915306_70980_template4.jpg"}	2025-06-14 15:35:06.901967+00	2025-06-14 15:40:02.083096+00
+9418		তাপপ্রবাহ সম্পর্কে ইসলামের ব্যাখ্যা	https://www.bd-pratidin.com/islam/2025/06/15/1126478	https://cdn.bd-pratidin.com/public/news_images/2025/06/15/1749941903-c28fde4b301245661917bae59eb18320.jpg	bd-pratidin.com	news_images/1749944732_49979.jpg	bn	Islam	t	{"template1": "edited_images/1749944732_49979_template1.jpg"}	2025-06-14 23:45:32.474221+00	2025-06-14 23:50:02.637543+00
 9389	যে কারণে ক্ষমা চাইলেন বিটিএস তারকা জংকুক	যে কারণে ক্ষমা চাইলেন বিটিএস তারকা জংকুক	https://www.jagonews24.com/entertainment/bollywood/1028907	https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/bts-cover-20250614205249.jpg	jagonews24.com	news_images/1749915315_99633.jpg	bn	Entertainment	t	{"template2": "edited_images/1749915315_99633_template2.jpg", "template7": "edited_images/1749915315_99633_template7.jpg"}	2025-06-14 15:35:15.682591+00	2025-06-14 15:40:17.085379+00
 9390		কুষ্টিয়ায় পিসিআর ল্যাবের সব যন্ত্রাংশ চুরি, আতঙ্কিত জনসাধারণ	https://www.bd-pratidin.com/health-tips/2025/06/13/1125989	https://cdn.bd-pratidin.com/public/news_images/2025/06/13/1749831716-3b662cb34cd32335c1da9f6e2c025c6b.jpg	bd-pratidin.com	news_images/1749915638_80466.jpg	bn	Health	t	{"template3": "edited_images/1749915638_80466_template3.jpg"}	2025-06-14 15:40:38.235826+00	2025-06-14 15:45:02.018899+00
 9392	তারা বলেন, দেশের চলমান রাজনৈতিক অস্থিরতা নিরসন এবং একটি গ্রহণযোগ্য, শান্তিপূর্ণ ও নিরপেক্ষ নির্বাচন নিশ্চিত করতে গঠনমূলক সংলাপ ও আলোচনাকে ...	আলোচনাকে স্বাগত জানালেও যৌথ বিবৃতি নিয়ে উদ্বেগ	https://www.jugantor.com/politics/965250	https://cdn.jugantor.com/assets/news_photos/2025/06/14/Untitled-3-67f11ce712b92-684d552c290e5.jpg	jugantor.com	news_images/1749915906_1198.jpg	bn	Politics	t	{"template5": "edited_images/1749915906_1198_template5.jpg"}	2025-06-14 15:45:06.014471+00	2025-06-14 15:50:02.400157+00
@@ -1415,6 +1416,7 @@ COPY public."News_news" (id, intro, title, url, image_url, source, image, type, 
 9415		প্রকাশিত সংবাদের ব্যাখ্যা দিল ধর্ম মন্ত্রণালয়	https://www.bd-pratidin.com/national/2025/06/15/1126466	https://cdn.bd-pratidin.com/public/news_images/2025/06/15/1749933503-1280dd174636daab67547aea6fd1a294.jpg	bd-pratidin.com	news_images/1749934521_53494.jpg	bn	National	t	{"template1": "edited_images/1749934521_53494_template1.jpg"}	2025-06-14 20:55:21.639018+00	2025-06-14 21:00:01.873203+00
 9416		অবশেষে বাগ্‌দানের খবর জানালেন ব্রিটিশ গায়িকা	https://www.bd-pratidin.com/entertainment/2025/06/13/1125992	https://cdn.bd-pratidin.com/public/news_images/2025/06/13/1749834798-36d13610eb3cce7af3ef623037067dcf.jpg	bd-pratidin.com	news_images/1749938131_94977.jpg	bn	Entertainment	t	{"template1": "edited_images/1749938131_94977_template1.jpg", "template7": "edited_images/1749938131_94977_template7.jpg"}	2025-06-14 21:55:31.892369+00	2025-06-14 22:00:15.964177+00
 9417		হজে গিয়ে চিকিৎসা নিলেন ২২৫ বাংলাদেশি, চিকিৎসাধীন ২৮	https://www.bd-pratidin.com/islam/2025/06/14/1126188	https://cdn.bd-pratidin.com/public/news_images/2025/06/14/1749885676-6f1fc84f44dbbfeb47006a3e7d97c072.jpg	bd-pratidin.com	news_images/1749943821_7631.jpg	bn	Islam	t	{"template1": "edited_images/1749943821_7631_template1.jpg"}	2025-06-14 23:30:21.874072+00	2025-06-14 23:35:02.030875+00
+9419		শয়তান মানুষের শত্রু কেন	https://www.bd-pratidin.com/islam/2025/06/15/1126479	https://cdn.bd-pratidin.com/public/news_images/2025/06/15/1749942031-22309f7165d4e74fde44e1cd8c5a3964.jpg	bd-pratidin.com	news_images/1749947147_98947.jpg	bn	Islam	t	{"template5": "edited_images/1749947147_98947_template5.jpg"}	2025-06-15 00:25:47.359565+00	2025-06-15 00:30:02.468082+00
 \.
 
 
@@ -1569,27 +1571,27 @@ COPY public.django_content_type (id, app_label, model) FROM stdin;
 --
 
 COPY public.django_migrations (id, app, name, applied) FROM stdin;
-1	News	0001_initial	2025-06-14 17:49:01.90266+00
-2	News	0002_remove_news_edited_image	2025-06-14 17:49:01.906143+00
-3	TestApp	0001_initial	2025-06-14 17:49:01.913526+00
-4	contenttypes	0001_initial	2025-06-14 17:49:01.928167+00
-5	auth	0001_initial	2025-06-14 17:49:01.984187+00
-6	admin	0001_initial	2025-06-14 17:49:02.009789+00
-7	admin	0002_logentry_remove_auto_add	2025-06-14 17:49:02.019284+00
-8	admin	0003_logentry_add_action_flag_choices	2025-06-14 17:49:02.027932+00
-9	contenttypes	0002_remove_content_type_name	2025-06-14 17:49:02.047045+00
-10	auth	0002_alter_permission_name_max_length	2025-06-14 17:49:02.054863+00
-11	auth	0003_alter_user_email_max_length	2025-06-14 17:49:02.06267+00
-12	auth	0004_alter_user_username_opts	2025-06-14 17:49:02.069595+00
-13	auth	0005_alter_user_last_login_null	2025-06-14 17:49:02.077484+00
-14	auth	0006_require_contenttypes_0002	2025-06-14 17:49:02.079028+00
-15	auth	0007_alter_validators_add_error_messages	2025-06-14 17:49:02.087174+00
-16	auth	0008_alter_user_username_max_length	2025-06-14 17:49:02.131951+00
-17	auth	0009_alter_user_last_name_max_length	2025-06-14 17:49:02.143443+00
-18	auth	0010_alter_group_name_max_length	2025-06-14 17:49:02.160999+00
-19	auth	0011_update_proxy_permissions	2025-06-14 17:49:02.17739+00
-20	auth	0012_alter_user_first_name_max_length	2025-06-14 17:49:02.186336+00
-21	sessions	0001_initial	2025-06-14 17:49:02.204006+00
+1	News	0001_initial	2025-06-14 23:36:19.954383+00
+2	News	0002_remove_news_edited_image	2025-06-14 23:36:19.958351+00
+3	TestApp	0001_initial	2025-06-14 23:36:19.96613+00
+4	contenttypes	0001_initial	2025-06-14 23:36:19.97435+00
+5	auth	0001_initial	2025-06-14 23:36:20.041607+00
+6	admin	0001_initial	2025-06-14 23:36:20.05947+00
+7	admin	0002_logentry_remove_auto_add	2025-06-14 23:36:20.067669+00
+8	admin	0003_logentry_add_action_flag_choices	2025-06-14 23:36:20.074547+00
+9	contenttypes	0002_remove_content_type_name	2025-06-14 23:36:20.090277+00
+10	auth	0002_alter_permission_name_max_length	2025-06-14 23:36:20.097507+00
+11	auth	0003_alter_user_email_max_length	2025-06-14 23:36:20.10476+00
+12	auth	0004_alter_user_username_opts	2025-06-14 23:36:20.111358+00
+13	auth	0005_alter_user_last_login_null	2025-06-14 23:36:20.118449+00
+14	auth	0006_require_contenttypes_0002	2025-06-14 23:36:20.119341+00
+15	auth	0007_alter_validators_add_error_messages	2025-06-14 23:36:20.12825+00
+16	auth	0008_alter_user_username_max_length	2025-06-14 23:36:20.168566+00
+17	auth	0009_alter_user_last_name_max_length	2025-06-14 23:36:20.175959+00
+18	auth	0010_alter_group_name_max_length	2025-06-14 23:36:20.184568+00
+19	auth	0011_update_proxy_permissions	2025-06-14 23:36:20.192689+00
+20	auth	0012_alter_user_first_name_max_length	2025-06-14 23:36:20.199844+00
+21	sessions	0001_initial	2025-06-14 23:36:20.20997+00
 \.
 
 
@@ -1607,7 +1609,7 @@ rxtsmikgvyg7crkfphizdx9yntw4lqvv	.eJxVjDsOwjAQBe_iGln-ZR1T0nMGy7v24gBypDipEHeHSC
 -- Name: News_news_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."News_news_id_seq"', 9417, true);
+SELECT pg_catalog.setval('public."News_news_id_seq"', 9419, true);
 
 
 --
