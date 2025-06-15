@@ -1417,6 +1417,7 @@ COPY public."News_news" (id, intro, title, url, image_url, source, image, type, 
 9416		অবশেষে বাগ্‌দানের খবর জানালেন ব্রিটিশ গায়িকা	https://www.bd-pratidin.com/entertainment/2025/06/13/1125992	https://cdn.bd-pratidin.com/public/news_images/2025/06/13/1749834798-36d13610eb3cce7af3ef623037067dcf.jpg	bd-pratidin.com	news_images/1749938131_94977.jpg	bn	Entertainment	t	{"template1": "edited_images/1749938131_94977_template1.jpg", "template7": "edited_images/1749938131_94977_template7.jpg"}	2025-06-14 21:55:31.892369+00	2025-06-14 22:00:15.964177+00
 9417		হজে গিয়ে চিকিৎসা নিলেন ২২৫ বাংলাদেশি, চিকিৎসাধীন ২৮	https://www.bd-pratidin.com/islam/2025/06/14/1126188	https://cdn.bd-pratidin.com/public/news_images/2025/06/14/1749885676-6f1fc84f44dbbfeb47006a3e7d97c072.jpg	bd-pratidin.com	news_images/1749943821_7631.jpg	bn	Islam	t	{"template1": "edited_images/1749943821_7631_template1.jpg"}	2025-06-14 23:30:21.874072+00	2025-06-14 23:35:02.030875+00
 9419		শয়তান মানুষের শত্রু কেন	https://www.bd-pratidin.com/islam/2025/06/15/1126479	https://cdn.bd-pratidin.com/public/news_images/2025/06/15/1749942031-22309f7165d4e74fde44e1cd8c5a3964.jpg	bd-pratidin.com	news_images/1749947147_98947.jpg	bn	Islam	t	{"template5": "edited_images/1749947147_98947_template5.jpg"}	2025-06-15 00:25:47.359565+00	2025-06-15 00:30:02.468082+00
+9420		অশালীন পোস্টারের ফাঁদে ঈমান ও জীবন	https://www.bd-pratidin.com/islam/2025/06/15/1126480	https://cdn.bd-pratidin.com/public/news_images/2025/06/15/1749942166-4f96a3a2a7341d7525998b1acf0213ec.jpg	bd-pratidin.com	news_images/1749948332_92640.jpg	bn	Islam	t	{"template2": "edited_images/1749948332_92640_template2.jpg"}	2025-06-15 00:45:32.672509+00	2025-06-15 00:50:01.994729+00
 \.
 
 
@@ -1609,7 +1610,7 @@ rxtsmikgvyg7crkfphizdx9yntw4lqvv	.eJxVjDsOwjAQBe_iGln-ZR1T0nMGy7v24gBypDipEHeHSC
 -- Name: News_news_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."News_news_id_seq"', 9419, true);
+SELECT pg_catalog.setval('public."News_news_id_seq"', 9420, true);
 
 
 --
