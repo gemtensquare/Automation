@@ -105,7 +105,7 @@ class Facebook:
     
     def post_to_Gemten_News_page(news_id):
         from Helper.helpers import Helper
-        template_id = Helper.get_page_template_id(constants.GEMTEN_NEWS_PAGE_ID)
+        template_id = Helper.get_random_one_page_template_id(constants.GEMTEN_NEWS_PAGE_ID)
         data = {
             'id': news_id, # News Id
             'template_id': template_id, # Template Id
@@ -121,7 +121,7 @@ class Facebook:
     
     def post_to_Gemten_Terabyte_page(news_id):
         from Helper.helpers import Helper
-        template_id = Helper.get_page_template_id(constants.GEMTEN_TERABYTE_PAGE_ID)
+        template_id = Helper.get_random_one_page_template_id(constants.GEMTEN_TERABYTE_PAGE_ID)
         data = {
             'id': news_id, # News Id
             'template_id': template_id, # Template Id
@@ -137,7 +137,7 @@ class Facebook:
     
     def post_to_Gemten_Cricket_page(news_id):
         from Helper.helpers import Helper
-        template_id = Helper.get_page_template_id(constants.GEMTEN_CRICKET_PAGE_ID)
+        template_id = Helper.get_random_one_page_template_id(constants.GEMTEN_CRICKET_PAGE_ID)
         data = {
             'id': news_id, # News Id
             'template_id': template_id, # Template Id
@@ -153,7 +153,7 @@ class Facebook:
     
     def post_to_Gemten_Sports_page(news_id):
         from Helper.helpers import Helper
-        template_id = Helper.get_page_template_id(constants.GEMTEN_SPORTS_PAGE_ID)
+        template_id = Helper.get_random_one_page_template_id(constants.GEMTEN_SPORTS_PAGE_ID)
         data = {
             'id': news_id, # News Id
             'template_id': template_id, # Template Id
@@ -169,7 +169,7 @@ class Facebook:
     
     def post_to_Gemten_Football_page(news_id):
         from Helper.helpers import Helper
-        template_id = Helper.get_page_template_id(constants.GEMTEN_FOOTBALL_PAGE_ID)
+        template_id = Helper.get_random_one_page_template_id(constants.GEMTEN_FOOTBALL_PAGE_ID)
         data = {
             'id': news_id, # News Id
             'template_id': template_id, # Template Id
@@ -185,7 +185,7 @@ class Facebook:
     
     def post_to_Gemten_ShowBiz_page(news_id):
         from Helper.helpers import Helper
-        template_id = Helper.get_page_template_id(constants.GEMTEN_ShowBiz_PAGE_ID)
+        template_id = Helper.get_random_one_page_template_id(constants.GEMTEN_ShowBiz_PAGE_ID)
         data = {
             'id': news_id, # News Id
             'template_id': template_id, # Template Id

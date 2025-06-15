@@ -91,74 +91,115 @@ class Helper:
         
         return font_path
 
-    def processing_background_image_and_new_template_image(background_image, template_image, text, source, is_bangla_news):
-        font_path = Helper.get_font_path(is_bangla_news)
-        date_font_path = Helper.get_date_and_source_font_path()
+    def get_random_one_page_template_id(page_id):
+        templates = Template.objects.filter(page_id=page_id)
+        if not templates:
+            templates = Template.objects.filter(page_id=constants.GEMTEN_NEWS_PAGE_ID)
+        return random.choice(templates).id
 
-        # Canvas size (match the template size, e.g., 768x768 or 1024x1024)
-        canvas_width, canvas_height = 1024, 1024  # Adjust if needed
+    def post_Gemten_News_page():
+        page_id = constants.GEMTEN_NEWS_PAGE_ID
+        news_ids = cache.get(page_id, [])
+        cache.set(page_id, [], timeout=None)
 
-        # Resize the template to fit the canvas
-        template_image = template_image.resize((canvas_width, canvas_height))
+        post_count = 0
+        for id in news_ids:
+            response = Facebook.post_to_Gemten_News_page(id)
+            post_count += response['success_post_count']
+        Helper.log_posting_news("Gemten News", post_count)
+
+    def post_Gemten_Terabyte_page():
+        page_id = constants.GEMTEN_TERABYTE_PAGE_ID
+
+        news_ids = cache.get(page_id, [])
+        cache.set(page_id, [], timeout=None)
+
+        post_count = 0
+        for id in news_ids:
+            response = Facebook.post_to_Gemten_Terabyte_page(id)
+            post_count += response['success_post_count']
+        Helper.log_posting_news("Gemten Terabyte", post_count)
+
+    def post_Gemten_Cricket_page():
+        page_id = constants.GEMTEN_CRICKET_PAGE_ID
+
+        news_ids = cache.get(page_id, [])
+        cache.set(page_id, [], timeout=None)
+
+        post_count = 0
+        for id in news_ids:
+            response = Facebook.post_to_Gemten_Cricket_page(id)
+            post_count += response['success_post_count']
+        Helper.log_posting_news("Gemten Cricket", post_count)
+
+    def post_Gemten_Sports_page():
+        page_id = constants.GEMTEN_SPORTS_PAGE_ID
+
+        news_ids = cache.get(page_id, [])
+        cache.set(page_id, [], timeout=None)
+
+        post_count = 0
+        for id in news_ids:
+            response = Facebook.post_to_Gemten_Sports_page(id)
+            post_count += response['success_post_count']
+        Helper.log_posting_news("Gemten Sports", post_count)
+
+    def post_Gemten_Football_page():
+        page_id = constants.GEMTEN_FOOTBALL_PAGE_ID
+
+        news_ids = cache.get(page_id, [])
+        cache.set(page_id, [], timeout=None)
+
+        post_count = 0
+        for id in news_ids:
+            response = Facebook.post_to_Gemten_Football_page(id)
+            post_count += response['success_post_count']
+        Helper.log_posting_news("Gemten Football", post_count)
+
+    def post_Gemten_ShowBiz_page():
+        page_id = constants.GEMTEN_ShowBiz_PAGE_ID
+
+        news_ids = cache.get(page_id, [])
+        cache.set(page_id, [], timeout=None)
+
+        post_count = 0
+        for id in news_ids:
+            response = Facebook.post_to_Gemten_ShowBiz_page(id)
+            post_count += response['success_post_count']
+        Helper.log_posting_news("Gemten ShowBiz", post_count)
         
-        # === RESIZE & CROP BACKGROUND TO FIT CANVAS ===
-        bg_width, bg_height = background_image.size
-        bg_ratio = bg_width / bg_height
-        canvas_ratio = canvas_width / canvas_height
+    
+    def log_scraping_news(news_from, news_ids=[]):
+        timestamp = timezone.localtime().strftime("%d %B, %Y - %I:%M:%S %p")
+        message = (
+            f"{timestamp} — 🐥 Beep beep! Visited [{news_from}] and colleced fresh {len(news_ids)} news! 📡\n"
+            # f"{timestamp} — 🧺 IDs safely stored in the treasure chest: 🧾 [{', '.join(map(str, news_ids))}]\n\n"
+        )
+        if not news_ids or not len(news_ids):
+            message = f"{timestamp} — 😴 No new news for [{news_from}] this time. The news birds are resting! 🐦💤\n\n"
+            return
 
-        if bg_ratio > canvas_ratio:
-            new_height = canvas_height
-            new_width = int(bg_ratio * new_height)
-        else:
-            new_width = canvas_width
-            new_height = int(new_width / bg_ratio)
+        log_dir = os.path.dirname(constants.NEWS_CRON_LOG_FILE)
+        os.makedirs(log_dir, exist_ok=True)  # ✅ Ensure directory exists
+        with open(constants.NEWS_CRON_LOG_FILE, 'a', encoding='utf-8') as f:
+            f.write(message)
 
-        background_resized = background_image.resize((new_width, new_height), Image.LANCZOS)
-        left = (new_width - canvas_width) // 2
-        top = (new_height - canvas_height) // 2
-        background_cropped = background_resized.crop((left, top, left + canvas_width, top + canvas_height))
 
-        # === APPLY FILTER (OPTIONAL) ===
-        background_cropped = ImageEnhance.Brightness(background_cropped).enhance(1.090)
+    def log_posting_news(page_name, post_count):
+        timestamp = timezone.localtime().strftime("%d %B, %Y - %I:%M:%S %p")
+        message = f"{timestamp} — 🐣 Chirp chirp! Just dropped {post_count} shiny new news posts on [{page_name}]! 🎉✨\n"
+        if not post_count:
+            message = f"{timestamp} — 😴 No new posts for [{page_name}] this time. The news birds are resting! 🐦💤\n"
+            return
 
-        # === COMBINE TEMPLATE ===
-        final_image = Image.alpha_composite(background_cropped, template_image)
-        draw = ImageDraw.Draw(final_image)
+        log_dir = os.path.dirname(constants.NEWS_POSTED_LOG_FILE)
+        os.makedirs(log_dir, exist_ok=True)  # ✅ Ensure directory exists
 
-        # === DRAW HEADLINE TEXT ===
-        headline_box_x = 50
-        headline_box_y = canvas_height - 300
-        headline_box_width = canvas_width - 100
-        headline_box_height = 340
+        with open(constants.NEWS_POSTED_LOG_FILE, 'a', encoding='utf-8') as f:
+            f.write(message)
 
-        # Adjust font size to fit text
-        max_font_size, min_font_size = 60, 30
 
-        for font_size in range(max_font_size, min_font_size - 1, -1):
-            font = ImageFont.truetype(font_path, font_size)
-            lines = textwrap.wrap(text, width=30)
-            line_heights = [font.getbbox(line)[3] - font.getbbox(line)[1] + 5 for line in lines]
-            total_text_height = sum(line_heights)
-            if total_text_height <= headline_box_height:
-                break
-
-        date_x, date_y = 165, 90
-        y_text = headline_box_y + (headline_box_height - total_text_height) // 2
-
-        for i, line in enumerate(lines):
-            line_height = line_heights[i]
-            line_width = draw.textlength(line, font=font)
-            x_text = headline_box_x + (headline_box_width - line_width) // 2
-            draw.text((x_text, y_text), line, font=font, fill="#FFFFFF")
-            y_text += line_height
-
-        # === DRAW DATE AND SOURCE AT TOP ===
-        date_str = datetime.now().strftime("%B %d, %Y") + " Source: " + source
-        date_font = ImageFont.truetype(font_path, 30)
-        draw.text((date_x, date_y), date_str, font=date_font, fill="#FFFFFF")
-
-        return final_image
-
+class TemplateHelper:
     def processing_background_image_and_template_image(background_image, template_image, text, is_bangla_news=False):
         print('_^_*'*30)
         print("Start Processing" + " " + str(datetime.now()))
@@ -284,110 +325,156 @@ class Helper:
         print('_^_*'*30)
         return combined
     
-    def get_page_template_id(page_id):
-        templates = Template.objects.filter(name=page_id)
-        if not templates:
-            templates = Template.objects.filter(name=constants.GEMTEN_NEWS_PAGE_ID)
-        return random.choice(templates).id
 
-    def post_Gemten_News_page():
-        page_id = constants.GEMTEN_NEWS_PAGE_ID
-        news_ids = cache.get(page_id, [])
-        cache.set(page_id, [], timeout=None)
+    def processing_background_image_and_new_template_image(background_image, template_image, text, source, is_bangla_news):
+        font_path = Helper.get_font_path(is_bangla_news)
+        date_font_path = Helper.get_date_and_source_font_path()
 
-        post_count = 0
-        for id in news_ids:
-            response = Facebook.post_to_Gemten_News_page(id)
-            post_count += response['success_post_count']
-        Helper.log_posting_news("Gemten News", post_count)
+        # Canvas size (match the template size, e.g., 768x768 or 1024x1024)
+        canvas_width, canvas_height = 1024, 1024  # Adjust if needed
 
-    def post_Gemten_Terabyte_page():
-        page_id = constants.GEMTEN_TERABYTE_PAGE_ID
-
-        news_ids = cache.get(page_id, [])
-        cache.set(page_id, [], timeout=None)
-
-        post_count = 0
-        for id in news_ids:
-            response = Facebook.post_to_Gemten_Terabyte_page(id)
-            post_count += response['success_post_count']
-        Helper.log_posting_news("Gemten Terabyte", post_count)
-
-    def post_Gemten_Cricket_page():
-        page_id = constants.GEMTEN_CRICKET_PAGE_ID
-
-        news_ids = cache.get(page_id, [])
-        cache.set(page_id, [], timeout=None)
-
-        post_count = 0
-        for id in news_ids:
-            response = Facebook.post_to_Gemten_Cricket_page(id)
-            post_count += response['success_post_count']
-        Helper.log_posting_news("Gemten Cricket", post_count)
-
-    def post_Gemten_Sports_page():
-        page_id = constants.GEMTEN_SPORTS_PAGE_ID
-
-        news_ids = cache.get(page_id, [])
-        cache.set(page_id, [], timeout=None)
-
-        post_count = 0
-        for id in news_ids:
-            response = Facebook.post_to_Gemten_Sports_page(id)
-            post_count += response['success_post_count']
-        Helper.log_posting_news("Gemten Sports", post_count)
-
-    def post_Gemten_Football_page():
-        page_id = constants.GEMTEN_FOOTBALL_PAGE_ID
-
-        news_ids = cache.get(page_id, [])
-        cache.set(page_id, [], timeout=None)
-
-        post_count = 0
-        for id in news_ids:
-            response = Facebook.post_to_Gemten_Football_page(id)
-            post_count += response['success_post_count']
-        Helper.log_posting_news("Gemten Football", post_count)
-
-    def post_Gemten_ShowBiz_page():
-        page_id = constants.GEMTEN_ShowBiz_PAGE_ID
-
-        news_ids = cache.get(page_id, [])
-        cache.set(page_id, [], timeout=None)
-
-        post_count = 0
-        for id in news_ids:
-            response = Facebook.post_to_Gemten_ShowBiz_page(id)
-            post_count += response['success_post_count']
-        Helper.log_posting_news("Gemten ShowBiz", post_count)
+        # Resize the template to fit the canvas
+        template_image = template_image.resize((canvas_width, canvas_height))
         
+        # === RESIZE & CROP BACKGROUND TO FIT CANVAS ===
+        bg_width, bg_height = background_image.size
+        bg_ratio = bg_width / bg_height
+        canvas_ratio = canvas_width / canvas_height
+
+        if bg_ratio > canvas_ratio:
+            new_height = canvas_height
+            new_width = int(bg_ratio * new_height)
+        else:
+            new_width = canvas_width
+            new_height = int(new_width / bg_ratio)
+
+        background_resized = background_image.resize((new_width, new_height), Image.LANCZOS)
+        left = (new_width - canvas_width) // 2
+        top = (new_height - canvas_height) // 2
+        background_cropped = background_resized.crop((left, top, left + canvas_width, top + canvas_height))
+
+        # === APPLY FILTER (OPTIONAL) ===
+        background_cropped = ImageEnhance.Brightness(background_cropped).enhance(1.090)
+
+        # === COMBINE TEMPLATE ===
+        final_image = Image.alpha_composite(background_cropped, template_image)
+        draw = ImageDraw.Draw(final_image)
+
+        # === DRAW HEADLINE TEXT ===
+        headline_box_x = 50
+        headline_box_y = canvas_height - 300
+        headline_box_width = canvas_width - 100
+        headline_box_height = 340
+
+        # Adjust font size to fit text
+        max_font_size, min_font_size = 60, 30
+
+        for font_size in range(max_font_size, min_font_size - 1, -1):
+            font = ImageFont.truetype(font_path, font_size)
+            lines = textwrap.wrap(text, width=30)
+            line_heights = [font.getbbox(line)[3] - font.getbbox(line)[1] + 5 for line in lines]
+            total_text_height = sum(line_heights)
+            if total_text_height <= headline_box_height:
+                break
+
+        date_x, date_y = 165, 90
+        y_text = headline_box_y + (headline_box_height - total_text_height) // 2
+
+        for i, line in enumerate(lines):
+            line_height = line_heights[i]
+            line_width = draw.textlength(line, font=font)
+            x_text = headline_box_x + (headline_box_width - line_width) // 2
+            draw.text((x_text, y_text), line, font=font, fill="#FFFFFF")
+            y_text += line_height
+
+        # === DRAW DATE AND SOURCE AT TOP ===
+        date_str = datetime.now().strftime("%B %d, %Y") + " Source: " + source
+        date_font = ImageFont.truetype(font_path, 30)
+        draw.text((date_x, date_y), date_str, font=date_font, fill="#FFFFFF")
+
+        return final_image
+
+
+    def processing_background_image_and_update_template_image(background_image, template_image, text, source, is_bangla_news):
+        font_path = Helper.get_font_path(is_bangla_news)
+        date_font_path = Helper.get_date_and_source_font_path()
+
+        # === CANVAS DIMENSIONS ===
+        canvas_width, canvas_height = 2800, 3500
+
+        # Resize the template to fit the canvas
+        template_image = template_image.resize((canvas_width, canvas_height))
+        
+                
+        # === RESIZE BACKGROUND ===
+        bg_ratio = background_image.width / background_image.height
+        canvas_ratio = canvas_width / canvas_height
+
+        # Keeps as-is; ensures full coverage, might crop
+        if bg_ratio > canvas_ratio:
+            new_height = canvas_height
+            new_width = int(bg_ratio * new_height)
+        else:
+            new_width = canvas_width
+            new_height = int(new_width / bg_ratio)
+
+        resized_bg = background_image.resize((new_width, new_height), Image.LANCZOS)
+
+        # 🔻 Offset background crop to move image downward (+200px shift)
+        left = (new_width - canvas_width) // 2
+        top = (new_height - canvas_height) // 2 - 850  # ⬅ shift crop down
+        # top = max(0, top)  # prevents negative top if image is too short
+
+        cropped_bg = resized_bg.crop((left, top, left + canvas_width, top + canvas_height))
+        enhanced_bg = ImageEnhance.Brightness(cropped_bg).enhance(1.1)
+
+
+        # === COMPOSITE FINAL IMAGE ===
+        final_image = Image.alpha_composite(enhanced_bg, template_image)
+        draw = ImageDraw.Draw(final_image)
+
+        # === DRAW DATE + SOURCE (Top-Right) ===
+        date_str = datetime.now().strftime("%d %B %Y") + " | " + source
+        date_font = ImageFont.truetype(date_font_path, 85)
+        date_text_width = draw.textlength(date_str, font=date_font)
+        draw.text((canvas_width - date_text_width - 120, 115), date_str, font=date_font, fill="#C4D5FF")
+
+        # === HEADLINE TEXT WITHIN BLACK BOX ===
+        headline_top = 300
+        headline_height = 800
+        headline_left = 20
+        headline_right = canvas_width - 20
+        headline_width = headline_right - headline_left
+
+        # Reduce space from left and right
+        headline_left = 100  # was 50
+        headline_right = canvas_width - 100  # was canvas_width - 50
+        headline_width = headline_right - headline_left
+
+        max_font_size, min_font_size = 220, 90
+
+        for font_size in range(max_font_size, min_font_size - 1, -5):
+            font = ImageFont.truetype(font_path, font_size)
+            lines = textwrap.wrap(text, width=25)
+            line_heights = [font.getbbox(line)[3] - font.getbbox(line)[1] + 20 for line in lines]
+            total_height = sum(line_heights)
+            if total_height <= headline_height:
+                break
+
+        y_text = headline_top + (headline_height - total_height) // 2
+        y_text = 400
+        for i, line in enumerate(lines):
+            line_width = draw.textlength(line, font=font)
+            x_text = (canvas_width - line_width) // 2
+            draw.text((x_text, y_text), line, font=font, fill="#bbcbff")
+            y_text += line_heights[i]
+
+        # === OPTIONAL: BOTTOM IMAGE ===
+        # if os.path.exists(bottom_image_path):
+        #     logo = Image.open(bottom_image_path).convert("RGBA").resize((400, 400))
+        #     final_image.paste(logo, (canvas_width // 2 - 200, canvas_height - 500), logo)
+
+
+        return final_image
+
     
-    def log_scraping_news(news_from, news_ids=[]):
-        timestamp = timezone.localtime().strftime("%d %B, %Y - %I:%M:%S %p")
-        message = (
-            f"{timestamp} — 🐥 Beep beep! Visited [{news_from}] and colleced fresh {len(news_ids)} news! 📡\n"
-            # f"{timestamp} — 🧺 IDs safely stored in the treasure chest: 🧾 [{', '.join(map(str, news_ids))}]\n\n"
-        )
-        if not news_ids or not len(news_ids):
-            message = f"{timestamp} — 😴 No new news for [{news_from}] this time. The news birds are resting! 🐦💤\n\n"
-            return
-
-        log_dir = os.path.dirname(constants.NEWS_CRON_LOG_FILE)
-        os.makedirs(log_dir, exist_ok=True)  # ✅ Ensure directory exists
-        with open(constants.NEWS_CRON_LOG_FILE, 'a', encoding='utf-8') as f:
-            f.write(message)
-
-
-    def log_posting_news(page_name, post_count):
-        timestamp = timezone.localtime().strftime("%d %B, %Y - %I:%M:%S %p")
-        message = f"{timestamp} — 🐣 Chirp chirp! Just dropped {post_count} shiny new news posts on [{page_name}]! 🎉✨\n"
-        if not post_count:
-            message = f"{timestamp} — 😴 No new posts for [{page_name}] this time. The news birds are resting! 🐦💤\n"
-            return
-
-        log_dir = os.path.dirname(constants.NEWS_POSTED_LOG_FILE)
-        os.makedirs(log_dir, exist_ok=True)  # ✅ Ensure directory exists
-
-        with open(constants.NEWS_POSTED_LOG_FILE, 'a', encoding='utf-8') as f:
-            f.write(message)
-

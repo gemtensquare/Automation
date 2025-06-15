@@ -25,7 +25,7 @@ class ResponseHelper:
     def get_new_news_added_response(data):
         message = f"{len(data)} New news added! 🥺😔😭"
         if len(data):
-            message = message[:-5] + " successfully. 😍😎😜"
+            message = message[:-5] + " successfully 😍😎😜"
 
         response = {
             'status': True,

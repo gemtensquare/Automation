@@ -101,6 +101,7 @@ class ScrapeAllNews(APIView):
         end_time = datetime.now()
         duration = end_time - start_time
         response['response_duration'] = duration.total_seconds()
+        response['message'] = response['message'] + f" in {duration.total_seconds()} seconds."
         return Response(response, status=status.HTTP_200_OK)
     
     

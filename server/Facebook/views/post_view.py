@@ -8,11 +8,10 @@ from rest_framework.response import Response
 
 from Helper import constants
 from datetime import datetime
-from Helper.helpers import Helper
 from News.models import News, Template
 from ..facebook_helper import Facebook
 from Helper.response import ResponseHelper
-from TestApp.Test_News_Templates import helper_image
+from Helper.helpers import Helper, TemplateHelper
 
 
 class PostToFacebookPage(APIView):
@@ -82,8 +81,8 @@ class PostToFacebookPage(APIView):
         # === Load and process image ===
         news_image = Image.open(news.image.path).convert("RGBA")
         template_image = Image.open(template.image.path).convert("RGBA")
-        # image = Helper.processing_background_image_and_template_image(news_image, template_image, news.title, is_bangla_news=news.type=='bn')
-        image = Helper.processing_background_image_and_new_template_image(news_image, template_image, news.title, news.source, news.type=='bn')
+        # image = TemplateHelper.processing_background_image_and_new_template_image(news_image, template_image, news.title, news.source, news.type=='bn')
+        image = TemplateHelper.processing_background_image_and_update_template_image(news_image, template_image, news.title, news.source, news.type=='bn')
         if image.mode == "RGBA":
             image = image.convert("RGB")
         image.save(edited_path) # Save processed image
@@ -124,7 +123,7 @@ class PostToGemtenFacebookPage(APIView):
         for _ in range(10):
             for id in ids:
                 print(id, end=' ')
-                template_id = Helper.get_page_template_id(id)
+                template_id = Helper.get_random_one_page_template_id(id)
                 print(template_id)
 
         return Response(response, status=status.HTTP_200_OK)

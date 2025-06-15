@@ -427,13 +427,14 @@ class Scraping:
     
     def scrape_all_news():
         news_ids = []
-        news_ids += Scraping.scrape_all_khela_news()
-        news_ids += Scraping.scrape_all_jugantor_news()
+        # news_ids += Scraping.scrape_all_khela_news()
+        # news_ids += Scraping.scrape_all_jugantor_news()
         news_ids += Scraping.scrape_all_bdcrictime_news()
-        news_ids += Scraping.scrape_all_jagonews24_news()
-        news_ids += Scraping.scrape_all_bbc_bangla_news()
-        news_ids += Scraping.scrape_all_daily_star_news()
-        news_ids += Scraping.scrape_all_bd_pratidin_news()
+        news_ids += Scraping.scrape_all_bdcrictime_news()
+        # news_ids += Scraping.scrape_all_jagonews24_news()
+        # news_ids += Scraping.scrape_all_bbc_bangla_news()
+        # news_ids += Scraping.scrape_all_daily_star_news()
+        # news_ids += Scraping.scrape_all_bd_pratidin_news()
         return news_ids
     
 
