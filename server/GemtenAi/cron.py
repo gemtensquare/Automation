@@ -2,6 +2,7 @@
 CRONJOBS = [
     ('*/5 * * * *', 'Helper.cron.cron_scrape_all_news'),
     ('*/4 * * * *', 'Helper.cron.cron_post_to_facebook_page'),
+    ('*/15 * * * *', 'Helper.cron.cron_scrape_all_bdcrictime_news'),
     # ('*/10 * * * *', 'Helper.cron.cron_scrape_all_jugantor_news'),
     # ('*/15 * * * *', 'Helper.cron.cron_scrape_all_bbc_bangla_news'),
     # ('*/15 * * * *', 'Helper.cron.cron_scrape_all_bd_pratidin_news'),

@@ -44,6 +44,10 @@ def my_1_minute_job():
     # Add your 1-minute interval task logic here
 
 
+def cron_scrape_all_bdcrictime_news():
+    Scraping.scrape_all_bdcrictime_news()
+
+
 def cron_scrape_all_jugantor_news():
     Scraping.scrape_all_jugantor_news()
 
