@@ -1070,6 +1070,10 @@ COPY public."News_news" (id, intro, title, url, image_url, source, image, type, 
 1719	পররাষ্ট্র মন্ত্রণালয়ের পশ্চিম এশিয়া শাখার পরিচালক মোস্তফা জামিল খান দ্য ডেইলি স্টারকে বলেন, ‘এখন পর্যন্ত ইরানের যুদ্ধে কোনো (বাংলাদেশি নাগরিক) হতাহতের খবর পাওয়া যায়নি।’	ইরানে বাংলাদেশি দূতাবাসের জরুরি হটলাইন চালু	https://bangla.thedailystar.net//international/news-679821	https://tds-images-bn.thedailystar.net/sites/default/files/styles/very_big_1/public/images/2025/06/15/iran_map.jpg	bangla.thedailystar.net	news_images/1750007725_87539.jpg	bn	Abroad	t	{"template1": "edited_images/1750007725_87539_template1.jpg"}	2025-06-15 17:15:25.149322+00	2025-06-15 17:16:11.040247+00
 1722		ডগেটের ইনজুরিতে অস্ট্রেলিয়া টেস্ট দলে অ্যাবট	https://www.bd-pratidin.com/sports/2025/06/15/1126699	https://cdn.bd-pratidin.com/public/news_images/2025/06/15/1750007691-3a46fdc7e9c717112f9c9557952ea5d6.jpg	bd-pratidin.com	news_images/1750008648_72645.jpg	bn	Sports	t	{"template1": "edited_images/1750008648_72645_template1.jpg"}	2025-06-15 17:30:48.287663+00	2025-06-15 17:32:02.888661+00
 1720	মুক্তির এক সপ্তাহের মাথায় পাইরেসির কবলে পড়ল সিনেমাটি। ...	পাইরেসির কবলে শাকিবের ‘তাণ্ডব’	https://www.jugantor.com/entertainment/965663	https://cdn.jugantor.com/assets/news_photos/2025/06/15/TANDOB-684e86b42c670.jpg	jugantor.com	news_images/1750008011_75703.jpg	bn	Entertainment	t	{"template1": "edited_images/1750008011_75703_template1.jpg"}	2025-06-15 17:20:11.108779+00	2025-06-15 17:24:02.618318+00
+1723		বৃষ্টি ও তাপপ্রবাহ নিয়ে নতুন বার্তা	https://www.bd-pratidin.com/national/2025/06/15/1126665	https://cdn.bd-pratidin.com/public/news_images/2025/06/15/1750003991-9010c737880d142b1f04f52a7f322e65.jpg	bd-pratidin.com	news_images/1750011039_35128.jpg	bn	National	t	{"template1": "edited_images/1750011039_35128_template1.jpg"}	2025-06-15 18:10:39.541286+00	2025-06-15 18:12:03.029639+00
+1724	সম্রাট বলেন, খেতে বসলে বাবার চেয়ারের দিকে তাকিয়ে থাকি। প্রতিদিন দুপুরবেলা খাবার সময় বাবাকে বেশি বেশি মনে পড়ে। বাবাকে তো প্রতি মুহূর্তে মিস করি। কিন্তু, কিছু কিছু সময়ে একটু বেশি মিস করি। তখন কষ্ট...	‘খেতে বসলে বাবার চেয়ারের দিকে তাকিয়ে থাকি’	https://bangla.thedailystar.net//entertainment/news-679831	https://tds-images-bn.thedailystar.net/sites/default/files/styles/very_big_1/public/images/2025/06/16/53cf7a64-3709-4bd5-8afe-1b60475a7cad.jpg	bangla.thedailystar.net	news_images/1750012253_99917.jpg	bn	Entertainment	t	{"template1": "edited_images/1750012253_99917_template1.jpg"}	2025-06-15 18:30:53.678778+00	2025-06-15 18:32:02.848648+00
+1725		ইরান প্রবাসী বাংলাদেশিদের জন্য হটলাইন চালু	https://www.bd-pratidin.com/national/2025/06/16/1126809	https://cdn.bd-pratidin.com/public/news_images/2025/06/16/1750010801-15e66d6d6b3d263a92191e5f10fc6f10.jpg	bd-pratidin.com	news_images/1750012256_67641.jpg	bn	National	t	{"template1": "edited_images/1750012256_67641_template1.jpg"}	2025-06-15 18:30:56.16129+00	2025-06-15 18:32:11.697942+00
+1726		যুদ্ধের কারণে ইরানে আটকা পড়েছেন ইন্টার মিলানের ফরোয়ার্ড	https://www.bd-pratidin.com/sports/2025/06/15/1126713	https://cdn.bd-pratidin.com/public/news_images/2025/06/15/1750008172-6e3e48c5b8068307c705908caa3e2264.jpg	bd-pratidin.com	news_images/1750013181_67646.jpg	bn	Sports	f	{}	2025-06-15 18:46:21.778635+00	2025-06-15 18:46:21.780496+00
 \.
 
 
@@ -1241,7 +1245,7 @@ COPY public.django_session (session_key, session_data, expire_date) FROM stdin;
 -- Name: News_news_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."News_news_id_seq"', 1722, true);
+SELECT pg_catalog.setval('public."News_news_id_seq"', 1726, true);
 
 
 --
