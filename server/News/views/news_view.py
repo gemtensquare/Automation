@@ -26,6 +26,7 @@ class NewsAPIView(APIView):
         print("GEMTEN_NEWS Stored News Ids:", cache.get(constants.GEMTEN_NEWS_PAGE_ID, []))
         print("GEMTEN_SPORTS Stored News Ids:", cache.get(constants.GEMTEN_SPORTS_PAGE_ID, []))
         print("GEMTEN_ShowBiz Stored News Ids:", cache.get(constants.GEMTEN_ShowBiz_PAGE_ID, []))
+        print("GEMTEN_ESPORTS Stored News Ids:", cache.get(constants.GEMTEN_ESPORTS_PAGE_ID, []))
         print("GEMTEN_CRICKET Stored News Ids:", cache.get(constants.GEMTEN_CRICKET_PAGE_ID, []))
         print("GEMTEN_FOOTBALL Stored News Ids:", cache.get(constants.GEMTEN_FOOTBALL_PAGE_ID, []))
         print("GEMTEN_TERABYTE Stored News Ids:", cache.get(constants.GEMTEN_TERABYTE_PAGE_ID, []))

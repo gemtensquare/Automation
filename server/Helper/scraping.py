@@ -340,6 +340,8 @@ class Scraping:
         Helper.log_scraping_news('Jagonews24', news_ids=news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_NEWS_PAGE_ID, news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_CRICKET_PAGE_ID, Cricket_news_ids)
+        Helper.set_queue_news_to_page(constants.GEMTEN_ESPORTS_PAGE_ID, Cricket_news_ids)
+        Helper.set_queue_news_to_page(constants.GEMTEN_ESPORTS_PAGE_ID, Football_news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_FOOTBALL_PAGE_ID, Football_news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_ShowBiz_PAGE_ID, Entertainment_news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_SPORTS_PAGE_ID, Cricket_news_ids + Football_news_ids)
@@ -361,6 +363,7 @@ class Scraping:
         Helper.log_scraping_news('Jugantor', news_ids=news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_NEWS_PAGE_ID, news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_SPORTS_PAGE_ID, Sports_news_ids)
+        Helper.set_queue_news_to_page(constants.GEMTEN_ESPORTS_PAGE_ID, Sports_news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_TERABYTE_PAGE_ID, Technology_news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_ShowBiz_PAGE_ID, Entertainment_news_ids)
         return news_ids
@@ -399,6 +402,7 @@ class Scraping:
         Helper.log_scraping_news('BBC Bangla', news_ids=news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_NEWS_PAGE_ID, news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_SPORTS_PAGE_ID, Sports_news_ids)
+        Helper.set_queue_news_to_page(constants.GEMTEN_ESPORTS_PAGE_ID, Sports_news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_TERABYTE_PAGE_ID, Technology_news_ids)
         return news_ids
     
@@ -418,6 +422,7 @@ class Scraping:
         Helper.log_scraping_news('Daily Star', news_ids=news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_NEWS_PAGE_ID, news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_SPORTS_PAGE_ID, Sports_news_ids)
+        Helper.set_queue_news_to_page(constants.GEMTEN_ESPORTS_PAGE_ID, Sports_news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_TERABYTE_PAGE_ID, Technology_news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_ShowBiz_PAGE_ID, Entertainment_news_ids)
         return news_ids
@@ -433,6 +438,7 @@ class Scraping:
         Helper.set_queue_news_to_page(constants.GEMTEN_NEWS_PAGE_ID, news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_SPORTS_PAGE_ID, Sports_news_ids)
         Helper.set_queue_news_to_page(constants.GEMTEN_CRICKET_PAGE_ID, Sports_news_ids)
+        Helper.set_queue_news_to_page(constants.GEMTEN_ESPORTS_PAGE_ID, Sports_news_ids)
         return news_ids
     
     def scrape_all_news():

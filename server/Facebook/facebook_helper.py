@@ -167,6 +167,22 @@ class Facebook:
         response = Facebook.request_to_post_gemten(data)
         return response
     
+    def post_to_Gemten_ESports_page(news_id):
+        from Helper.helpers import Helper
+        template_id = Helper.get_random_one_page_template_id(constants.GEMTEN_ESPORTS_PAGE_ID)
+        data = {
+            'id': news_id, # News Id
+            'template_id': template_id, # Template Id
+            'storedPages': '['
+                '{"pageId": "460605427136929",'
+                '"accessToken": "EAA7ctFADgFIBOxwL6MWrScHF6GkC6fBlZBgYzYjGmgkCvaXzSua7FKFs4efIEJ1FIwfw5kMOYiXgtEoOzBPMZAYuwAk7vsCJm8DFhmnOKEFPYVhcr6hSz2QqAdmByMIoSbZBoBcD5YlT0Lw12V24lZCbC1n2p0730Wd6BHtk4OtO8eyVLOgEzA2OHoBcYDVaIRx3WlNAb0ZBxSXVcAKutDxe3",'
+                '"categories": ["Sports", "Entertainment", "Technology", "World", "Bangladesh", "Science", "Economy", "City News", "TechStartup", "Islam", "National", "Politics", "Business", "Health"]''}'
+            ']'
+        }
+
+        response = Facebook.request_to_post_gemten(data)
+        return response
+    
     def post_to_Gemten_Football_page(news_id):
         from Helper.helpers import Helper
         template_id = Helper.get_random_one_page_template_id(constants.GEMTEN_FOOTBALL_PAGE_ID)

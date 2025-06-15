@@ -144,6 +144,18 @@ class Helper:
             post_count += response['success_post_count']
         Helper.log_posting_news("Gemten Sports", post_count)
 
+    def post_Gemten_ESports_page():
+        page_id = constants.GEMTEN_ESPORTS_PAGE_ID
+
+        news_ids = cache.get(page_id, [])
+        cache.set(page_id, [], timeout=None)
+
+        post_count = 0
+        for id in news_ids:
+            response = Facebook.post_to_Gemten_ESports_page(id)
+            post_count += response['success_post_count']
+        Helper.log_posting_news("Gemten ESports", post_count)
+
     def post_Gemten_Football_page():
         page_id = constants.GEMTEN_FOOTBALL_PAGE_ID
 
@@ -177,7 +189,8 @@ class Helper:
         )
         if not news_ids or not len(news_ids):
             message = f"{timestamp} — 😴 No new news for [{news_from}] this time. The news birds are resting! 🐦💤\n\n"
-            return
+            if news_from != "BD CricTime":
+                return
 
         log_dir = os.path.dirname(constants.NEWS_CRON_LOG_FILE)
         os.makedirs(log_dir, exist_ok=True)  # ✅ Ensure directory exists
